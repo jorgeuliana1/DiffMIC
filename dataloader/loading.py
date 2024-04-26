@@ -1,19 +1,15 @@
-import os, torch, cv2, random
+import os, torch
 import numpy as np
-from torch.utils.data import Dataset, Sampler
+from torch.utils.data import Dataset
 import torchvision.transforms as transforms
-from scipy.ndimage.morphology import binary_erosion
-import torchvision.transforms.functional as TF
-from PIL import Image, ImageOps
+from PIL import Image
 from PIL import ImageFile
-ImageFile.LOAD_TRUNCATED_IMAGES = True
-from skimage import filters
+ImageFile.LOAD_TRUNCATED_IMAGES = True  
 import numpy as np
-import imageio
 import dataloader.transforms as trans
-import json, numbers
-from glob import glob
 import pickle
+import pandas as pd
+from typing import Optional, Tuple
 
 class BUDataset(Dataset):
     def __init__(self, data_list, train=True):
@@ -130,14 +126,11 @@ class ISICDataset(Dataset):
             self.transform_center = transforms.Compose([
                 trans.CropCenterSquare(),
                 transforms.Resize(self.trainsize),
-                #trans.CenterCrop(self.trainsize),
                 trans.RandomHorizontalFlip(),
-                #trans.RandomVerticalFlip(),
                 trans.RandomRotation(30),
-                #trans.adjust_light(),
                 transforms.ToTensor(),
                 transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
-                ])
+            ])
         else:
             self.transform_center = transforms.Compose([
                 trans.CropCenterSquare(),
@@ -145,7 +138,7 @@ class ISICDataset(Dataset):
                 #trans.CenterCrop(self.trainsize),
                 transforms.ToTensor(),
                 transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
-                ])
+            ])
         #self.depths_transform = transforms.Compose([transforms.Resize((self.trainsize, self.trainsize)),transforms.ToTensor()])
 
     def __getitem__(self, index):
@@ -164,3 +157,102 @@ class ISICDataset(Dataset):
 
     def __len__(self):
         return self.size
+    
+class PadUfes20(Dataset):
+    def __init__(self, root: str, train: bool = True):
+        self.trainsize = (224,224)
+        
+        if train:
+            self.transform_center = transforms.Compose([
+                trans.CropCenterSquare(),
+                transforms.Resize(self.trainsize),
+                trans.RandomHorizontalFlip(),
+                trans.RandomRotation(30),
+                transforms.ToTensor(),
+                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+            ])
+        else:
+            self.transform_center = transforms.Compose([
+                trans.CropCenterSquare(),
+                transforms.Resize(self.trainsize),
+                #trans.CenterCrop(self.trainsize),
+                transforms.ToTensor(),
+                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+            ])
+            
+        self.train = train
+        self.root = root
+        
+        # Defining .csv file to be used
+        if self.train:
+            csv_name = "pad-ufes-20_parsed_folders.csv"
+        else:
+            csv_name = "pad-ufes-20_parsed_test.csv"
+            
+        # Opening dataframe:
+        self.df = pd.read_csv(os.path.join(self.root, csv_name), header = 0)
+        self.x = "img_id"
+        self.y = "diagnostic_number"
+        
+    def __len__(self):
+        return len(self.df)
+    
+    def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
+        if torch.is_tensor(index):
+            index = index.tolist()
+                
+        img_path = os.path.join(self.root, "images", self.df.loc[index][self.x])
+        img = Image.open(img_path).convert('RGB')
+        
+        img = self.transform_center(img)
+        
+        return img, int(self.df.loc[index][self.y])
+
+class PNdbUfes(Dataset):
+    def __init__(self, root: str, train: bool = True):
+        self.trainsize = (224,224)
+        if train:
+            self.transform_center = transforms.Compose([
+                trans.CropCenterSquare(),
+                transforms.Resize(self.trainsize),
+                trans.RandomHorizontalFlip(),
+                trans.RandomRotation(30),
+                transforms.ToTensor(),
+                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+            ])
+        else:
+            self.transform_center = transforms.Compose([
+                trans.CropCenterSquare(),
+                transforms.Resize(self.trainsize),
+                #trans.CenterCrop(self.trainsize),
+                transforms.ToTensor(),
+                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+            ])
+            
+        self.train = train
+        self.root = root
+        
+        # Defining .csv file to be used
+        if self.train:
+            csv_name = "sabpatch_parsed_folders.csv"
+        else:
+            csv_name = "sabpatch_parsed_test.csv"
+            
+        # Opening dataframe:
+        self.df = pd.read_csv(os.path.join(self.root, csv_name), header = 0)
+        self.x = "path"
+        self.y = "label_number"
+        
+    def __len__(self):
+        return len(self.df)
+    
+    def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
+        if torch.is_tensor(index):
+            index = index.tolist()
+                
+        img_path = os.path.join(self.root, "images", self.df.loc[index][self.x])
+        img = Image.open(img_path).convert('RGB')
+        
+        img = self.transform_center(img)
+            
+        return img, int(self.df.loc[index][self.y])

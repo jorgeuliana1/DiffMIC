@@ -105,6 +105,12 @@ def get_dataset(args, config):
     elif config.data.dataset == "ISIC":
         train_dataset = ISICDataset(data_list=config.data.traindata, train=True)
         test_dataset = ISICDataset(data_list=config.data.testdata, train=False)
+    elif config.data.dataset == "PAD-UFES-20":
+        train_dataset = PadUfes20(config.data.dataroot, train=True)
+        test_dataset = PadUfes20(config.data.dataroot, train=False)
+    elif config.data.dataset == "P-NDB-UFES":
+        train_dataset = PNdbUfes(config.data.dataroot, train=True)
+        test_dataset = PNdbUfes(config.data.dataroot, train=False)
     else:
         raise NotImplementedError(
             "Options: toy (classification of two Gaussian), MNIST, FashionMNIST, CIFAR10.")
