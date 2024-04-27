@@ -108,6 +108,9 @@ def get_dataset(args, config):
     elif config.data.dataset == "PAD-UFES-20":
         train_dataset = PadUfes20(config.data.dataroot, train=True)
         test_dataset = PadUfes20(config.data.dataroot, train=False)
+    elif config.data.dataset == "HIBA":
+        train_dataset = HIBADataset(config.data.dataroot, train=True)
+        test_dataset = HIBADataset(config.data.dataroot, train=False)
     elif config.data.dataset == "P-NDB-UFES":
         train_dataset = PNdbUfes(config.data.dataroot, train=True)
         test_dataset = PNdbUfes(config.data.dataroot, train=False)
