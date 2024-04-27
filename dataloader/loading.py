@@ -290,10 +290,10 @@ class HIBADataset(Dataset):
         self.y = "diagnosis_id"
         
         if self.train:
-            self.df = self.df[self.df["fold"] != 0]
+            self.df = self.df[self.df["fold"] != 0].reset_index()
         else:
-            self.df = self.df[self.df["fold"] == 0]
-        
+            self.df = self.df[self.df["fold"] == 0].reset_index()
+
     def __len__(self):
         return len(self.df)
     
