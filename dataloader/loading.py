@@ -290,7 +290,7 @@ class HIBADataset(Dataset):
         self.y = "diagnosis_id"
         
         if self.train:
-            self.df = self.df[self.df["fold"] != 0]            
+            self.df = self.df[self.df["fold"] != 0]
         else:
             self.df = self.df[self.df["fold"] == 0]
         
