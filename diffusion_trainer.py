@@ -243,6 +243,24 @@ class Diffusion(object):
                                             map_location=self.device)
                     self.cond_pred_model.load_state_dict(aux_states[0])
                     aux_optimizer.load_state_dict(aux_states[1])
+                    
+            elif self.args.transfer_learning:
+                states = torch.load(os.path.join(self.args.log_path, "ckpt.pth"),
+                                    map_location=self.device)
+                model.load_state_dict(states[0])
+
+                states[1]["param_groups"][0]["eps"] = self.config.optim.eps
+                optimizer.load_state_dict(states[1])
+                if self.config.model.ema:
+                    ema_helper.load_state_dict(states[4])
+                # load auxiliary model
+                if config.diffusion.apply_aux_cls and (
+                        hasattr(config.diffusion, "trained_aux_cls_ckpt_path") is False) and (
+                        hasattr(config.diffusion, "trained_aux_cls_log_path") is False):
+                    aux_states = torch.load(os.path.join(self.args.log_path, "aux_ckpt.pth"),
+                                            map_location=self.device)
+                    self.cond_pred_model.load_state_dict(aux_states[0])
+                    aux_optimizer.load_state_dict(aux_states[1])
 
             max_accuracy = 0.0
             if config.diffusion.noise_prior:  # apply 0 instead of f_phi(x) as prior mean

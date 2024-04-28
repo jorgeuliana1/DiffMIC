@@ -87,6 +87,9 @@ parser.add_argument(
     "--resume_training", action="store_true", help="Whether to resume training"
 )
 parser.add_argument(
+    "--transfer_learning", action="store_true", help="Whether to transfer training"
+)
+parser.add_argument(
     "-i",
     "--image_folder",
     type=str,
