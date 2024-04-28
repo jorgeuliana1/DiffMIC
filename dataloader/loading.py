@@ -308,6 +308,57 @@ class HIBADataset(Dataset):
             
         return img, int(self.df.loc[index][self.y])
     
+class HIBABinaryDataset(Dataset):
+    def __init__(self, root: str, train: bool = True):
+        self.trainsize = (224,224)
+        if train:
+            self.transform_center = transforms.Compose([
+                trans.CropCenterSquare(),
+                transforms.Resize(self.trainsize),
+                trans.RandomHorizontalFlip(),
+                trans.RandomRotation(30),
+                transforms.ToTensor(),
+                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+            ])
+        else:
+            self.transform_center = transforms.Compose([
+                trans.CropCenterSquare(),
+                transforms.Resize(self.trainsize),
+                #trans.CenterCrop(self.trainsize),
+                transforms.ToTensor(),
+                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+            ])
+            
+        self.train = train
+        self.root = root
+        
+        # Defining .csv file to be used
+        csv_name = "simplified_data.csv"
+            
+        # Opening dataframe:
+        self.df = pd.read_csv(os.path.join(self.root, csv_name), header = 0)
+        self.x = "image"
+        self.y = "diagnosis_id"
+        
+        if self.train:
+            self.df = self.df[self.df["fold"] != 0].reset_index()
+        else:
+            self.df = self.df[self.df["fold"] == 0].reset_index()
+
+    def __len__(self):
+        return len(self.df)
+    
+    def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
+        if torch.is_tensor(index):
+            index = index.tolist()
+                
+        img_path = os.path.join(self.root, "images", self.df.loc[index][self.x])
+        img = Image.open(img_path).convert('RGB')
+        
+        img = self.transform_center(img)
+            
+        return img, int(self.df.loc[index][self.y])
+    
 class LIPAIDataset(Dataset):
     def __init__(self, root: str, train: bool = True):
         self.trainsize = (224,224)
