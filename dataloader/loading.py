@@ -333,7 +333,7 @@ class LIPAIDataset(Dataset):
         self.root = root
         
         # Defining .csv file to be used
-        csv_name = "training_data.csv"
+        csv_name = "data.csv"
             
         # Opening dataframe:
         self.df = pd.read_csv(os.path.join(self.root, csv_name), header = 0)
