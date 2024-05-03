@@ -32,6 +32,10 @@ parser.add_argument(
          "Will be the name of the log folder.",
 )
 parser.add_argument(
+    "--dataset", type=str, default=None,
+    help="This argument will overwrite the dataset in the config if it is not None."
+)
+parser.add_argument(
     "--dataroot", type=str, default=None,
     help="This argument will overwrite the dataroot in the config if it is not None."
 )
@@ -166,6 +170,10 @@ def parse_config():
     # overwrite if dataroot is not None
     if not args.dataroot is None:
         new_config.data.dataroot = args.dataroot
+        
+    # overwrite if dataset is not None
+    if not args.dataset is None:
+        new_config.data.dataset = args.dataset
 
     if not args.test and not args.sample:
         args.im_path = os.path.join(args.exp, new_config.training.image_folder, args.doc)
