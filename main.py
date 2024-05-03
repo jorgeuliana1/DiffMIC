@@ -146,6 +146,12 @@ parser.add_argument(
     "--num_sample", type=int, default=1, help="number of samples used in forward and reverse"
 )
 
+parser.add_argument(
+    "--reset_epoch",
+    action="store_true",
+    help="Resets the epoch when using resume_training",
+)
+
 args = parser.parse_args()
 
 

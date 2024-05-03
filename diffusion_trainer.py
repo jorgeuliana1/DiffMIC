@@ -231,8 +231,11 @@ class Diffusion(object):
 
                 states[1]["param_groups"][0]["eps"] = self.config.optim.eps
                 optimizer.load_state_dict(states[1])
-                start_epoch = states[2]
-                step = states[3]
+                
+                if not self.args.reset_epoch:
+                    start_epoch = states[2]
+                    step = states[3]
+                    
                 if self.config.model.ema:
                     ema_helper.load_state_dict(states[4])
                 # load auxiliary model
