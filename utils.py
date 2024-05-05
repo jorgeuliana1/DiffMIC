@@ -106,8 +106,18 @@ def get_dataset(args, config):
         train_dataset = ISICDataset(data_list=config.data.traindata, train=True)
         test_dataset = ISICDataset(data_list=config.data.testdata, train=False)
     elif config.data.dataset == "PAD-UFES-20":
-        train_dataset = PadUfes20(config.data.dataroot, train=True)
-        test_dataset = PadUfes20(config.data.dataroot, train=False)
+        train_dataset = PadUfes20(
+            config.data.dataroot,
+            csv_train=config.data.traindata,
+            csv_test=config.data.testdata,
+            train=True
+        )
+        test_dataset = PadUfes20(
+            config.data.dataroot,
+            csv_train=config.data.traindata,
+            csv_test=config.data.testdata,
+            train=False
+        )
     elif config.data.dataset == "PAD-UFES-Binary":
         train_dataset = PadUfesBinary(config.data.dataroot, train=True)
         test_dataset = PadUfesBinary(config.data.dataroot, train=False)
@@ -239,9 +249,20 @@ def compute_precision_score(gt, pred):
     precision = precision_score(gt_class, pred_class, average='macro')
     return precision
 
-def compute_bacc_score(gt, pred):
+def compute_bacc_score(gt, pred, labels_balance):
+    # Detach and convert tensors to numpy arrays
     gt_class = gt.cpu().detach().numpy()
     pred_np = pred.cpu().detach().numpy()
+    
+    # Find predicted classes based on the maximum probability
     pred_class = np.argmax(pred_np, axis=1)
-    precision = balanced_accuracy_score(gt_class, pred_class)
-    return precision
+    
+    # Compute sample weights as the inverse of class balance
+    # Assuming `labels_balance` is a numpy array representing the proportion of each class
+    class_weights = 1 / labels_balance  # Inverse of class proportions
+    sample_weight = np.array([class_weights[label] for label in gt_class])  # Weights for each sample
+    
+    # Calculate balanced accuracy using sample weights
+    bacc = balanced_accuracy_score(gt_class, pred_class, sample_weight=sample_weight)
+    
+    return bacc

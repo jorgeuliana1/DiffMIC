@@ -5,6 +5,9 @@ data:
     num_classes: 6
     num_workers: 9
     dataroot: '/data/datasets/images/PAD-UFES-20'
+    traindata: './dataset/PAD-UFES-20/pad-ufes-20_parsed_folders.csv'
+    testdata: './dataset/PAD-UFES-20/pad-ufes-20_parsed_test.csv'
+    labels_balance: [0.31749347, 0.36762402, 0.02245431, 0.10652742, 0.08355091, 0.10234987]
 
 model:
     type: "simple"

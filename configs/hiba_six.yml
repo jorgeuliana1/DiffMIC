@@ -5,6 +5,7 @@ data:
     num_classes: 6
     num_workers: 9
     dataroot: '/data/datasets/images/HIBA'
+    labels_balance: [0.04269663, 0.22921348, 0.17078652, 0.40524345, 0.10636704, 0.04569288]
 
 model:
     type: "simple"
