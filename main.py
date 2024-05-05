@@ -40,6 +40,14 @@ parser.add_argument(
     help="This argument will overwrite the dataroot in the config if it is not None."
 )
 parser.add_argument(
+    "--traindata", type=str, default=None,
+    help="This argument will overwrite the traindata path in the config if it is not None."
+)
+parser.add_argument(
+    "--testdata", type=str, default=None,
+    help="This argument will overwrite the testdata path in the config if it is not None."
+)
+parser.add_argument(
     "--comment", type=str, default="", help="A string for experiment comment"
 )
 parser.add_argument(
@@ -176,6 +184,14 @@ def parse_config():
     # overwrite if dataroot is not None
     if not args.dataroot is None:
         new_config.data.dataroot = args.dataroot
+    
+    # overwrite if traindata is not None  
+    if not args.traindata is None:
+        new_config.data.traindata = args.dataroot
+        
+    # overwrite if testdata is not None  
+    if not args.testdata is None:
+        new_config.data.testdata = args.testdata
         
     # overwrite if dataset is not None
     if not args.dataset is None:
