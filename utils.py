@@ -243,5 +243,5 @@ def compute_bacc_score(gt, pred):
     gt_class = gt.cpu().detach().numpy()
     pred_np = pred.cpu().detach().numpy()
     pred_class = np.argmax(pred_np, axis=1)
-    precision = balanced_accuracy_score(gt_class, pred_class, average='macro')
+    precision = balanced_accuracy_score(gt_class, pred_class)
     return precision
