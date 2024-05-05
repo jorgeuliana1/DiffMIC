@@ -1,0 +1,119 @@
+isic_id,attribution,copyright_license,age_approx,anatom_site_general,benign_malignant,concomitant_biopsy,dermoscopic_type,diagnosis,diagnosis_confirm_type,family_hx_mm,fitzpatrick_skin_type,image_type,lesion_id,patient_id,personal_hx_mm,sex,diagnosis_cleaned,diagnosis_label
+ISIC_2763446,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,benign,False,contact polarized,seborrheic keratosis,,,II,dermoscopic,IL_8678803,IP_2738763,,female,seborrheic keratosis,5
+ISIC_7368264,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,benign,True,contact polarized,nevus,histopathology,,II,dermoscopic,IL_5520788,IP_6783333,,male,nevus,3
+ISIC_7338502,Hospital Italiano de Buenos Aires,CC-BY,85.0,lower extremity,malignant,True,contact polarized,melanoma,histopathology,,II,dermoscopic,IL_0060683,IP_7442897,,female,melanoma,2
+ISIC_3549843,Hospital Italiano de Buenos Aires,CC-BY,50.0,posterior torso,benign,False,contact polarized,nevus,,False,II,dermoscopic,IL_9877734,IP_3875370,True,female,nevus,3
+ISIC_0736975,Hospital Italiano de Buenos Aires,CC-BY,50.0,upper extremity,benign,False,contact polarized,nevus,,False,I,dermoscopic,IL_5141157,IP_2728527,True,female,nevus,3
+ISIC_4245761,Hospital Italiano de Buenos Aires,CC-BY,40.0,anterior torso,benign,False,contact polarized,nevus,,True,III,dermoscopic,IL_9509013,IP_7035571,False,male,nevus,3
+ISIC_1932094,Hospital Italiano de Buenos Aires,CC-BY,30.0,,benign,False,contact polarized,nevus,,False,III,dermoscopic,IL_1512859,IP_2504588,False,female,nevus,3
+ISIC_1565082,Hospital Italiano de Buenos Aires,CC-BY,50.0,lower extremity,benign,False,contact polarized,nevus,,False,II,dermoscopic,IL_3150083,IP_3875370,True,female,nevus,3
+ISIC_1817773,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,benign,False,contact polarized,actinic keratosis,,,II,dermoscopic,IL_1979170,IP_1069141,,female,actinic keratosis,0
+ISIC_8880006,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_2090686,IP_5091395,,male,basal cell carcinoma,1
+ISIC_0371179,Hospital Italiano de Buenos Aires,CC-BY,65.0,upper extremity,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_2236610,IP_1794938,,male,basal cell carcinoma,1
+ISIC_0246142,Hospital Italiano de Buenos Aires,CC-BY,55.0,anterior torso,benign,False,contact polarized,nevus,,False,IV,dermoscopic,IL_7613468,IP_7243858,False,female,nevus,3
+ISIC_9163137,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,squamous cell carcinoma,histopathology,,II,dermoscopic,IL_3679921,IP_3851887,,male,squamous cell carcinoma,4
+ISIC_4906990,Hospital Italiano de Buenos Aires,CC-BY,65.0,lower extremity,benign,True,contact polarized,nevus,histopathology,True,II,dermoscopic,IL_9707629,IP_8641208,False,female,nevus,3
+ISIC_7753429,Hospital Italiano de Buenos Aires,CC-BY,75.0,upper extremity,benign,True,contact polarized,nevus,histopathology,False,II,dermoscopic,IL_9548275,IP_0214540,True,female,nevus,3
+ISIC_9089005,Hospital Italiano de Buenos Aires,CC-BY,35.0,lower extremity,benign,False,contact polarized,nevus,,False,II,dermoscopic,IL_7629973,IP_9328831,False,female,nevus,3
+ISIC_7330612,Hospital Italiano de Buenos Aires,CC-BY,65.0,posterior torso,benign,True,contact polarized,nevus,histopathology,True,II,dermoscopic,IL_5313594,IP_8641208,False,female,nevus,3
+ISIC_8852229,Hospital Italiano de Buenos Aires,CC-BY,30.0,posterior torso,benign,True,contact polarized,nevus,histopathology,False,II,dermoscopic,IL_2917009,IP_0232163,False,male,nevus,3
+ISIC_5481480,Hospital Italiano de Buenos Aires,CC-BY,75.0,upper extremity,malignant,True,contact polarized,melanoma,histopathology,,II,dermoscopic,IL_7782929,IP_0093557,True,female,melanoma,2
+ISIC_6043099,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_9464341,IP_6420395,,female,basal cell carcinoma,1
+ISIC_8201369,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,benign,True,contact polarized,nevus,histopathology,,II,dermoscopic,IL_7240638,IP_9355646,True,male,nevus,3
+ISIC_3830607,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_7771775,IP_6182640,,male,basal cell carcinoma,1
+ISIC_3719985,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,contact polarized,melanoma,histopathology,,II,dermoscopic,IL_7385265,IP_5418505,,female,melanoma,2
+ISIC_6470456,Hospital Italiano de Buenos Aires,CC-BY,20.0,upper extremity,benign,False,contact polarized,nevus,,False,,dermoscopic,IL_5727978,IP_2640696,False,male,nevus,3
+ISIC_8348187,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,malignant,True,contact polarized,basal cell carcinoma,histopathology,False,III,dermoscopic,IL_2174880,IP_3356357,False,male,basal cell carcinoma,1
+ISIC_2857128,Hospital Italiano de Buenos Aires,CC-BY,80.0,anterior torso,malignant,True,contact polarized,melanoma,histopathology,,II,dermoscopic,IL_6014689,IP_3150219,True,male,melanoma,2
+ISIC_1778959,Hospital Italiano de Buenos Aires,CC-BY,75.0,lower extremity,malignant,True,contact polarized,melanoma,histopathology,,III,dermoscopic,IL_3990222,IP_2341275,True,female,melanoma,2
+ISIC_1596930,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_6813359,IP_9750730,,female,basal cell carcinoma,1
+ISIC_4331030,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_9069382,IP_0147267,,female,basal cell carcinoma,1
+ISIC_4323935,Hospital Italiano de Buenos Aires,CC-BY,85.0,anterior torso,benign,True,contact polarized,seborrheic keratosis,histopathology,,II,dermoscopic,IL_3755962,IP_2512373,,male,seborrheic keratosis,5
+ISIC_8614870,Hospital Italiano de Buenos Aires,CC-BY,25.0,lower extremity,benign,True,contact polarized,nevus,histopathology,False,II,dermoscopic,IL_9925958,IP_9966565,False,female,nevus,3
+ISIC_7131837,Hospital Italiano de Buenos Aires,CC-BY,20.0,anterior torso,benign,False,contact polarized,nevus,,True,II,dermoscopic,IL_6316270,IP_9876233,,male,nevus,3
+ISIC_8077139,Hospital Italiano de Buenos Aires,CC-BY,65.0,lower extremity,malignant,True,contact polarized,melanoma,histopathology,False,III,dermoscopic,IL_7051641,IP_1785797,True,female,melanoma,2
+ISIC_2762326,Hospital Italiano de Buenos Aires,CC-BY,75.0,lower extremity,malignant,True,contact polarized,squamous cell carcinoma,histopathology,False,II,dermoscopic,IL_2055980,IP_4817230,True,female,squamous cell carcinoma,4
+ISIC_2657883,Hospital Italiano de Buenos Aires,CC-BY,35.0,posterior torso,benign,False,contact polarized,nevus,,,I,dermoscopic,IL_2730258,IP_2738413,,female,nevus,3
+ISIC_2032139,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,contact polarized,squamous cell carcinoma,histopathology,,II,dermoscopic,IL_0615609,IP_9074122,,male,squamous cell carcinoma,4
+ISIC_2899095,Hospital Italiano de Buenos Aires,CC-BY,30.0,lower extremity,benign,False,contact polarized,nevus,,False,III,dermoscopic,IL_3756850,IP_2504588,False,female,nevus,3
+ISIC_1591541,Hospital Italiano de Buenos Aires,CC-BY,35.0,posterior torso,benign,False,contact polarized,nevus,,False,II,dermoscopic,IL_3045189,IP_9328831,False,female,nevus,3
+ISIC_4301851,Hospital Italiano de Buenos Aires,CC-BY,80.0,lower extremity,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_4052831,IP_9929036,,female,basal cell carcinoma,1
+ISIC_8502375,Hospital Italiano de Buenos Aires,CC-BY,55.0,head/neck,benign,True,contact polarized,actinic keratosis,histopathology,,II,dermoscopic,IL_9278370,IP_8277789,,male,actinic keratosis,0
+ISIC_7758839,Hospital Italiano de Buenos Aires,CC-BY,30.0,anterior torso,benign,True,contact polarized,nevus,histopathology,False,II,dermoscopic,IL_6482607,IP_1390183,False,female,nevus,3
+ISIC_7894542,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,False,II,dermoscopic,IL_0391815,IP_0214625,False,male,basal cell carcinoma,1
+ISIC_7602580,Hospital Italiano de Buenos Aires,CC-BY,30.0,anterior torso,benign,False,contact polarized,nevus,,False,II,dermoscopic,IL_5891398,IP_8961406,False,female,nevus,3
+ISIC_9058406,Hospital Italiano de Buenos Aires,CC-BY,35.0,posterior torso,benign,False,contact polarized,nevus,,False,II,dermoscopic,IL_0847224,IP_8450638,False,female,nevus,3
+ISIC_5227868,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,squamous cell carcinoma,histopathology,,II,dermoscopic,IL_4838500,IP_7442897,,female,squamous cell carcinoma,4
+ISIC_9998679,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_3341905,IP_5842685,,female,basal cell carcinoma,1
+ISIC_2665133,Hospital Italiano de Buenos Aires,CC-BY,40.0,,benign,False,contact polarized,nevus,,False,,dermoscopic,IL_9842387,IP_1404370,False,male,nevus,3
+ISIC_2228720,Hospital Italiano de Buenos Aires,CC-BY,75.0,lower extremity,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_2025836,IP_5398777,,male,basal cell carcinoma,1
+ISIC_7586374,Hospital Italiano de Buenos Aires,CC-BY,55.0,,malignant,True,contact polarized,basal cell carcinoma,histopathology,False,II,dermoscopic,IL_3648459,IP_6783950,False,female,basal cell carcinoma,1
+ISIC_3969664,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,benign,False,contact polarized,actinic keratosis,,,II,dermoscopic,IL_0521079,IP_2650374,True,male,actinic keratosis,0
+ISIC_6204275,Hospital Italiano de Buenos Aires,CC-BY,20.0,lower extremity,benign,False,contact polarized,nevus,,True,III,dermoscopic,IL_8978163,IP_5291194,False,female,nevus,3
+ISIC_9071060,Hospital Italiano de Buenos Aires,CC-BY,40.0,lower extremity,benign,True,contact polarized,nevus,histopathology,True,II,dermoscopic,IL_7750730,IP_6483049,,female,nevus,3
+ISIC_5108945,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,benign,False,contact polarized,nevus,,True,III,dermoscopic,IL_1872431,IP_7035571,False,male,nevus,3
+ISIC_4093488,Hospital Italiano de Buenos Aires,CC-BY,45.0,posterior torso,malignant,True,contact polarized,melanoma,histopathology,False,II,dermoscopic,IL_7544597,IP_6044945,True,female,melanoma,2
+ISIC_3332799,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,malignant,True,contact polarized,squamous cell carcinoma,histopathology,False,III,dermoscopic,IL_0501728,IP_6005497,True,female,squamous cell carcinoma,4
+ISIC_6803717,Hospital Italiano de Buenos Aires,CC-BY,35.0,lower extremity,benign,False,contact polarized,nevus,,True,III,dermoscopic,IL_7002600,IP_8474771,False,female,nevus,3
+ISIC_4957310,Hospital Italiano de Buenos Aires,CC-BY,60.0,posterior torso,malignant,True,contact polarized,melanoma,histopathology,,II,dermoscopic,IL_8767905,IP_7200500,True,male,melanoma,2
+ISIC_0331449,Hospital Italiano de Buenos Aires,CC-BY,45.0,posterior torso,benign,True,contact polarized,nevus,histopathology,,II,dermoscopic,IL_6041952,IP_1287590,,male,nevus,3
+ISIC_5504535,Hospital Italiano de Buenos Aires,CC-BY,55.0,lower extremity,benign,False,contact polarized,nevus,,False,IV,dermoscopic,IL_6494017,IP_7243858,False,female,nevus,3
+ISIC_7698231,Hospital Italiano de Buenos Aires,CC-BY,55.0,lower extremity,benign,False,contact polarized,nevus,,False,IV,dermoscopic,IL_3659443,IP_7243858,False,female,nevus,3
+ISIC_6152032,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,contact polarized,melanoma,histopathology,,III,dermoscopic,IL_7520515,IP_6418662,True,male,melanoma,2
+ISIC_8272399,Hospital Italiano de Buenos Aires,CC-BY,85.0,anterior torso,benign,True,contact polarized,seborrheic keratosis,histopathology,,II,dermoscopic,IL_9362413,IP_3451310,,male,seborrheic keratosis,5
+ISIC_5375398,Hospital Italiano de Buenos Aires,CC-BY,65.0,anterior torso,benign,True,contact polarized,actinic keratosis,histopathology,False,I,dermoscopic,IL_9768948,IP_5924646,True,female,actinic keratosis,0
+ISIC_3359090,Hospital Italiano de Buenos Aires,CC-BY,45.0,head/neck,benign,False,contact polarized,nevus,,,II,dermoscopic,IL_3706643,IP_3047490,,male,nevus,3
+ISIC_8277825,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,malignant,True,contact polarized,melanoma,histopathology,,II,dermoscopic,IL_5983850,IP_2074301,True,male,melanoma,2
+ISIC_0408926,Hospital Italiano de Buenos Aires,CC-BY,65.0,upper extremity,malignant,True,contact polarized,squamous cell carcinoma,histopathology,False,II,dermoscopic,IL_6585676,IP_9854686,True,male,squamous cell carcinoma,4
+ISIC_3124231,Hospital Italiano de Buenos Aires,CC-BY,65.0,upper extremity,malignant,True,contact polarized,squamous cell carcinoma,histopathology,False,II,dermoscopic,IL_7391525,IP_0076707,True,male,squamous cell carcinoma,4
+ISIC_7708200,Hospital Italiano de Buenos Aires,CC-BY,65.0,palms/soles,malignant,True,contact polarized,melanoma,histopathology,,II,dermoscopic,IL_6446523,IP_3423518,True,male,melanoma,2
+ISIC_7439706,Hospital Italiano de Buenos Aires,CC-BY,55.0,posterior torso,malignant,True,contact polarized,squamous cell carcinoma,histopathology,True,II,dermoscopic,IL_4336943,IP_3739383,True,female,squamous cell carcinoma,4
+ISIC_4407852,Hospital Italiano de Buenos Aires,CC-BY,80.0,anterior torso,malignant,True,contact polarized,melanoma,histopathology,,II,dermoscopic,IL_9975476,IP_5892304,,male,melanoma,2
+ISIC_5264466,Hospital Italiano de Buenos Aires,CC-BY,30.0,lower extremity,benign,True,contact polarized,nevus,histopathology,True,II,dermoscopic,IL_0256906,IP_0500329,,female,nevus,3
+ISIC_1593833,Hospital Italiano de Buenos Aires,CC-BY,35.0,posterior torso,benign,False,contact polarized,nevus,,False,II,dermoscopic,IL_5399682,IP_9328831,False,female,nevus,3
+ISIC_4886694,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_6953663,IP_2159758,,male,basal cell carcinoma,1
+ISIC_3088921,Hospital Italiano de Buenos Aires,CC-BY,45.0,posterior torso,benign,True,contact polarized,nevus,histopathology,False,,dermoscopic,IL_3108375,IP_9806536,False,male,nevus,3
+ISIC_8413624,Hospital Italiano de Buenos Aires,CC-BY,30.0,posterior torso,benign,False,contact polarized,nevus,,False,II,dermoscopic,IL_1954016,IP_0232163,False,male,nevus,3
+ISIC_9314666,Hospital Italiano de Buenos Aires,CC-BY,55.0,head/neck,benign,True,contact polarized,actinic keratosis,histopathology,,II,dermoscopic,IL_1313631,IP_7048742,,female,actinic keratosis,0
+ISIC_0630195,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,malignant,True,contact polarized,basal cell carcinoma,histopathology,False,II,dermoscopic,IL_4297272,IP_5190758,False,male,basal cell carcinoma,1
+ISIC_0630222,Hospital Italiano de Buenos Aires,CC-BY,30.0,,benign,False,contact polarized,nevus,,False,III,dermoscopic,IL_7022222,IP_2504588,False,female,nevus,3
+ISIC_1479187,Hospital Italiano de Buenos Aires,CC-BY,35.0,,benign,True,contact polarized,nevus,histopathology,False,,dermoscopic,IL_5143908,IP_0031038,False,male,nevus,3
+ISIC_0624969,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,benign,False,contact polarized,nevus,,True,III,dermoscopic,IL_4633314,IP_7035571,False,male,nevus,3
+ISIC_9110427,Hospital Italiano de Buenos Aires,CC-BY,55.0,upper extremity,benign,False,contact polarized,nevus,,False,IV,dermoscopic,IL_9572790,IP_7243858,False,female,nevus,3
+ISIC_3541262,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,,III,dermoscopic,IL_7229255,IP_1319015,,male,basal cell carcinoma,1
+ISIC_9074861,Hospital Italiano de Buenos Aires,CC-BY,50.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,False,II,dermoscopic,IL_3176026,IP_4079884,False,female,basal cell carcinoma,1
+ISIC_8021816,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,malignant,True,contact polarized,melanoma,histopathology,False,II,dermoscopic,IL_6821221,IP_6251525,True,female,melanoma,2
+ISIC_1169087,Hospital Italiano de Buenos Aires,CC-BY,25.0,posterior torso,benign,False,contact polarized,nevus,,False,II,dermoscopic,IL_9584311,IP_8760962,True,female,nevus,3
+ISIC_2345765,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,malignant,True,contact polarized,melanoma,histopathology,False,II,dermoscopic,IL_6821221,IP_6251525,True,female,melanoma,2
+ISIC_7835312,Hospital Italiano de Buenos Aires,CC-BY,60.0,,malignant,True,contact polarized,basal cell carcinoma,histopathology,,,dermoscopic,IL_6968885,IP_2440667,,male,basal cell carcinoma,1
+ISIC_1241693,Hospital Italiano de Buenos Aires,CC-BY,75.0,lower extremity,malignant,True,contact polarized,squamous cell carcinoma,histopathology,,II,dermoscopic,IL_0983679,IP_1418688,,female,squamous cell carcinoma,4
+ISIC_0630968,Hospital Italiano de Buenos Aires,CC-BY,20.0,posterior torso,benign,True,contact polarized,nevus,histopathology,False,II,dermoscopic,IL_1775432,IP_7203368,False,female,nevus,3
+ISIC_2317385,Hospital Italiano de Buenos Aires,CC-BY,55.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_5244040,IP_6819963,,female,basal cell carcinoma,1
+ISIC_5817621,Hospital Italiano de Buenos Aires,CC-BY,45.0,lower extremity,benign,False,contact polarized,nevus,,,I,dermoscopic,IL_6803312,IP_2318326,,female,nevus,3
+ISIC_5928120,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_4374423,IP_5842685,,female,basal cell carcinoma,1
+ISIC_8671596,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,malignant,True,contact polarized,melanoma,histopathology,,II,dermoscopic,IL_6768931,IP_2559304,True,male,melanoma,2
+ISIC_8260443,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,benign,False,contact polarized,seborrheic keratosis,,,II,dermoscopic,IL_3928264,IP_0778689,,female,seborrheic keratosis,5
+ISIC_8157239,Hospital Italiano de Buenos Aires,CC-BY,80.0,upper extremity,malignant,True,contact polarized,melanoma,histopathology,,II,dermoscopic,IL_1486711,IP_6555777,,female,melanoma,2
+ISIC_7091639,Hospital Italiano de Buenos Aires,CC-BY,70.0,,benign,False,contact polarized,nevus,,False,II,dermoscopic,IL_5806562,IP_0031063,True,female,nevus,3
+ISIC_9874172,Hospital Italiano de Buenos Aires,CC-BY,55.0,lower extremity,benign,True,contact polarized,nevus,histopathology,False,II,dermoscopic,IL_5978849,IP_7358226,False,female,nevus,3
+ISIC_9356985,Hospital Italiano de Buenos Aires,CC-BY,20.0,upper extremity,benign,False,contact polarized,nevus,,,II,dermoscopic,IL_0925069,IP_6762758,,female,nevus,3
+ISIC_6970728,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,squamous cell carcinoma,histopathology,,II,dermoscopic,IL_2080328,IP_1043202,,female,squamous cell carcinoma,4
+ISIC_3518630,Hospital Italiano de Buenos Aires,CC-BY,70.0,lateral torso,malignant,True,contact polarized,melanoma,histopathology,,II,dermoscopic,IL_0834101,IP_5138682,,male,melanoma,2
+ISIC_7465865,Hospital Italiano de Buenos Aires,CC-BY,70.0,upper extremity,malignant,True,contact polarized,squamous cell carcinoma,histopathology,False,II,dermoscopic,IL_7059987,IP_9998114,True,male,squamous cell carcinoma,4
+ISIC_5164664,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_5969628,IP_6579706,,male,basal cell carcinoma,1
+ISIC_7993515,Hospital Italiano de Buenos Aires,CC-BY,40.0,lower extremity,benign,True,contact polarized,nevus,histopathology,False,,dermoscopic,IL_8123853,IP_6831352,False,female,nevus,3
+ISIC_3606734,Hospital Italiano de Buenos Aires,CC-BY,35.0,anterior torso,benign,False,contact polarized,nevus,,False,II,dermoscopic,IL_3043470,IP_9328831,False,female,nevus,3
+ISIC_7382954,Hospital Italiano de Buenos Aires,CC-BY,65.0,posterior torso,malignant,True,contact polarized,melanoma,histopathology,,I,dermoscopic,IL_5856523,IP_3279811,,male,melanoma,2
+ISIC_3222487,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,benign,False,contact polarized,nevus,,False,III,dermoscopic,IL_4778488,IP_4968898,False,male,nevus,3
+ISIC_4120244,Hospital Italiano de Buenos Aires,CC-BY,30.0,,benign,False,contact polarized,nevus,,False,III,dermoscopic,IL_2742516,IP_2504588,False,female,nevus,3
+ISIC_4426133,Hospital Italiano de Buenos Aires,CC-BY,85.0,posterior torso,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_6480787,IP_2650374,True,male,basal cell carcinoma,1
+ISIC_6168031,Hospital Italiano de Buenos Aires,CC-BY,45.0,head/neck,benign,False,contact polarized,seborrheic keratosis,,False,III,dermoscopic,IL_2990239,IP_5520689,False,female,seborrheic keratosis,5
+ISIC_3471895,Hospital Italiano de Buenos Aires,CC-BY,50.0,upper extremity,benign,False,contact polarized,nevus,,False,II,dermoscopic,IL_9809343,IP_3875370,True,female,nevus,3
+ISIC_7802948,Hospital Italiano de Buenos Aires,CC-BY,45.0,posterior torso,benign,True,contact polarized,nevus,histopathology,False,II,dermoscopic,IL_5757144,IP_4906546,False,male,nevus,3
+ISIC_5295520,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,contact polarized,melanoma,histopathology,,II,dermoscopic,IL_9881910,IP_1908503,,male,melanoma,2
+ISIC_8749951,Hospital Italiano de Buenos Aires,CC-BY,60.0,lower extremity,benign,False,contact polarized,nevus,,False,III,dermoscopic,IL_5176081,IP_4349293,False,male,nevus,3
+ISIC_2553643,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_3662071,IP_3530264,,male,basal cell carcinoma,1
+ISIC_4185188,Hospital Italiano de Buenos Aires,CC-BY,35.0,posterior torso,benign,False,contact polarized,nevus,,False,II,dermoscopic,IL_2997977,IP_8450638,False,female,nevus,3
+ISIC_4815806,Hospital Italiano de Buenos Aires,CC-BY,55.0,posterior torso,benign,False,contact polarized,nevus,,False,IV,dermoscopic,IL_6781257,IP_7243858,False,female,nevus,3
+ISIC_0388469,Hospital Italiano de Buenos Aires,CC-BY,65.0,upper extremity,malignant,True,contact polarized,basal cell carcinoma,histopathology,,I,dermoscopic,IL_9181352,IP_6360818,,female,basal cell carcinoma,1
+ISIC_8989457,Hospital Italiano de Buenos Aires,CC-BY,35.0,,benign,False,contact polarized,nevus,,True,III,dermoscopic,IL_5660874,IP_8474771,False,female,nevus,3

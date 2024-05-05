@@ -112,8 +112,18 @@ def get_dataset(args, config):
         train_dataset = PadUfesBinary(config.data.dataroot, train=True)
         test_dataset = PadUfesBinary(config.data.dataroot, train=False)
     elif config.data.dataset == "HIBA":
-        train_dataset = HIBADataset(config.data.dataroot, train=True)
-        test_dataset = HIBADataset(config.data.dataroot, train=False)
+        train_dataset = HIBADataset(
+            config.data.dataroot,
+            csv_train=config.data.traidata,
+            csv_test=config.data.testdata,
+            train=True
+        )
+        test_dataset = HIBADataset(
+            config.data.dataroot,
+            csv_train=config.data.traidata,
+            csv_test=config.data.testdata,
+            train=False
+        )
     elif config.data.dataset == "HIBA-Binary":
         train_dataset = HIBABinaryDataset(config.data.dataroot, train=True)
         test_dataset = HIBABinaryDataset(config.data.dataroot, train=False)

@@ -5,6 +5,8 @@ data:
     num_classes: 10
     num_workers: 9
     dataroot: '/data/datasets/images/HIBA'
+    traindata: './dataset/HIBA/HIBA_train.csv'
+    testdata: './dataset/HIBA/HIBA_test.csv'
 
 model:
     type: "simple"

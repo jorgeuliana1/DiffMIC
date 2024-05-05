@@ -159,7 +159,7 @@ class ISICDataset(Dataset):
         return self.size
     
 class PadUfes20(Dataset):
-    def __init__(self, root: str, train: bool = True):
+    def __init__(self, root: str, csv_train: Optional[str] = None, csv_test: Optional[str] = None, train: bool = True):
         self.trainsize = (224,224)
         
         if train:
@@ -309,7 +309,7 @@ class PNdbUfes(Dataset):
         return img, int(self.df.loc[index][self.y])
     
 class HIBADataset(Dataset):
-    def __init__(self, root: str, train: bool = True):
+    def __init__(self, root: str, csv_train: Optional[str] = None, csv_test: Optional[str] = None, train: bool = True):
         self.trainsize = (224,224)
         if train:
             self.transform_center = transforms.Compose([
@@ -331,19 +331,20 @@ class HIBADataset(Dataset):
             
         self.train = train
         self.root = root
-        
+
         # Defining .csv file to be used
-        csv_name = "training_data.csv"
+        if self.train:
+            csv_name = csv_train
+        else:
+            csv_name = csv_test
             
         # Opening dataframe:
-        self.df = pd.read_csv(os.path.join(self.root, csv_name), header = 0)
+        self.df = pd.read_csv(csv_name, header=0)
         self.x = "image"
-        self.y = "diagnosis_id"
+        self.y = "diagnosis_label"
         
-        if self.train:
-            self.df = self.df[self.df["fold"] != 0].reset_index()
-        else:
-            self.df = self.df[self.df["fold"] == 0].reset_index()
+        # Adding image names
+        self.df[self.x] = self.df["isic_id"] + ".JPG"
 
     def __len__(self):
         return len(self.df)
