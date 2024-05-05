@@ -596,7 +596,7 @@ class Diffusion(object):
                 y1_true = torch.cat([y1_true, target]) if y1_true is not None else target                 
 
         # Getting labels_balance in order to obtain BACC
-        labels_balance = self.config.data.labels_balance
+        labels_balance = np.asarray(self.config.data.labels_balance)
 
         f1_avg = compute_f1_score(y1_true,y1_pred)
         acc_avg /= (test_batch_idx + 1)
