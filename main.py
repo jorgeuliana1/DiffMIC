@@ -187,7 +187,7 @@ def parse_config():
     
     # overwrite if traindata is not None  
     if not args.traindata is None:
-        new_config.data.traindata = args.dataroot
+        new_config.data.traindata = args.traindata
         
     # overwrite if testdata is not None  
     if not args.testdata is None:
