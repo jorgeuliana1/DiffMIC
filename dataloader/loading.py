@@ -449,7 +449,7 @@ class HIBASixDataset(Dataset):
         self.y = "diagnosis_label"
         
         # Adding image names
-        self.df[self.x] = self.df["isic_id"] + ".jpg"
+        self.df[self.x] = self.df["isic_id"] + ".JPG"
 
     def __len__(self):
         return len(self.df)
