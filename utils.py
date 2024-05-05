@@ -117,6 +117,9 @@ def get_dataset(args, config):
     elif config.data.dataset == "HIBA-Binary":
         train_dataset = HIBABinaryDataset(config.data.dataroot, train=True)
         test_dataset = HIBABinaryDataset(config.data.dataroot, train=False)
+    elif config.data.dataset == "HIBA-Six":
+        train_dataset = HIBASixDataset(config.data.dataroot, train=True)
+        test_dataset = HIBASixDataset(config.data.dataroot, train=False)
     elif config.data.dataset == "P-NDB-UFES":
         train_dataset = PNdbUfes(config.data.dataroot, train=True)
         test_dataset = PNdbUfes(config.data.dataroot, train=False)

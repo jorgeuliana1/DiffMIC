@@ -167,6 +167,7 @@ class PadUfes20(Dataset):
                 trans.CropCenterSquare(),
                 transforms.Resize(self.trainsize),
                 trans.RandomHorizontalFlip(),
+                trans.RandomVerticalFlip(),
                 trans.RandomRotation(30),
                 transforms.ToTensor(),
                 transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
@@ -394,6 +395,58 @@ class HIBABinaryDataset(Dataset):
             self.df = self.df[self.df["fold"] != 0].reset_index()
         else:
             self.df = self.df[self.df["fold"] == 0].reset_index()
+
+    def __len__(self):
+        return len(self.df)
+    
+    def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
+        if torch.is_tensor(index):
+            index = index.tolist()
+                
+        img_path = os.path.join(self.root, "images", self.df.loc[index][self.x])
+        img = Image.open(img_path).convert('RGB')
+        
+        img = self.transform_center(img)
+            
+        return img, int(self.df.loc[index][self.y])
+    
+class HIBASixDataset(Dataset):
+    def __init__(self, root: str, train: bool = True):
+        self.trainsize = (224,224)
+        if train:
+            self.transform_center = transforms.Compose([
+                trans.CropCenterSquare(),
+                transforms.Resize(self.trainsize),
+                trans.RandomHorizontalFlip(),
+                trans.RandomRotation(30),
+                transforms.ToTensor(),
+                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+            ])
+        else:
+            self.transform_center = transforms.Compose([
+                trans.CropCenterSquare(),
+                transforms.Resize(self.trainsize),
+                #trans.CenterCrop(self.trainsize),
+                transforms.ToTensor(),
+                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+            ])
+            
+        self.train = train
+        self.root = root
+        
+        # Defining .csv file to be used
+        csv_name = "simplified_data.csv"
+            
+        # Defining .csv file to be used
+        if self.train:
+            csv_name = "hiba6_parsed_train.csv"
+        else:
+            csv_name = "hiba6_parsed_test.csv"
+            
+        # Opening dataframe:
+        self.df = pd.read_csv(os.path.join(self.root, csv_name), header = 0)
+        self.x = "image"
+        self.y = "diagnosis_label"
 
     def __len__(self):
         return len(self.df)
