@@ -317,7 +317,7 @@ class PNdbUfes(Dataset):
     
 class HIBADataset(MyDataset):
     def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True):
-        super(PadUfes20, self).__init__(root, csv_train, csv_test, train)
+        super(HIBADataset, self).__init__(root, csv_train, csv_test, train)
         if train:
             self.transform_center = transforms.Compose([
                 trans.CropCenterSquare(),
