@@ -114,13 +114,13 @@ def get_dataset(args, config):
     elif config.data.dataset == "HIBA":
         train_dataset = HIBADataset(
             config.data.dataroot,
-            csv_train=config.data.traidata,
+            csv_train=config.data.traindata,
             csv_test=config.data.testdata,
             train=True
         )
         test_dataset = HIBADataset(
             config.data.dataroot,
-            csv_train=config.data.traidata,
+            csv_train=config.data.traindata,
             csv_test=config.data.testdata,
             train=False
         )
