@@ -1,0 +1,3137 @@
+path,lesion,folder,label_number
+p0000.png,OSCC,3,1
+p0001.png,OSCC,1,1
+p0002.png,OSCC,5,1
+p0003.png,OSCC,3,1
+p0004.png,OSCC,3,1
+p0005.png,OSCC,5,1
+p0006.png,OSCC,3,1
+p0007.png,OSCC,3,1
+p0008.png,OSCC,4,1
+p0009.png,OSCC,4,1
+p0010.png,OSCC,4,1
+p0011.png,OSCC,5,1
+p0012.png,OSCC,5,1
+p0013.png,OSCC,1,1
+p0014.png,OSCC,2,1
+p0015.png,OSCC,4,1
+p0016.png,OSCC,2,1
+p0017.png,OSCC,5,1
+p0018.png,OSCC,4,1
+p0019.png,OSCC,2,1
+p0020.png,OSCC,5,1
+p0021.png,OSCC,3,1
+p0022.png,OSCC,3,1
+p0023.png,OSCC,4,1
+p0024.png,OSCC,4,1
+p0025.png,OSCC,1,1
+p0026.png,OSCC,5,1
+p0027.png,OSCC,3,1
+p0028.png,OSCC,5,1
+p0029.png,OSCC,3,1
+p0030.png,OSCC,5,1
+p0031.png,OSCC,1,1
+p0032.png,OSCC,1,1
+p0033.png,OSCC,1,1
+p0034.png,OSCC,3,1
+p0035.png,OSCC,2,1
+p0036.png,OSCC,2,1
+p0037.png,OSCC,2,1
+p0038.png,OSCC,3,1
+p0039.png,OSCC,4,1
+p0040.png,OSCC,2,1
+p0041.png,OSCC,1,1
+p0042.png,OSCC,2,1
+p0043.png,OSCC,5,1
+p0044.png,OSCC,4,1
+p0045.png,OSCC,4,1
+p0046.png,OSCC,3,1
+p0047.png,OSCC,1,1
+p0048.png,OSCC,2,1
+p0049.png,OSCC,2,1
+p0050.png,OSCC,1,1
+p0051.png,OSCC,1,1
+p0052.png,OSCC,2,1
+p0053.png,OSCC,3,1
+p0054.png,OSCC,1,1
+p0055.png,OSCC,2,1
+p0056.png,OSCC,3,1
+p0057.png,OSCC,4,1
+p0058.png,OSCC,4,1
+p0059.png,OSCC,5,1
+p0060.png,OSCC,5,1
+p0061.png,OSCC,4,1
+p0062.png,OSCC,4,1
+p0063.png,OSCC,5,1
+p0064.png,OSCC,3,1
+p0065.png,OSCC,3,1
+p0066.png,OSCC,4,1
+p0067.png,OSCC,4,1
+p0068.png,OSCC,4,1
+p0069.png,OSCC,3,1
+p0070.png,OSCC,2,1
+p0071.png,OSCC,2,1
+p0072.png,OSCC,5,1
+p0073.png,OSCC,1,1
+p0074.png,OSCC,1,1
+p0075.png,OSCC,2,1
+p0076.png,OSCC,5,1
+p0077.png,OSCC,1,1
+p0078.png,OSCC,5,1
+p0079.png,OSCC,3,1
+p0080.png,OSCC,5,1
+p0081.png,OSCC,3,1
+p0082.png,OSCC,2,1
+p0083.png,OSCC,4,1
+p0084.png,OSCC,5,1
+p0085.png,OSCC,5,1
+p0086.png,OSCC,5,1
+p0087.png,OSCC,5,1
+p0088.png,OSCC,2,1
+p0089.png,OSCC,2,1
+p0090.png,OSCC,3,1
+p0091.png,OSCC,1,1
+p0092.png,OSCC,2,1
+p0093.png,OSCC,5,1
+p0094.png,OSCC,4,1
+p0095.png,OSCC,3,1
+p0096.png,OSCC,1,1
+p0097.png,OSCC,1,1
+p0098.png,OSCC,2,1
+p0099.png,OSCC,4,1
+p0100.png,OSCC,5,1
+p0101.png,OSCC,4,1
+p0102.png,OSCC,1,1
+p0103.png,OSCC,5,1
+p0104.png,OSCC,4,1
+p0105.png,OSCC,1,1
+p0106.png,OSCC,4,1
+p0107.png,OSCC,3,1
+p0108.png,OSCC,3,1
+p0109.png,OSCC,2,1
+p0110.png,OSCC,4,1
+p0111.png,OSCC,5,1
+p0112.png,OSCC,5,1
+p0113.png,OSCC,3,1
+p0114.png,OSCC,5,1
+p0115.png,OSCC,3,1
+p0116.png,OSCC,2,1
+p0117.png,OSCC,2,1
+p0118.png,OSCC,5,1
+p0119.png,OSCC,1,1
+p0120.png,OSCC,3,1
+p0121.png,OSCC,1,1
+p0122.png,OSCC,1,1
+p0123.png,OSCC,2,1
+p0124.png,OSCC,3,1
+p0125.png,OSCC,3,1
+p0126.png,OSCC,5,1
+p0127.png,OSCC,4,1
+p0128.png,OSCC,1,1
+p0129.png,OSCC,4,1
+p0130.png,OSCC,5,1
+p0131.png,OSCC,4,1
+p0132.png,OSCC,4,1
+p0133.png,OSCC,2,1
+p0134.png,OSCC,1,1
+p0135.png,OSCC,5,1
+p0136.png,OSCC,2,1
+p0137.png,OSCC,1,1
+p0138.png,OSCC,1,1
+p0139.png,OSCC,5,1
+p0140.png,OSCC,2,1
+p0141.png,OSCC,4,1
+p0142.png,OSCC,4,1
+p0143.png,OSCC,5,1
+p0144.png,OSCC,4,1
+p0145.png,OSCC,5,1
+p0146.png,OSCC,2,1
+p0147.png,OSCC,4,1
+p0148.png,OSCC,2,1
+p0149.png,OSCC,3,1
+p0150.png,OSCC,1,1
+p0151.png,OSCC,1,1
+p0152.png,OSCC,4,1
+p0153.png,OSCC,1,1
+p0154.png,OSCC,3,1
+p0155.png,OSCC,4,1
+p0156.png,OSCC,5,1
+p0157.png,OSCC,5,1
+p0158.png,OSCC,3,1
+p0159.png,OSCC,4,1
+p0160.png,OSCC,3,1
+p0161.png,OSCC,4,1
+p0162.png,OSCC,4,1
+p0163.png,OSCC,5,1
+p0164.png,OSCC,2,1
+p0165.png,OSCC,1,1
+p0166.png,OSCC,1,1
+p0167.png,OSCC,5,1
+p0168.png,OSCC,3,1
+p0169.png,OSCC,4,1
+p0170.png,OSCC,3,1
+p0171.png,OSCC,3,1
+p0172.png,OSCC,2,1
+p0173.png,OSCC,2,1
+p0174.png,OSCC,1,1
+p0175.png,OSCC,1,1
+p0176.png,OSCC,1,1
+p0177.png,OSCC,4,1
+p0178.png,OSCC,5,1
+p0179.png,OSCC,3,1
+p0180.png,OSCC,1,1
+p0181.png,OSCC,5,1
+p0182.png,OSCC,3,1
+p0183.png,OSCC,1,1
+p0184.png,OSCC,3,1
+p0185.png,OSCC,2,1
+p0186.png,OSCC,3,1
+p0187.png,OSCC,1,1
+p0188.png,OSCC,4,1
+p0189.png,OSCC,3,1
+p0190.png,OSCC,4,1
+p0191.png,OSCC,5,1
+p0192.png,OSCC,1,1
+p0193.png,OSCC,1,1
+p0194.png,OSCC,1,1
+p0195.png,OSCC,1,1
+p0196.png,OSCC,2,1
+p0197.png,OSCC,3,1
+p0198.png,OSCC,2,1
+p0199.png,OSCC,2,1
+p0200.png,OSCC,4,1
+p0201.png,OSCC,5,1
+p0202.png,OSCC,1,1
+p0203.png,OSCC,4,1
+p0204.png,OSCC,4,1
+p0205.png,OSCC,3,1
+p0206.png,OSCC,2,1
+p0207.png,OSCC,2,1
+p0208.png,OSCC,5,1
+p0209.png,OSCC,5,1
+p0210.png,OSCC,2,1
+p0211.png,OSCC,2,1
+p0212.png,OSCC,5,1
+p0213.png,OSCC,4,1
+p0214.png,OSCC,2,1
+p0215.png,OSCC,3,1
+p0216.png,OSCC,2,1
+p0217.png,OSCC,3,1
+p0218.png,OSCC,4,1
+p0219.png,OSCC,4,1
+p0220.png,OSCC,2,1
+p0221.png,OSCC,4,1
+p0222.png,OSCC,1,1
+p0223.png,OSCC,4,1
+p0224.png,OSCC,3,1
+p0225.png,OSCC,5,1
+p0226.png,OSCC,5,1
+p0227.png,OSCC,1,1
+p0228.png,OSCC,1,1
+p0229.png,OSCC,1,1
+p0230.png,OSCC,2,1
+p0231.png,OSCC,5,1
+p0232.png,OSCC,2,1
+p0233.png,OSCC,4,1
+p0234.png,OSCC,3,1
+p0235.png,OSCC,5,1
+p0236.png,OSCC,5,1
+p0237.png,OSCC,2,1
+p0238.png,OSCC,2,1
+p0239.png,OSCC,2,1
+p0240.png,OSCC,3,1
+p0241.png,OSCC,3,1
+p0242.png,OSCC,2,1
+p0243.png,OSCC,1,1
+p0244.png,OSCC,2,1
+p0245.png,OSCC,1,1
+p0246.png,OSCC,3,1
+p0247.png,OSCC,3,1
+p0248.png,OSCC,1,1
+p0249.png,OSCC,4,1
+p0250.png,OSCC,4,1
+p0251.png,OSCC,2,1
+p0252.png,OSCC,2,1
+p0253.png,OSCC,2,1
+p0254.png,OSCC,5,1
+p0255.png,OSCC,1,1
+p0256.png,OSCC,5,1
+p0257.png,OSCC,2,1
+p0258.png,OSCC,1,1
+p0259.png,OSCC,1,1
+p0260.png,OSCC,5,1
+p0261.png,OSCC,2,1
+p0262.png,OSCC,3,1
+p0263.png,OSCC,1,1
+p0264.png,OSCC,5,1
+p0265.png,OSCC,5,1
+p0266.png,OSCC,3,1
+p0267.png,OSCC,2,1
+p0268.png,OSCC,2,1
+p0269.png,OSCC,2,1
+p0270.png,OSCC,3,1
+p0271.png,OSCC,4,1
+p0272.png,OSCC,4,1
+p0273.png,OSCC,5,1
+p0274.png,OSCC,5,1
+p0275.png,OSCC,5,1
+p0276.png,OSCC,4,1
+p0277.png,OSCC,5,1
+p0278.png,OSCC,3,1
+p0279.png,OSCC,1,1
+p0280.png,OSCC,2,1
+p0281.png,OSCC,3,1
+p0282.png,OSCC,3,1
+p0283.png,OSCC,3,1
+p0284.png,OSCC,4,1
+p0285.png,OSCC,5,1
+p0286.png,OSCC,5,1
+p0287.png,OSCC,3,1
+p0288.png,OSCC,5,1
+p0289.png,OSCC,4,1
+p0290.png,OSCC,4,1
+p0291.png,OSCC,4,1
+p0292.png,OSCC,5,1
+p0293.png,OSCC,1,1
+p0294.png,OSCC,5,1
+p0295.png,OSCC,2,1
+p0296.png,OSCC,4,1
+p0297.png,OSCC,2,1
+p0298.png,OSCC,4,1
+p0299.png,OSCC,4,1
+p0300.png,OSCC,5,1
+p0301.png,OSCC,1,1
+p0302.png,OSCC,1,1
+p0303.png,OSCC,5,1
+p0304.png,OSCC,4,1
+p0305.png,OSCC,3,1
+p0306.png,OSCC,3,1
+p0307.png,OSCC,3,1
+p0308.png,OSCC,4,1
+p0309.png,OSCC,4,1
+p0310.png,OSCC,4,1
+p0311.png,OSCC,1,1
+p0312.png,OSCC,1,1
+p0313.png,OSCC,1,1
+p0314.png,OSCC,5,1
+p0315.png,OSCC,3,1
+p0316.png,OSCC,4,1
+p0317.png,OSCC,4,1
+p0318.png,OSCC,4,1
+p0319.png,OSCC,1,1
+p0320.png,OSCC,2,1
+p0321.png,OSCC,1,1
+p0322.png,OSCC,2,1
+p0323.png,OSCC,5,1
+p0324.png,OSCC,4,1
+p0325.png,OSCC,4,1
+p0326.png,OSCC,5,1
+p0327.png,OSCC,1,1
+p0328.png,OSCC,3,1
+p0329.png,OSCC,3,1
+p0330.png,OSCC,3,1
+p0331.png,OSCC,2,1
+p0332.png,OSCC,5,1
+p0333.png,OSCC,5,1
+p0334.png,OSCC,1,1
+p0335.png,OSCC,2,1
+p0336.png,OSCC,5,1
+p0337.png,OSCC,1,1
+p0338.png,OSCC,2,1
+p0339.png,OSCC,4,1
+p0340.png,OSCC,1,1
+p0341.png,OSCC,4,1
+p0342.png,OSCC,3,1
+p0343.png,OSCC,5,1
+p0344.png,OSCC,1,1
+p0345.png,OSCC,1,1
+p0346.png,OSCC,5,1
+p0347.png,OSCC,2,1
+p0348.png,OSCC,4,1
+p0349.png,OSCC,5,1
+p0350.png,OSCC,2,1
+p0351.png,OSCC,3,1
+p0352.png,OSCC,1,1
+p0353.png,OSCC,4,1
+p0354.png,OSCC,3,1
+p0355.png,OSCC,2,1
+p0356.png,OSCC,2,1
+p0357.png,OSCC,4,1
+p0358.png,OSCC,4,1
+p0359.png,OSCC,1,1
+p0360.png,OSCC,2,1
+p0361.png,OSCC,2,1
+p0362.png,OSCC,1,1
+p0363.png,OSCC,1,1
+p0364.png,OSCC,5,1
+p0365.png,OSCC,4,1
+p0366.png,OSCC,4,1
+p0367.png,OSCC,3,1
+p0368.png,OSCC,5,1
+p0369.png,OSCC,5,1
+p0370.png,OSCC,3,1
+p0371.png,OSCC,2,1
+p0372.png,OSCC,1,1
+p0373.png,OSCC,5,1
+p0374.png,OSCC,2,1
+p0375.png,OSCC,4,1
+p0376.png,OSCC,2,1
+p0377.png,OSCC,2,1
+p0378.png,OSCC,2,1
+p0379.png,OSCC,4,1
+p0380.png,OSCC,2,1
+p0381.png,OSCC,2,1
+p0382.png,OSCC,3,1
+p0383.png,OSCC,2,1
+p0384.png,OSCC,4,1
+p0385.png,OSCC,2,1
+p0386.png,OSCC,1,1
+p0387.png,OSCC,2,1
+p0388.png,OSCC,1,1
+p0389.png,OSCC,3,1
+p0390.png,OSCC,2,1
+p0391.png,OSCC,5,1
+p0392.png,OSCC,5,1
+p0393.png,OSCC,3,1
+p0394.png,OSCC,5,1
+p0395.png,OSCC,3,1
+p0396.png,OSCC,2,1
+p0397.png,OSCC,1,1
+p0398.png,OSCC,3,1
+p0399.png,OSCC,5,1
+p0400.png,OSCC,1,1
+p0401.png,OSCC,1,1
+p0402.png,OSCC,4,1
+p0403.png,OSCC,4,1
+p0404.png,OSCC,2,1
+p0405.png,OSCC,1,1
+p0406.png,OSCC,2,1
+p0407.png,OSCC,2,1
+p0408.png,OSCC,4,1
+p0409.png,OSCC,1,1
+p0410.png,OSCC,3,1
+p0411.png,OSCC,5,1
+p0412.png,OSCC,5,1
+p0413.png,OSCC,1,1
+p0414.png,OSCC,3,1
+p0415.png,OSCC,2,1
+p0416.png,OSCC,5,1
+p0417.png,OSCC,2,1
+p0418.png,OSCC,3,1
+p0419.png,OSCC,3,1
+p0420.png,OSCC,3,1
+p0421.png,OSCC,5,1
+p0422.png,OSCC,4,1
+p0423.png,OSCC,4,1
+p0424.png,OSCC,4,1
+p0425.png,OSCC,3,1
+p0426.png,OSCC,1,1
+p0427.png,OSCC,1,1
+p0428.png,OSCC,4,1
+p0429.png,OSCC,5,1
+p0430.png,OSCC,5,1
+p0431.png,OSCC,4,1
+p0432.png,OSCC,2,1
+p0433.png,OSCC,1,1
+p0434.png,OSCC,2,1
+p0435.png,OSCC,4,1
+p0436.png,OSCC,2,1
+p0437.png,OSCC,4,1
+p0438.png,OSCC,4,1
+p0439.png,OSCC,2,1
+p0440.png,OSCC,4,1
+p0441.png,OSCC,4,1
+p0442.png,OSCC,5,1
+p0443.png,OSCC,5,1
+p0444.png,OSCC,2,1
+p0445.png,OSCC,2,1
+p0446.png,OSCC,4,1
+p0447.png,OSCC,5,1
+p0448.png,OSCC,1,1
+p0449.png,OSCC,4,1
+p0450.png,OSCC,4,1
+p0451.png,OSCC,3,1
+p0452.png,OSCC,4,1
+p0453.png,OSCC,1,1
+p0454.png,OSCC,5,1
+p0455.png,OSCC,1,1
+p0456.png,OSCC,5,1
+p0457.png,OSCC,5,1
+p0458.png,OSCC,3,1
+p0459.png,OSCC,3,1
+p0460.png,OSCC,1,1
+p0461.png,OSCC,2,1
+p0462.png,OSCC,1,1
+p0463.png,OSCC,5,1
+p0464.png,OSCC,4,1
+p0465.png,OSCC,2,1
+p0466.png,OSCC,3,1
+p0467.png,OSCC,4,1
+p0468.png,OSCC,2,1
+p0469.png,OSCC,1,1
+p0470.png,OSCC,3,1
+p0471.png,OSCC,4,1
+p0472.png,OSCC,4,1
+p0473.png,OSCC,4,1
+p0474.png,OSCC,3,1
+p0475.png,OSCC,4,1
+p0476.png,OSCC,1,1
+p0477.png,OSCC,4,1
+p0478.png,OSCC,3,1
+p0479.png,OSCC,4,1
+p0480.png,OSCC,2,1
+p0481.png,OSCC,1,1
+p0482.png,OSCC,5,1
+p0483.png,OSCC,2,1
+p0484.png,OSCC,3,1
+p0485.png,OSCC,1,1
+p0486.png,OSCC,3,1
+p0487.png,OSCC,4,1
+p0488.png,OSCC,4,1
+p0489.png,OSCC,1,1
+p0490.png,OSCC,4,1
+p0491.png,OSCC,2,1
+p0492.png,OSCC,2,1
+p0493.png,OSCC,3,1
+p0494.png,OSCC,5,1
+p0495.png,OSCC,5,1
+p0496.png,OSCC,5,1
+p0497.png,OSCC,5,1
+p0498.png,OSCC,4,1
+p0499.png,OSCC,3,1
+p0500.png,OSCC,4,1
+p0501.png,OSCC,1,1
+p0502.png,OSCC,3,1
+p0503.png,OSCC,1,1
+p0504.png,OSCC,1,1
+p0505.png,OSCC,5,1
+p0506.png,OSCC,2,1
+p0507.png,OSCC,4,1
+p0508.png,OSCC,5,1
+p0509.png,OSCC,1,1
+p0510.png,OSCC,5,1
+p0511.png,OSCC,2,1
+p0512.png,OSCC,5,1
+p0513.png,OSCC,4,1
+p0514.png,OSCC,4,1
+p0515.png,OSCC,2,1
+p0516.png,OSCC,3,1
+p0517.png,OSCC,3,1
+p0518.png,OSCC,1,1
+p0519.png,OSCC,5,1
+p0520.png,OSCC,2,1
+p0521.png,OSCC,5,1
+p0522.png,OSCC,1,1
+p0523.png,OSCC,1,1
+p0524.png,OSCC,1,1
+p0525.png,OSCC,3,1
+p0526.png,OSCC,5,1
+p0527.png,OSCC,1,1
+p0528.png,OSCC,5,1
+p0529.png,OSCC,4,1
+p0530.png,OSCC,3,1
+p0531.png,OSCC,5,1
+p0532.png,OSCC,2,1
+p0533.png,OSCC,5,1
+p0534.png,OSCC,5,1
+p0535.png,OSCC,4,1
+p0536.png,OSCC,3,1
+p0537.png,OSCC,1,1
+p0538.png,OSCC,1,1
+p0539.png,OSCC,2,1
+p0540.png,OSCC,3,1
+p0541.png,OSCC,1,1
+p0542.png,OSCC,3,1
+p0543.png,OSCC,5,1
+p0544.png,OSCC,5,1
+p0545.png,OSCC,5,1
+p0546.png,OSCC,3,1
+p0547.png,OSCC,2,1
+p0548.png,OSCC,5,1
+p0549.png,OSCC,2,1
+p0550.png,OSCC,3,1
+p0551.png,OSCC,4,1
+p0552.png,OSCC,1,1
+p0553.png,OSCC,2,1
+p0554.png,OSCC,2,1
+p0555.png,OSCC,1,1
+p0556.png,OSCC,1,1
+p0557.png,OSCC,1,1
+p0558.png,OSCC,2,1
+p0559.png,OSCC,2,1
+p0560.png,OSCC,1,1
+p0561.png,OSCC,2,1
+p0562.png,OSCC,3,1
+p0563.png,OSCC,2,1
+p0564.png,OSCC,1,1
+p0565.png,OSCC,5,1
+p0566.png,OSCC,5,1
+p0567.png,OSCC,3,1
+p0568.png,OSCC,3,1
+p0569.png,OSCC,4,1
+p0570.png,OSCC,1,1
+p0571.png,OSCC,4,1
+p0572.png,OSCC,3,1
+p0573.png,OSCC,2,1
+p0574.png,OSCC,4,1
+p0575.png,OSCC,3,1
+p0576.png,OSCC,5,1
+p0577.png,OSCC,3,1
+p0578.png,OSCC,2,1
+p0579.png,OSCC,5,1
+p0580.png,OSCC,5,1
+p0581.png,OSCC,3,1
+p0582.png,OSCC,3,1
+p0583.png,OSCC,2,1
+p0584.png,OSCC,1,1
+p0585.png,OSCC,4,1
+p0586.png,OSCC,3,1
+p0587.png,OSCC,5,1
+p0588.png,OSCC,2,1
+p0589.png,OSCC,2,1
+p0590.png,OSCC,4,1
+p0591.png,OSCC,5,1
+p0592.png,OSCC,5,1
+p0593.png,OSCC,5,1
+p0594.png,OSCC,1,1
+p0595.png,OSCC,4,1
+p0596.png,OSCC,3,1
+p0597.png,OSCC,4,1
+p0598.png,OSCC,1,1
+p0599.png,OSCC,5,1
+p0600.png,OSCC,5,1
+p0601.png,OSCC,1,1
+p0602.png,OSCC,3,1
+p0603.png,OSCC,5,1
+p0604.png,OSCC,2,1
+p0605.png,OSCC,3,1
+p0606.png,OSCC,5,1
+p0607.png,OSCC,3,1
+p0608.png,OSCC,2,1
+p0609.png,OSCC,4,1
+p0610.png,OSCC,2,1
+p0611.png,OSCC,5,1
+p0612.png,OSCC,5,1
+p0613.png,OSCC,4,1
+p0614.png,OSCC,1,1
+p0615.png,OSCC,5,1
+p0616.png,OSCC,1,1
+p0617.png,OSCC,1,1
+p0618.png,OSCC,2,1
+p0619.png,OSCC,1,1
+p0620.png,OSCC,2,1
+p0621.png,OSCC,5,1
+p0622.png,OSCC,4,1
+p0623.png,OSCC,3,1
+p0624.png,OSCC,3,1
+p0625.png,OSCC,3,1
+p0626.png,OSCC,2,1
+p0627.png,OSCC,1,1
+p0628.png,OSCC,4,1
+p0629.png,OSCC,4,1
+p0630.png,OSCC,1,1
+p0631.png,OSCC,4,1
+p0632.png,OSCC,4,1
+p0633.png,OSCC,3,1
+p0634.png,OSCC,1,1
+p0635.png,OSCC,5,1
+p0636.png,OSCC,5,1
+p0637.png,OSCC,4,1
+p0638.png,OSCC,4,1
+p0639.png,OSCC,4,1
+p0640.png,OSCC,3,1
+p0641.png,OSCC,5,1
+p0642.png,OSCC,4,1
+p0643.png,OSCC,2,1
+p0644.png,OSCC,2,1
+p0645.png,OSCC,5,1
+p0646.png,OSCC,5,1
+p0647.png,OSCC,5,1
+p0648.png,OSCC,4,1
+p0649.png,OSCC,3,1
+p0650.png,OSCC,1,1
+p0651.png,OSCC,5,1
+p0652.png,OSCC,4,1
+p0653.png,OSCC,5,1
+p0654.png,OSCC,4,1
+p0655.png,OSCC,4,1
+p0656.png,OSCC,1,1
+p0657.png,OSCC,2,1
+p0658.png,OSCC,1,1
+p0659.png,OSCC,4,1
+p0660.png,OSCC,5,1
+p0661.png,OSCC,1,1
+p0662.png,OSCC,3,1
+p0663.png,OSCC,1,1
+p0664.png,OSCC,5,1
+p0665.png,OSCC,2,1
+p0666.png,OSCC,2,1
+p0667.png,OSCC,1,1
+p0668.png,OSCC,3,1
+p0669.png,OSCC,1,1
+p0670.png,OSCC,1,1
+p0671.png,OSCC,3,1
+p0672.png,OSCC,4,1
+p0673.png,OSCC,1,1
+p0674.png,OSCC,2,1
+p0675.png,OSCC,5,1
+p0676.png,OSCC,2,1
+p0677.png,OSCC,2,1
+p0678.png,OSCC,3,1
+p0679.png,OSCC,4,1
+p0680.png,OSCC,3,1
+p0681.png,OSCC,1,1
+p0682.png,OSCC,2,1
+p0683.png,OSCC,1,1
+p0684.png,OSCC,1,1
+p0685.png,OSCC,3,1
+p0686.png,OSCC,1,1
+p0687.png,OSCC,1,1
+p0688.png,OSCC,2,1
+p0689.png,OSCC,3,1
+p0690.png,OSCC,5,1
+p0691.png,OSCC,4,1
+p0692.png,OSCC,5,1
+p0693.png,OSCC,4,1
+p0694.png,OSCC,1,1
+p0695.png,OSCC,3,1
+p0696.png,OSCC,1,1
+p0697.png,OSCC,2,1
+p0698.png,OSCC,5,1
+p0699.png,OSCC,2,1
+p0700.png,OSCC,2,1
+p0701.png,OSCC,1,1
+p0702.png,OSCC,4,1
+p0703.png,OSCC,2,1
+p0704.png,OSCC,5,1
+p0705.png,OSCC,5,1
+p0706.png,OSCC,2,1
+p0707.png,OSCC,1,1
+p0708.png,OSCC,3,1
+p0709.png,OSCC,1,1
+p0710.png,OSCC,2,1
+p0711.png,OSCC,1,1
+p0712.png,OSCC,4,1
+p0713.png,OSCC,4,1
+p0714.png,OSCC,5,1
+p0715.png,OSCC,2,1
+p0716.png,OSCC,2,1
+p0717.png,OSCC,4,1
+p0718.png,OSCC,3,1
+p0719.png,OSCC,1,1
+p0720.png,OSCC,1,1
+p0721.png,OSCC,4,1
+p0722.png,OSCC,4,1
+p0723.png,OSCC,2,1
+p0724.png,OSCC,3,1
+p0725.png,OSCC,2,1
+p0726.png,OSCC,4,1
+p0727.png,OSCC,2,1
+p0728.png,OSCC,2,1
+p0729.png,OSCC,3,1
+p0730.png,OSCC,4,1
+p0731.png,OSCC,4,1
+p0732.png,OSCC,3,1
+p0733.png,OSCC,3,1
+p0734.png,OSCC,3,1
+p0735.png,OSCC,4,1
+p0736.png,OSCC,2,1
+p0737.png,OSCC,3,1
+p0738.png,OSCC,3,1
+p0739.png,OSCC,5,1
+p0740.png,OSCC,5,1
+p0741.png,OSCC,2,1
+p0742.png,OSCC,3,1
+p0743.png,OSCC,3,1
+p0744.png,OSCC,1,1
+p0745.png,OSCC,3,1
+p0746.png,OSCC,3,1
+p0747.png,OSCC,5,1
+p0748.png,OSCC,5,1
+p0749.png,OSCC,2,1
+p0750.png,OSCC,3,1
+p0751.png,OSCC,4,1
+p0752.png,OSCC,2,1
+p0753.png,OSCC,5,1
+p0754.png,OSCC,5,1
+p0755.png,OSCC,1,1
+p0756.png,OSCC,5,1
+p0757.png,OSCC,1,1
+p0758.png,OSCC,4,1
+p0759.png,OSCC,1,1
+p0760.png,OSCC,2,1
+p0761.png,OSCC,3,1
+p0762.png,OSCC,3,1
+p0763.png,OSCC,5,1
+p0764.png,OSCC,2,1
+p0765.png,OSCC,2,1
+p0766.png,OSCC,3,1
+p0767.png,OSCC,3,1
+p0768.png,OSCC,2,1
+p0769.png,OSCC,2,1
+p0770.png,OSCC,2,1
+p0771.png,OSCC,3,1
+p0772.png,OSCC,4,1
+p0773.png,OSCC,4,1
+p0774.png,OSCC,1,1
+p0775.png,OSCC,1,1
+p0776.png,OSCC,5,1
+p0777.png,OSCC,5,1
+p0778.png,OSCC,5,1
+p0779.png,OSCC,1,1
+p0780.png,OSCC,5,1
+p0781.png,OSCC,3,1
+p0782.png,OSCC,4,1
+p0783.png,OSCC,4,1
+p0784.png,OSCC,2,1
+p0785.png,OSCC,1,1
+p0786.png,OSCC,2,1
+p0787.png,OSCC,3,1
+p0788.png,OSCC,1,1
+p0789.png,OSCC,2,1
+p0790.png,OSCC,5,1
+p0791.png,OSCC,1,1
+p0792.png,OSCC,4,1
+p0793.png,OSCC,3,1
+p0794.png,OSCC,2,1
+p0795.png,OSCC,4,1
+p0796.png,OSCC,4,1
+p0797.png,OSCC,3,1
+p0798.png,OSCC,3,1
+p0799.png,OSCC,2,1
+p0800.png,OSCC,5,1
+p0801.png,OSCC,4,1
+p0802.png,OSCC,1,1
+p0803.png,OSCC,3,1
+p0804.png,OSCC,5,1
+p0805.png,OSCC,3,1
+p0806.png,OSCC,4,1
+p0807.png,OSCC,3,1
+p0808.png,OSCC,3,1
+p0809.png,OSCC,1,1
+p0810.png,OSCC,4,1
+p0811.png,OSCC,1,1
+p0812.png,OSCC,1,1
+p0813.png,OSCC,4,1
+p0814.png,OSCC,5,1
+p0815.png,OSCC,3,1
+p0816.png,OSCC,3,1
+p0817.png,OSCC,3,1
+p0818.png,OSCC,2,1
+p0819.png,OSCC,5,1
+p0820.png,OSCC,4,1
+p0821.png,OSCC,1,1
+p0822.png,OSCC,4,1
+p0823.png,OSCC,3,1
+p0824.png,OSCC,3,1
+p0825.png,OSCC,2,1
+p0826.png,OSCC,1,1
+p0827.png,OSCC,2,1
+p0828.png,OSCC,1,1
+p0829.png,OSCC,3,1
+p0830.png,OSCC,4,1
+p0831.png,OSCC,4,1
+p0832.png,OSCC,3,1
+p0833.png,OSCC,5,1
+p0834.png,OSCC,1,1
+p0835.png,OSCC,4,1
+p0836.png,OSCC,2,1
+p0837.png,OSCC,2,1
+p0838.png,OSCC,1,1
+p0839.png,OSCC,2,1
+p0840.png,OSCC,5,1
+p0841.png,OSCC,1,1
+p0842.png,OSCC,4,1
+p0843.png,OSCC,5,1
+p0844.png,OSCC,5,1
+p0845.png,OSCC,1,1
+p0846.png,OSCC,2,1
+p0847.png,OSCC,1,1
+p0848.png,OSCC,3,1
+p0849.png,Without dysplasia,5,0
+p0850.png,Without dysplasia,2,0
+p0851.png,Without dysplasia,3,0
+p0852.png,Without dysplasia,5,0
+p0853.png,Without dysplasia,3,0
+p0854.png,Without dysplasia,1,0
+p0855.png,Without dysplasia,3,0
+p0856.png,Without dysplasia,2,0
+p0857.png,Without dysplasia,4,0
+p0858.png,Without dysplasia,4,0
+p0859.png,Without dysplasia,3,0
+p0860.png,Without dysplasia,3,0
+p0861.png,Without dysplasia,4,0
+p0862.png,Without dysplasia,2,0
+p0863.png,Without dysplasia,1,0
+p0864.png,Without dysplasia,4,0
+p0865.png,Without dysplasia,5,0
+p0866.png,Without dysplasia,1,0
+p0867.png,Without dysplasia,2,0
+p0868.png,Without dysplasia,3,0
+p0869.png,Without dysplasia,5,0
+p0870.png,Without dysplasia,3,0
+p0871.png,Without dysplasia,5,0
+p0872.png,Without dysplasia,1,0
+p0873.png,Without dysplasia,5,0
+p0874.png,Without dysplasia,2,0
+p0875.png,Without dysplasia,5,0
+p0876.png,Without dysplasia,4,0
+p0877.png,Without dysplasia,5,0
+p0878.png,Without dysplasia,5,0
+p0879.png,Without dysplasia,3,0
+p0880.png,Without dysplasia,2,0
+p0881.png,Without dysplasia,2,0
+p0882.png,Without dysplasia,3,0
+p0883.png,Without dysplasia,4,0
+p0884.png,Without dysplasia,3,0
+p0885.png,Without dysplasia,1,0
+p0886.png,Without dysplasia,4,0
+p0887.png,Without dysplasia,3,0
+p0888.png,Without dysplasia,1,0
+p0889.png,Without dysplasia,4,0
+p0890.png,Without dysplasia,5,0
+p0891.png,Without dysplasia,3,0
+p0892.png,Without dysplasia,5,0
+p0893.png,Without dysplasia,2,0
+p0894.png,Without dysplasia,2,0
+p0895.png,Without dysplasia,4,0
+p0896.png,Without dysplasia,4,0
+p0897.png,Without dysplasia,4,0
+p0898.png,Without dysplasia,2,0
+p0899.png,Without dysplasia,1,0
+p0900.png,Without dysplasia,3,0
+p0901.png,Without dysplasia,5,0
+p0902.png,Without dysplasia,1,0
+p0903.png,Without dysplasia,4,0
+p0904.png,Without dysplasia,3,0
+p0905.png,Without dysplasia,2,0
+p0906.png,Without dysplasia,5,0
+p0907.png,Without dysplasia,2,0
+p0908.png,Without dysplasia,5,0
+p0909.png,Without dysplasia,2,0
+p0910.png,Without dysplasia,5,0
+p0911.png,Without dysplasia,4,0
+p0912.png,Without dysplasia,1,0
+p0913.png,Without dysplasia,1,0
+p0914.png,Without dysplasia,2,0
+p0915.png,Without dysplasia,3,0
+p0916.png,Without dysplasia,4,0
+p0917.png,Without dysplasia,5,0
+p0918.png,Without dysplasia,2,0
+p0919.png,Without dysplasia,2,0
+p0920.png,Without dysplasia,3,0
+p0921.png,Without dysplasia,5,0
+p0922.png,Without dysplasia,5,0
+p0923.png,Without dysplasia,3,0
+p0924.png,Without dysplasia,4,0
+p0925.png,Without dysplasia,3,0
+p0926.png,Without dysplasia,1,0
+p0927.png,Without dysplasia,1,0
+p0928.png,Without dysplasia,4,0
+p0929.png,Without dysplasia,2,0
+p0930.png,Without dysplasia,4,0
+p0931.png,Without dysplasia,2,0
+p0932.png,Without dysplasia,2,0
+p0933.png,Without dysplasia,3,0
+p0934.png,Without dysplasia,5,0
+p0935.png,Without dysplasia,1,0
+p0936.png,Without dysplasia,3,0
+p0937.png,Without dysplasia,2,0
+p0938.png,Without dysplasia,5,0
+p0939.png,Without dysplasia,4,0
+p0940.png,Without dysplasia,1,0
+p0941.png,Without dysplasia,2,0
+p0942.png,Without dysplasia,3,0
+p0943.png,Without dysplasia,5,0
+p0944.png,Without dysplasia,2,0
+p0945.png,Without dysplasia,5,0
+p0946.png,Without dysplasia,2,0
+p0947.png,Without dysplasia,4,0
+p0948.png,Without dysplasia,3,0
+p0949.png,Without dysplasia,3,0
+p0950.png,Without dysplasia,1,0
+p0951.png,Without dysplasia,5,0
+p0952.png,Without dysplasia,5,0
+p0953.png,Without dysplasia,5,0
+p0954.png,Without dysplasia,1,0
+p0955.png,Without dysplasia,5,0
+p0956.png,Without dysplasia,3,0
+p0957.png,Without dysplasia,2,0
+p0958.png,Without dysplasia,3,0
+p0959.png,Without dysplasia,1,0
+p0960.png,Without dysplasia,4,0
+p0961.png,Without dysplasia,4,0
+p0962.png,Without dysplasia,3,0
+p0963.png,Without dysplasia,4,0
+p0964.png,Without dysplasia,4,0
+p0965.png,Without dysplasia,2,0
+p0966.png,Without dysplasia,1,0
+p0967.png,Without dysplasia,1,0
+p0968.png,Without dysplasia,1,0
+p0969.png,Without dysplasia,1,0
+p0970.png,Without dysplasia,3,0
+p0971.png,Without dysplasia,1,0
+p0972.png,Without dysplasia,1,0
+p0973.png,Without dysplasia,2,0
+p0974.png,Without dysplasia,2,0
+p0975.png,Without dysplasia,5,0
+p0976.png,Without dysplasia,1,0
+p0977.png,Without dysplasia,3,0
+p0978.png,Without dysplasia,4,0
+p0979.png,Without dysplasia,1,0
+p0980.png,Without dysplasia,5,0
+p0981.png,Without dysplasia,3,0
+p0982.png,Without dysplasia,5,0
+p0983.png,Without dysplasia,4,0
+p0984.png,Without dysplasia,1,0
+p0985.png,Without dysplasia,3,0
+p0986.png,Without dysplasia,4,0
+p0987.png,Without dysplasia,3,0
+p0988.png,Without dysplasia,2,0
+p0989.png,Without dysplasia,5,0
+p0990.png,Without dysplasia,3,0
+p0991.png,Without dysplasia,5,0
+p0992.png,Without dysplasia,4,0
+p0993.png,Without dysplasia,1,0
+p0994.png,Without dysplasia,5,0
+p0995.png,Without dysplasia,5,0
+p0996.png,Without dysplasia,3,0
+p0997.png,Without dysplasia,3,0
+p0998.png,Without dysplasia,1,0
+p0999.png,Without dysplasia,1,0
+p1000.png,Without dysplasia,3,0
+p1001.png,Without dysplasia,5,0
+p1002.png,Without dysplasia,2,0
+p1003.png,Without dysplasia,1,0
+p1004.png,Without dysplasia,2,0
+p1005.png,Without dysplasia,3,0
+p1006.png,Without dysplasia,3,0
+p1007.png,Without dysplasia,4,0
+p1008.png,Without dysplasia,3,0
+p1009.png,Without dysplasia,5,0
+p1010.png,Without dysplasia,3,0
+p1011.png,Without dysplasia,1,0
+p1012.png,Without dysplasia,5,0
+p1013.png,Without dysplasia,1,0
+p1014.png,Without dysplasia,1,0
+p1015.png,Without dysplasia,5,0
+p1016.png,Without dysplasia,4,0
+p1017.png,Without dysplasia,4,0
+p1018.png,Without dysplasia,5,0
+p1019.png,Without dysplasia,2,0
+p1020.png,Without dysplasia,4,0
+p1021.png,Without dysplasia,3,0
+p1022.png,Without dysplasia,4,0
+p1023.png,Without dysplasia,2,0
+p1024.png,Without dysplasia,1,0
+p1025.png,Without dysplasia,2,0
+p1026.png,Without dysplasia,1,0
+p1027.png,Without dysplasia,3,0
+p1028.png,Without dysplasia,2,0
+p1029.png,Without dysplasia,1,0
+p1030.png,Without dysplasia,2,0
+p1031.png,Without dysplasia,5,0
+p1032.png,Without dysplasia,1,0
+p1033.png,Without dysplasia,3,0
+p1034.png,Without dysplasia,4,0
+p1035.png,Without dysplasia,3,0
+p1036.png,Without dysplasia,4,0
+p1037.png,Without dysplasia,3,0
+p1038.png,Without dysplasia,4,0
+p1039.png,Without dysplasia,1,0
+p1040.png,Without dysplasia,4,0
+p1041.png,Without dysplasia,3,0
+p1042.png,Without dysplasia,5,0
+p1043.png,Without dysplasia,2,0
+p1044.png,Without dysplasia,1,0
+p1045.png,Without dysplasia,4,0
+p1046.png,Without dysplasia,5,0
+p1047.png,Without dysplasia,5,0
+p1048.png,Without dysplasia,1,0
+p1049.png,Without dysplasia,4,0
+p1050.png,Without dysplasia,3,0
+p1051.png,Without dysplasia,3,0
+p1052.png,Without dysplasia,2,0
+p1053.png,Without dysplasia,4,0
+p1054.png,Without dysplasia,5,0
+p1055.png,Without dysplasia,2,0
+p1056.png,Without dysplasia,5,0
+p1057.png,Without dysplasia,3,0
+p1058.png,Without dysplasia,1,0
+p1059.png,Without dysplasia,5,0
+p1060.png,Without dysplasia,4,0
+p1061.png,Without dysplasia,3,0
+p1062.png,Without dysplasia,5,0
+p1063.png,Without dysplasia,2,0
+p1064.png,Without dysplasia,5,0
+p1065.png,Without dysplasia,3,0
+p1066.png,Without dysplasia,2,0
+p1067.png,Without dysplasia,1,0
+p1068.png,Without dysplasia,4,0
+p1069.png,Without dysplasia,5,0
+p1070.png,Without dysplasia,4,0
+p1071.png,Without dysplasia,4,0
+p1072.png,Without dysplasia,5,0
+p1073.png,Without dysplasia,2,0
+p1074.png,Without dysplasia,1,0
+p1075.png,Without dysplasia,5,0
+p1076.png,Without dysplasia,2,0
+p1077.png,Without dysplasia,2,0
+p1078.png,Without dysplasia,4,0
+p1079.png,Without dysplasia,4,0
+p1080.png,Without dysplasia,2,0
+p1081.png,Without dysplasia,3,0
+p1082.png,Without dysplasia,4,0
+p1083.png,Without dysplasia,1,0
+p1084.png,Without dysplasia,4,0
+p1085.png,Without dysplasia,3,0
+p1086.png,Without dysplasia,3,0
+p1087.png,Without dysplasia,2,0
+p1088.png,Without dysplasia,5,0
+p1089.png,Without dysplasia,3,0
+p1090.png,Without dysplasia,2,0
+p1091.png,Without dysplasia,4,0
+p1092.png,Without dysplasia,4,0
+p1093.png,Without dysplasia,1,0
+p1094.png,Without dysplasia,4,0
+p1095.png,Without dysplasia,4,0
+p1096.png,Without dysplasia,1,0
+p1097.png,Without dysplasia,5,0
+p1098.png,Without dysplasia,1,0
+p1099.png,Without dysplasia,5,0
+p1100.png,Without dysplasia,3,0
+p1101.png,Without dysplasia,4,0
+p1102.png,Without dysplasia,1,0
+p1103.png,Without dysplasia,5,0
+p1104.png,Without dysplasia,4,0
+p1105.png,Without dysplasia,5,0
+p1106.png,Without dysplasia,4,0
+p1107.png,Without dysplasia,3,0
+p1108.png,Without dysplasia,1,0
+p1109.png,Without dysplasia,4,0
+p1110.png,Without dysplasia,5,0
+p1111.png,Without dysplasia,1,0
+p1112.png,Without dysplasia,2,0
+p1113.png,Without dysplasia,4,0
+p1114.png,Without dysplasia,1,0
+p1115.png,Without dysplasia,2,0
+p1116.png,Without dysplasia,2,0
+p1117.png,Without dysplasia,2,0
+p1118.png,Without dysplasia,5,0
+p1119.png,Without dysplasia,1,0
+p1120.png,Without dysplasia,2,0
+p1121.png,Without dysplasia,3,0
+p1122.png,Without dysplasia,4,0
+p1123.png,Without dysplasia,5,0
+p1124.png,Without dysplasia,2,0
+p1125.png,Without dysplasia,2,0
+p1126.png,Without dysplasia,3,0
+p1127.png,Without dysplasia,2,0
+p1128.png,Without dysplasia,5,0
+p1129.png,Without dysplasia,1,0
+p1130.png,Without dysplasia,5,0
+p1131.png,Without dysplasia,1,0
+p1132.png,Without dysplasia,2,0
+p1133.png,Without dysplasia,4,0
+p1134.png,Without dysplasia,4,0
+p1135.png,Without dysplasia,3,0
+p1136.png,Without dysplasia,1,0
+p1137.png,Without dysplasia,4,0
+p1138.png,Without dysplasia,3,0
+p1139.png,Without dysplasia,1,0
+p1140.png,Without dysplasia,1,0
+p1141.png,Without dysplasia,2,0
+p1142.png,Without dysplasia,3,0
+p1143.png,Without dysplasia,3,0
+p1144.png,Without dysplasia,4,0
+p1145.png,Without dysplasia,5,0
+p1146.png,Without dysplasia,3,0
+p1147.png,Without dysplasia,1,0
+p1148.png,Without dysplasia,2,0
+p1149.png,Without dysplasia,4,0
+p1150.png,Without dysplasia,5,0
+p1151.png,Without dysplasia,1,0
+p1152.png,Without dysplasia,1,0
+p1153.png,Without dysplasia,4,0
+p1154.png,Without dysplasia,3,0
+p1155.png,Without dysplasia,3,0
+p1156.png,Without dysplasia,2,0
+p1157.png,Without dysplasia,4,0
+p1158.png,Without dysplasia,1,0
+p1159.png,Without dysplasia,4,0
+p1160.png,Without dysplasia,3,0
+p1161.png,Without dysplasia,4,0
+p1162.png,Without dysplasia,5,0
+p1163.png,Without dysplasia,3,0
+p1164.png,Without dysplasia,2,0
+p1165.png,Without dysplasia,2,0
+p1166.png,Without dysplasia,5,0
+p1167.png,Without dysplasia,1,0
+p1168.png,Without dysplasia,4,0
+p1169.png,Without dysplasia,4,0
+p1170.png,Without dysplasia,2,0
+p1171.png,Without dysplasia,1,0
+p1172.png,Without dysplasia,4,0
+p1173.png,Without dysplasia,2,0
+p1174.png,Without dysplasia,4,0
+p1175.png,Without dysplasia,4,0
+p1176.png,Without dysplasia,2,0
+p1177.png,Without dysplasia,5,0
+p1178.png,Without dysplasia,1,0
+p1179.png,Without dysplasia,4,0
+p1180.png,Without dysplasia,5,0
+p1181.png,Without dysplasia,5,0
+p1182.png,Without dysplasia,2,0
+p1183.png,Without dysplasia,3,0
+p1184.png,Without dysplasia,4,0
+p1185.png,Without dysplasia,1,0
+p1186.png,Without dysplasia,5,0
+p1187.png,Without dysplasia,1,0
+p1188.png,Without dysplasia,3,0
+p1189.png,Without dysplasia,4,0
+p1190.png,Without dysplasia,2,0
+p1191.png,Without dysplasia,1,0
+p1192.png,Without dysplasia,5,0
+p1193.png,Without dysplasia,5,0
+p1194.png,Without dysplasia,3,0
+p1195.png,Without dysplasia,2,0
+p1196.png,Without dysplasia,2,0
+p1197.png,Without dysplasia,4,0
+p1198.png,Without dysplasia,5,0
+p1199.png,Without dysplasia,3,0
+p1200.png,Without dysplasia,3,0
+p1201.png,Without dysplasia,1,0
+p1202.png,Without dysplasia,4,0
+p1203.png,Without dysplasia,5,0
+p1204.png,Without dysplasia,4,0
+p1205.png,Without dysplasia,5,0
+p1206.png,Without dysplasia,5,0
+p1207.png,Without dysplasia,5,0
+p1208.png,Without dysplasia,1,0
+p1209.png,Without dysplasia,5,0
+p1210.png,Without dysplasia,4,0
+p1211.png,Without dysplasia,3,0
+p1212.png,Without dysplasia,1,0
+p1213.png,Without dysplasia,1,0
+p1214.png,Without dysplasia,1,0
+p1215.png,Without dysplasia,3,0
+p1216.png,Without dysplasia,4,0
+p1217.png,Without dysplasia,2,0
+p1218.png,Without dysplasia,3,0
+p1219.png,Without dysplasia,3,0
+p1220.png,Without dysplasia,4,0
+p1221.png,Without dysplasia,2,0
+p1222.png,Without dysplasia,5,0
+p1223.png,Without dysplasia,5,0
+p1224.png,Without dysplasia,3,0
+p1225.png,Without dysplasia,1,0
+p1226.png,Without dysplasia,3,0
+p1227.png,Without dysplasia,3,0
+p1228.png,Without dysplasia,2,0
+p1229.png,Without dysplasia,5,0
+p1230.png,Without dysplasia,1,0
+p1231.png,Without dysplasia,2,0
+p1232.png,Without dysplasia,3,0
+p1233.png,Without dysplasia,2,0
+p1234.png,Without dysplasia,4,0
+p1235.png,Without dysplasia,3,0
+p1236.png,Without dysplasia,5,0
+p1237.png,Without dysplasia,1,0
+p1238.png,Without dysplasia,1,0
+p1239.png,Without dysplasia,4,0
+p1240.png,Without dysplasia,2,0
+p1241.png,Without dysplasia,2,0
+p1242.png,Without dysplasia,5,0
+p1243.png,Without dysplasia,2,0
+p1244.png,Without dysplasia,2,0
+p1245.png,Without dysplasia,2,0
+p1246.png,Without dysplasia,2,0
+p1247.png,Without dysplasia,3,0
+p1248.png,Without dysplasia,2,0
+p1249.png,Without dysplasia,1,0
+p1250.png,Without dysplasia,5,0
+p1251.png,Without dysplasia,3,0
+p1252.png,Without dysplasia,2,0
+p1253.png,Without dysplasia,1,0
+p1254.png,Without dysplasia,3,0
+p1255.png,Without dysplasia,3,0
+p1256.png,Without dysplasia,3,0
+p1257.png,Without dysplasia,5,0
+p1258.png,Without dysplasia,5,0
+p1259.png,Without dysplasia,4,0
+p1260.png,Without dysplasia,3,0
+p1261.png,Without dysplasia,3,0
+p1262.png,Without dysplasia,1,0
+p1263.png,Without dysplasia,3,0
+p1264.png,Without dysplasia,1,0
+p1265.png,Without dysplasia,3,0
+p1266.png,Without dysplasia,2,0
+p1267.png,Without dysplasia,5,0
+p1268.png,Without dysplasia,3,0
+p1269.png,Without dysplasia,4,0
+p1270.png,Without dysplasia,3,0
+p1271.png,Without dysplasia,2,0
+p1272.png,Without dysplasia,1,0
+p1273.png,Without dysplasia,5,0
+p1274.png,Without dysplasia,4,0
+p1275.png,Without dysplasia,5,0
+p1276.png,Without dysplasia,3,0
+p1277.png,Without dysplasia,4,0
+p1278.png,Without dysplasia,5,0
+p1279.png,Without dysplasia,4,0
+p1280.png,Without dysplasia,1,0
+p1281.png,Without dysplasia,1,0
+p1282.png,Without dysplasia,1,0
+p1283.png,Without dysplasia,5,0
+p1284.png,Without dysplasia,4,0
+p1285.png,Without dysplasia,1,0
+p1286.png,Without dysplasia,3,0
+p1287.png,Without dysplasia,4,0
+p1288.png,Without dysplasia,3,0
+p1289.png,Without dysplasia,2,0
+p1290.png,Without dysplasia,5,0
+p1291.png,Without dysplasia,1,0
+p1292.png,Without dysplasia,4,0
+p1293.png,Without dysplasia,4,0
+p1294.png,Without dysplasia,1,0
+p1295.png,Without dysplasia,2,0
+p1296.png,Without dysplasia,1,0
+p1297.png,Without dysplasia,4,0
+p1298.png,Without dysplasia,2,0
+p1299.png,Without dysplasia,2,0
+p1300.png,Without dysplasia,3,0
+p1301.png,Without dysplasia,4,0
+p1302.png,Without dysplasia,3,0
+p1303.png,Without dysplasia,2,0
+p1304.png,Without dysplasia,1,0
+p1305.png,Without dysplasia,5,0
+p1306.png,Without dysplasia,1,0
+p1307.png,Without dysplasia,5,0
+p1308.png,Without dysplasia,5,0
+p1309.png,Without dysplasia,1,0
+p1310.png,Without dysplasia,1,0
+p1311.png,Without dysplasia,2,0
+p1312.png,Without dysplasia,2,0
+p1313.png,Without dysplasia,4,0
+p1314.png,Without dysplasia,1,0
+p1315.png,Without dysplasia,2,0
+p1316.png,Without dysplasia,4,0
+p1317.png,Without dysplasia,4,0
+p1318.png,Without dysplasia,5,0
+p1319.png,Without dysplasia,4,0
+p1320.png,Without dysplasia,1,0
+p1321.png,Without dysplasia,1,0
+p1322.png,Without dysplasia,2,0
+p1323.png,Without dysplasia,1,0
+p1324.png,Without dysplasia,3,0
+p1325.png,Without dysplasia,3,0
+p1326.png,Without dysplasia,3,0
+p1327.png,Without dysplasia,2,0
+p1328.png,Without dysplasia,4,0
+p1329.png,Without dysplasia,3,0
+p1330.png,Without dysplasia,2,0
+p1331.png,Without dysplasia,2,0
+p1332.png,Without dysplasia,2,0
+p1333.png,Without dysplasia,1,0
+p1334.png,Without dysplasia,5,0
+p1335.png,Without dysplasia,2,0
+p1336.png,Without dysplasia,3,0
+p1337.png,Without dysplasia,3,0
+p1338.png,Without dysplasia,4,0
+p1339.png,Without dysplasia,5,0
+p1340.png,Without dysplasia,3,0
+p1341.png,Without dysplasia,4,0
+p1342.png,Without dysplasia,5,0
+p1343.png,Without dysplasia,2,0
+p1344.png,Without dysplasia,1,0
+p1345.png,Without dysplasia,1,0
+p1346.png,Without dysplasia,5,0
+p1347.png,Without dysplasia,2,0
+p1348.png,Without dysplasia,1,0
+p1349.png,Without dysplasia,2,0
+p1350.png,Without dysplasia,2,0
+p1351.png,Without dysplasia,4,0
+p1352.png,Without dysplasia,2,0
+p1353.png,Without dysplasia,3,0
+p1354.png,Without dysplasia,2,0
+p1355.png,Without dysplasia,1,0
+p1356.png,Without dysplasia,5,0
+p1357.png,Without dysplasia,2,0
+p1358.png,Without dysplasia,4,0
+p1359.png,Without dysplasia,5,0
+p1360.png,Without dysplasia,4,0
+p1361.png,Without dysplasia,5,0
+p1362.png,Without dysplasia,4,0
+p1363.png,Without dysplasia,5,0
+p1364.png,Without dysplasia,3,0
+p1365.png,Without dysplasia,1,0
+p1366.png,Without dysplasia,5,0
+p1367.png,Without dysplasia,4,0
+p1368.png,Without dysplasia,2,0
+p1369.png,Without dysplasia,4,0
+p1370.png,Without dysplasia,5,0
+p1371.png,Without dysplasia,2,0
+p1372.png,Without dysplasia,1,0
+p1373.png,Without dysplasia,2,0
+p1374.png,Without dysplasia,3,0
+p1375.png,Without dysplasia,4,0
+p1376.png,Without dysplasia,2,0
+p1377.png,Without dysplasia,1,0
+p1378.png,Without dysplasia,1,0
+p1379.png,With dysplasia,4,2
+p1380.png,With dysplasia,3,2
+p1381.png,With dysplasia,3,2
+p1382.png,With dysplasia,4,2
+p1383.png,With dysplasia,4,2
+p1384.png,With dysplasia,3,2
+p1385.png,With dysplasia,1,2
+p1386.png,With dysplasia,2,2
+p1387.png,With dysplasia,5,2
+p1388.png,With dysplasia,3,2
+p1389.png,With dysplasia,1,2
+p1390.png,With dysplasia,1,2
+p1391.png,With dysplasia,2,2
+p1392.png,With dysplasia,5,2
+p1393.png,With dysplasia,5,2
+p1394.png,With dysplasia,1,2
+p1395.png,With dysplasia,5,2
+p1396.png,With dysplasia,4,2
+p1397.png,With dysplasia,2,2
+p1398.png,With dysplasia,5,2
+p1399.png,With dysplasia,4,2
+p1400.png,With dysplasia,2,2
+p1401.png,With dysplasia,3,2
+p1402.png,With dysplasia,2,2
+p1403.png,With dysplasia,1,2
+p1404.png,With dysplasia,2,2
+p1405.png,With dysplasia,3,2
+p1406.png,With dysplasia,5,2
+p1407.png,With dysplasia,1,2
+p1408.png,With dysplasia,1,2
+p1409.png,With dysplasia,5,2
+p1410.png,With dysplasia,4,2
+p1411.png,With dysplasia,1,2
+p1412.png,With dysplasia,3,2
+p1413.png,With dysplasia,3,2
+p1414.png,With dysplasia,5,2
+p1415.png,With dysplasia,2,2
+p1416.png,With dysplasia,3,2
+p1417.png,With dysplasia,5,2
+p1418.png,With dysplasia,5,2
+p1419.png,With dysplasia,3,2
+p1420.png,With dysplasia,2,2
+p1421.png,With dysplasia,3,2
+p1422.png,With dysplasia,2,2
+p1423.png,With dysplasia,1,2
+p1424.png,With dysplasia,3,2
+p1425.png,With dysplasia,5,2
+p1426.png,With dysplasia,1,2
+p1427.png,With dysplasia,5,2
+p1428.png,With dysplasia,2,2
+p1429.png,With dysplasia,3,2
+p1430.png,With dysplasia,4,2
+p1431.png,With dysplasia,2,2
+p1432.png,With dysplasia,3,2
+p1433.png,With dysplasia,5,2
+p1434.png,With dysplasia,1,2
+p1435.png,With dysplasia,2,2
+p1436.png,With dysplasia,2,2
+p1437.png,With dysplasia,3,2
+p1438.png,With dysplasia,2,2
+p1439.png,With dysplasia,4,2
+p1440.png,With dysplasia,2,2
+p1441.png,With dysplasia,2,2
+p1442.png,With dysplasia,5,2
+p1443.png,With dysplasia,3,2
+p1444.png,With dysplasia,1,2
+p1445.png,With dysplasia,4,2
+p1446.png,With dysplasia,4,2
+p1447.png,With dysplasia,2,2
+p1448.png,With dysplasia,5,2
+p1449.png,With dysplasia,2,2
+p1450.png,With dysplasia,3,2
+p1451.png,With dysplasia,3,2
+p1452.png,With dysplasia,5,2
+p1453.png,With dysplasia,2,2
+p1454.png,With dysplasia,5,2
+p1455.png,With dysplasia,2,2
+p1456.png,With dysplasia,1,2
+p1457.png,With dysplasia,1,2
+p1458.png,With dysplasia,3,2
+p1459.png,With dysplasia,2,2
+p1460.png,With dysplasia,1,2
+p1461.png,With dysplasia,4,2
+p1462.png,With dysplasia,1,2
+p1463.png,With dysplasia,4,2
+p1464.png,With dysplasia,1,2
+p1465.png,With dysplasia,2,2
+p1466.png,With dysplasia,4,2
+p1467.png,With dysplasia,5,2
+p1468.png,With dysplasia,2,2
+p1469.png,With dysplasia,1,2
+p1470.png,With dysplasia,1,2
+p1471.png,With dysplasia,2,2
+p1472.png,With dysplasia,1,2
+p1473.png,With dysplasia,4,2
+p1474.png,With dysplasia,3,2
+p1475.png,With dysplasia,4,2
+p1476.png,With dysplasia,2,2
+p1477.png,With dysplasia,1,2
+p1478.png,With dysplasia,5,2
+p1479.png,With dysplasia,2,2
+p1480.png,With dysplasia,4,2
+p1481.png,With dysplasia,3,2
+p1482.png,With dysplasia,3,2
+p1483.png,With dysplasia,1,2
+p1484.png,With dysplasia,3,2
+p1485.png,With dysplasia,4,2
+p1486.png,With dysplasia,5,2
+p1487.png,With dysplasia,3,2
+p1488.png,With dysplasia,1,2
+p1489.png,With dysplasia,5,2
+p1490.png,With dysplasia,3,2
+p1491.png,With dysplasia,4,2
+p1492.png,With dysplasia,3,2
+p1493.png,With dysplasia,5,2
+p1494.png,With dysplasia,4,2
+p1495.png,With dysplasia,3,2
+p1496.png,With dysplasia,2,2
+p1497.png,With dysplasia,1,2
+p1498.png,With dysplasia,4,2
+p1499.png,With dysplasia,5,2
+p1500.png,With dysplasia,2,2
+p1501.png,With dysplasia,1,2
+p1502.png,With dysplasia,5,2
+p1503.png,With dysplasia,5,2
+p1504.png,With dysplasia,2,2
+p1505.png,With dysplasia,1,2
+p1506.png,With dysplasia,4,2
+p1507.png,With dysplasia,1,2
+p1508.png,With dysplasia,5,2
+p1509.png,With dysplasia,4,2
+p1510.png,With dysplasia,5,2
+p1511.png,With dysplasia,3,2
+p1512.png,With dysplasia,2,2
+p1513.png,With dysplasia,2,2
+p1514.png,With dysplasia,1,2
+p1515.png,With dysplasia,5,2
+p1516.png,With dysplasia,2,2
+p1517.png,With dysplasia,4,2
+p1518.png,With dysplasia,5,2
+p1519.png,With dysplasia,3,2
+p1520.png,With dysplasia,1,2
+p1521.png,With dysplasia,2,2
+p1522.png,With dysplasia,3,2
+p1523.png,With dysplasia,5,2
+p1524.png,With dysplasia,5,2
+p1525.png,With dysplasia,5,2
+p1526.png,With dysplasia,5,2
+p1527.png,With dysplasia,2,2
+p1528.png,With dysplasia,5,2
+p1529.png,With dysplasia,3,2
+p1530.png,With dysplasia,2,2
+p1531.png,With dysplasia,5,2
+p1532.png,With dysplasia,5,2
+p1533.png,With dysplasia,1,2
+p1534.png,With dysplasia,2,2
+p1535.png,With dysplasia,4,2
+p1536.png,With dysplasia,1,2
+p1537.png,With dysplasia,4,2
+p1538.png,With dysplasia,5,2
+p1539.png,With dysplasia,4,2
+p1540.png,With dysplasia,5,2
+p1541.png,With dysplasia,5,2
+p1542.png,With dysplasia,5,2
+p1543.png,With dysplasia,4,2
+p1544.png,With dysplasia,1,2
+p1545.png,With dysplasia,3,2
+p1546.png,With dysplasia,3,2
+p1547.png,With dysplasia,1,2
+p1548.png,With dysplasia,3,2
+p1549.png,With dysplasia,2,2
+p1550.png,With dysplasia,3,2
+p1551.png,With dysplasia,1,2
+p1552.png,With dysplasia,1,2
+p1553.png,With dysplasia,5,2
+p1554.png,With dysplasia,2,2
+p1555.png,With dysplasia,4,2
+p1556.png,With dysplasia,3,2
+p1557.png,With dysplasia,3,2
+p1558.png,With dysplasia,2,2
+p1559.png,With dysplasia,2,2
+p1560.png,With dysplasia,2,2
+p1561.png,With dysplasia,1,2
+p1562.png,With dysplasia,2,2
+p1563.png,With dysplasia,5,2
+p1564.png,With dysplasia,3,2
+p1565.png,With dysplasia,3,2
+p1566.png,With dysplasia,1,2
+p1567.png,With dysplasia,2,2
+p1568.png,With dysplasia,5,2
+p1569.png,With dysplasia,1,2
+p1570.png,With dysplasia,2,2
+p1571.png,With dysplasia,4,2
+p1572.png,With dysplasia,5,2
+p1573.png,With dysplasia,3,2
+p1574.png,With dysplasia,4,2
+p1575.png,With dysplasia,5,2
+p1576.png,With dysplasia,4,2
+p1577.png,With dysplasia,2,2
+p1578.png,With dysplasia,4,2
+p1579.png,With dysplasia,2,2
+p1580.png,With dysplasia,5,2
+p1581.png,With dysplasia,4,2
+p1582.png,With dysplasia,2,2
+p1583.png,With dysplasia,3,2
+p1584.png,With dysplasia,3,2
+p1585.png,With dysplasia,3,2
+p1586.png,With dysplasia,3,2
+p1587.png,With dysplasia,5,2
+p1588.png,With dysplasia,1,2
+p1589.png,With dysplasia,5,2
+p1590.png,With dysplasia,5,2
+p1591.png,With dysplasia,4,2
+p1592.png,With dysplasia,1,2
+p1593.png,With dysplasia,4,2
+p1594.png,With dysplasia,1,2
+p1595.png,With dysplasia,1,2
+p1596.png,With dysplasia,2,2
+p1597.png,With dysplasia,5,2
+p1598.png,With dysplasia,4,2
+p1599.png,With dysplasia,4,2
+p1600.png,With dysplasia,4,2
+p1601.png,With dysplasia,5,2
+p1602.png,With dysplasia,3,2
+p1603.png,With dysplasia,2,2
+p1604.png,With dysplasia,5,2
+p1605.png,With dysplasia,2,2
+p1606.png,With dysplasia,3,2
+p1607.png,With dysplasia,4,2
+p1608.png,With dysplasia,4,2
+p1609.png,With dysplasia,3,2
+p1610.png,With dysplasia,1,2
+p1611.png,With dysplasia,4,2
+p1612.png,With dysplasia,3,2
+p1613.png,With dysplasia,4,2
+p1614.png,With dysplasia,5,2
+p1615.png,With dysplasia,3,2
+p1616.png,With dysplasia,4,2
+p1617.png,With dysplasia,4,2
+p1618.png,With dysplasia,4,2
+p1619.png,With dysplasia,3,2
+p1620.png,With dysplasia,2,2
+p1621.png,With dysplasia,1,2
+p1622.png,With dysplasia,4,2
+p1623.png,With dysplasia,2,2
+p1624.png,With dysplasia,3,2
+p1625.png,With dysplasia,3,2
+p1626.png,With dysplasia,3,2
+p1627.png,With dysplasia,3,2
+p1628.png,With dysplasia,3,2
+p1629.png,With dysplasia,5,2
+p1630.png,With dysplasia,3,2
+p1631.png,With dysplasia,3,2
+p1632.png,With dysplasia,2,2
+p1633.png,With dysplasia,1,2
+p1634.png,With dysplasia,1,2
+p1635.png,With dysplasia,3,2
+p1636.png,With dysplasia,1,2
+p1637.png,With dysplasia,4,2
+p1638.png,With dysplasia,2,2
+p1639.png,With dysplasia,3,2
+p1640.png,With dysplasia,5,2
+p1641.png,With dysplasia,4,2
+p1642.png,With dysplasia,2,2
+p1643.png,With dysplasia,3,2
+p1644.png,With dysplasia,4,2
+p1645.png,With dysplasia,1,2
+p1646.png,With dysplasia,2,2
+p1647.png,With dysplasia,3,2
+p1648.png,With dysplasia,2,2
+p1649.png,With dysplasia,4,2
+p1650.png,With dysplasia,3,2
+p1651.png,With dysplasia,1,2
+p1652.png,With dysplasia,2,2
+p1653.png,With dysplasia,5,2
+p1654.png,With dysplasia,1,2
+p1655.png,With dysplasia,5,2
+p1656.png,With dysplasia,1,2
+p1657.png,With dysplasia,4,2
+p1658.png,With dysplasia,4,2
+p1659.png,With dysplasia,2,2
+p1660.png,With dysplasia,2,2
+p1661.png,With dysplasia,3,2
+p1662.png,With dysplasia,5,2
+p1663.png,With dysplasia,5,2
+p1664.png,With dysplasia,2,2
+p1665.png,With dysplasia,2,2
+p1666.png,With dysplasia,2,2
+p1667.png,With dysplasia,5,2
+p1668.png,With dysplasia,1,2
+p1669.png,With dysplasia,5,2
+p1670.png,With dysplasia,2,2
+p1671.png,With dysplasia,5,2
+p1672.png,With dysplasia,3,2
+p1673.png,With dysplasia,3,2
+p1674.png,With dysplasia,1,2
+p1675.png,With dysplasia,3,2
+p1676.png,With dysplasia,4,2
+p1677.png,With dysplasia,1,2
+p1678.png,With dysplasia,3,2
+p1679.png,With dysplasia,5,2
+p1680.png,With dysplasia,4,2
+p1681.png,With dysplasia,5,2
+p1682.png,With dysplasia,4,2
+p1683.png,With dysplasia,2,2
+p1684.png,With dysplasia,5,2
+p1685.png,With dysplasia,5,2
+p1686.png,With dysplasia,1,2
+p1687.png,With dysplasia,4,2
+p1688.png,With dysplasia,2,2
+p1689.png,With dysplasia,5,2
+p1690.png,With dysplasia,4,2
+p1691.png,With dysplasia,1,2
+p1692.png,With dysplasia,4,2
+p1693.png,With dysplasia,4,2
+p1694.png,With dysplasia,3,2
+p1695.png,With dysplasia,1,2
+p1696.png,With dysplasia,2,2
+p1697.png,With dysplasia,1,2
+p1698.png,With dysplasia,1,2
+p1699.png,With dysplasia,1,2
+p1700.png,With dysplasia,4,2
+p1701.png,With dysplasia,5,2
+p1702.png,With dysplasia,3,2
+p1703.png,With dysplasia,5,2
+p1704.png,With dysplasia,3,2
+p1705.png,With dysplasia,2,2
+p1706.png,With dysplasia,5,2
+p1707.png,With dysplasia,5,2
+p1708.png,With dysplasia,2,2
+p1709.png,With dysplasia,3,2
+p1710.png,With dysplasia,4,2
+p1711.png,With dysplasia,1,2
+p1712.png,With dysplasia,4,2
+p1713.png,With dysplasia,4,2
+p1714.png,With dysplasia,5,2
+p1715.png,With dysplasia,1,2
+p1716.png,With dysplasia,2,2
+p1717.png,With dysplasia,4,2
+p1718.png,With dysplasia,2,2
+p1719.png,With dysplasia,4,2
+p1720.png,With dysplasia,5,2
+p1721.png,With dysplasia,3,2
+p1722.png,With dysplasia,2,2
+p1723.png,With dysplasia,3,2
+p1724.png,With dysplasia,1,2
+p1725.png,With dysplasia,3,2
+p1726.png,With dysplasia,4,2
+p1727.png,With dysplasia,4,2
+p1728.png,With dysplasia,1,2
+p1729.png,With dysplasia,5,2
+p1730.png,With dysplasia,1,2
+p1731.png,With dysplasia,1,2
+p1732.png,With dysplasia,1,2
+p1733.png,With dysplasia,4,2
+p1734.png,With dysplasia,5,2
+p1735.png,With dysplasia,1,2
+p1736.png,With dysplasia,4,2
+p1737.png,With dysplasia,2,2
+p1738.png,With dysplasia,1,2
+p1739.png,With dysplasia,2,2
+p1740.png,With dysplasia,2,2
+p1741.png,With dysplasia,5,2
+p1742.png,With dysplasia,5,2
+p1743.png,With dysplasia,1,2
+p1744.png,With dysplasia,4,2
+p1745.png,With dysplasia,1,2
+p1746.png,With dysplasia,4,2
+p1747.png,With dysplasia,2,2
+p1748.png,With dysplasia,4,2
+p1749.png,With dysplasia,4,2
+p1750.png,With dysplasia,3,2
+p1751.png,With dysplasia,4,2
+p1752.png,With dysplasia,4,2
+p1753.png,With dysplasia,5,2
+p1754.png,With dysplasia,2,2
+p1755.png,With dysplasia,4,2
+p1756.png,With dysplasia,4,2
+p1757.png,With dysplasia,3,2
+p1758.png,With dysplasia,2,2
+p1759.png,With dysplasia,1,2
+p1760.png,With dysplasia,1,2
+p1761.png,With dysplasia,2,2
+p1762.png,With dysplasia,3,2
+p1763.png,With dysplasia,4,2
+p1764.png,With dysplasia,4,2
+p1765.png,With dysplasia,3,2
+p1766.png,With dysplasia,4,2
+p1767.png,With dysplasia,5,2
+p1768.png,With dysplasia,4,2
+p1769.png,With dysplasia,2,2
+p1770.png,With dysplasia,2,2
+p1771.png,With dysplasia,1,2
+p1772.png,With dysplasia,4,2
+p1773.png,With dysplasia,1,2
+p1774.png,With dysplasia,1,2
+p1775.png,With dysplasia,3,2
+p1776.png,With dysplasia,3,2
+p1777.png,With dysplasia,2,2
+p1778.png,With dysplasia,3,2
+p1779.png,With dysplasia,5,2
+p1780.png,With dysplasia,3,2
+p1781.png,With dysplasia,3,2
+p1782.png,With dysplasia,4,2
+p1783.png,With dysplasia,4,2
+p1784.png,With dysplasia,4,2
+p1785.png,With dysplasia,4,2
+p1786.png,With dysplasia,5,2
+p1787.png,With dysplasia,2,2
+p1788.png,With dysplasia,5,2
+p1789.png,With dysplasia,2,2
+p1790.png,With dysplasia,3,2
+p1791.png,With dysplasia,2,2
+p1792.png,With dysplasia,4,2
+p1793.png,With dysplasia,2,2
+p1794.png,With dysplasia,4,2
+p1795.png,With dysplasia,4,2
+p1796.png,With dysplasia,5,2
+p1797.png,With dysplasia,2,2
+p1798.png,With dysplasia,2,2
+p1799.png,With dysplasia,1,2
+p1800.png,With dysplasia,5,2
+p1801.png,With dysplasia,3,2
+p1802.png,With dysplasia,3,2
+p1803.png,With dysplasia,1,2
+p1804.png,With dysplasia,3,2
+p1805.png,With dysplasia,3,2
+p1806.png,With dysplasia,5,2
+p1807.png,With dysplasia,4,2
+p1808.png,With dysplasia,3,2
+p1809.png,With dysplasia,1,2
+p1810.png,With dysplasia,1,2
+p1811.png,With dysplasia,2,2
+p1812.png,With dysplasia,2,2
+p1813.png,With dysplasia,4,2
+p1814.png,With dysplasia,1,2
+p1815.png,With dysplasia,1,2
+p1816.png,With dysplasia,4,2
+p1817.png,With dysplasia,3,2
+p1818.png,With dysplasia,5,2
+p1819.png,With dysplasia,4,2
+p1820.png,With dysplasia,4,2
+p1821.png,With dysplasia,3,2
+p1822.png,With dysplasia,5,2
+p1823.png,With dysplasia,2,2
+p1824.png,With dysplasia,4,2
+p1825.png,With dysplasia,5,2
+p1826.png,With dysplasia,2,2
+p1827.png,With dysplasia,2,2
+p1828.png,With dysplasia,1,2
+p1829.png,With dysplasia,2,2
+p1830.png,With dysplasia,4,2
+p1831.png,With dysplasia,2,2
+p1832.png,With dysplasia,1,2
+p1833.png,With dysplasia,3,2
+p1834.png,With dysplasia,1,2
+p1835.png,With dysplasia,3,2
+p1836.png,With dysplasia,2,2
+p1837.png,With dysplasia,3,2
+p1838.png,With dysplasia,1,2
+p1839.png,With dysplasia,1,2
+p1840.png,With dysplasia,4,2
+p1841.png,With dysplasia,4,2
+p1842.png,With dysplasia,4,2
+p1843.png,With dysplasia,5,2
+p1844.png,With dysplasia,3,2
+p1845.png,With dysplasia,2,2
+p1846.png,With dysplasia,5,2
+p1847.png,With dysplasia,5,2
+p1848.png,With dysplasia,2,2
+p1849.png,With dysplasia,3,2
+p1850.png,With dysplasia,2,2
+p1851.png,With dysplasia,4,2
+p1852.png,With dysplasia,2,2
+p1853.png,With dysplasia,4,2
+p1854.png,With dysplasia,3,2
+p1855.png,With dysplasia,1,2
+p1856.png,With dysplasia,3,2
+p1857.png,With dysplasia,3,2
+p1858.png,With dysplasia,4,2
+p1859.png,With dysplasia,1,2
+p1860.png,With dysplasia,4,2
+p1861.png,With dysplasia,3,2
+p1862.png,With dysplasia,5,2
+p1863.png,With dysplasia,5,2
+p1864.png,With dysplasia,2,2
+p1865.png,With dysplasia,3,2
+p1866.png,With dysplasia,4,2
+p1867.png,With dysplasia,2,2
+p1868.png,With dysplasia,3,2
+p1869.png,With dysplasia,5,2
+p1870.png,With dysplasia,1,2
+p1871.png,With dysplasia,5,2
+p1872.png,With dysplasia,1,2
+p1873.png,With dysplasia,2,2
+p1874.png,With dysplasia,1,2
+p1875.png,With dysplasia,3,2
+p1876.png,With dysplasia,5,2
+p1877.png,With dysplasia,5,2
+p1878.png,With dysplasia,4,2
+p1879.png,With dysplasia,3,2
+p1880.png,With dysplasia,2,2
+p1881.png,With dysplasia,4,2
+p1882.png,With dysplasia,2,2
+p1883.png,With dysplasia,2,2
+p1884.png,With dysplasia,5,2
+p1885.png,With dysplasia,5,2
+p1886.png,With dysplasia,5,2
+p1887.png,With dysplasia,1,2
+p1888.png,With dysplasia,1,2
+p1889.png,With dysplasia,4,2
+p1890.png,With dysplasia,1,2
+p1891.png,With dysplasia,3,2
+p1892.png,With dysplasia,4,2
+p1893.png,With dysplasia,5,2
+p1894.png,With dysplasia,5,2
+p1895.png,With dysplasia,2,2
+p1896.png,With dysplasia,1,2
+p1897.png,With dysplasia,5,2
+p1898.png,With dysplasia,5,2
+p1899.png,With dysplasia,3,2
+p1900.png,With dysplasia,4,2
+p1901.png,With dysplasia,1,2
+p1902.png,With dysplasia,1,2
+p1903.png,With dysplasia,2,2
+p1904.png,With dysplasia,1,2
+p1905.png,With dysplasia,1,2
+p1906.png,With dysplasia,1,2
+p1907.png,With dysplasia,1,2
+p1908.png,With dysplasia,5,2
+p1909.png,With dysplasia,4,2
+p1910.png,With dysplasia,4,2
+p1911.png,With dysplasia,5,2
+p1912.png,With dysplasia,1,2
+p1913.png,With dysplasia,5,2
+p1914.png,With dysplasia,3,2
+p1915.png,With dysplasia,5,2
+p1916.png,With dysplasia,2,2
+p1917.png,With dysplasia,3,2
+p1918.png,With dysplasia,5,2
+p1919.png,With dysplasia,1,2
+p1920.png,With dysplasia,2,2
+p1921.png,With dysplasia,2,2
+p1922.png,With dysplasia,1,2
+p1923.png,With dysplasia,2,2
+p1924.png,With dysplasia,5,2
+p1925.png,With dysplasia,4,2
+p1926.png,With dysplasia,1,2
+p1927.png,With dysplasia,1,2
+p1928.png,With dysplasia,5,2
+p1929.png,With dysplasia,1,2
+p1930.png,With dysplasia,1,2
+p1931.png,With dysplasia,2,2
+p1932.png,With dysplasia,3,2
+p1933.png,With dysplasia,3,2
+p1934.png,With dysplasia,1,2
+p1935.png,With dysplasia,3,2
+p1936.png,With dysplasia,3,2
+p1937.png,With dysplasia,3,2
+p1938.png,With dysplasia,1,2
+p1939.png,With dysplasia,4,2
+p1940.png,With dysplasia,3,2
+p1941.png,With dysplasia,5,2
+p1942.png,With dysplasia,1,2
+p1943.png,With dysplasia,2,2
+p1944.png,With dysplasia,2,2
+p1945.png,With dysplasia,5,2
+p1946.png,With dysplasia,1,2
+p1947.png,With dysplasia,1,2
+p1948.png,With dysplasia,4,2
+p1949.png,With dysplasia,1,2
+p1950.png,With dysplasia,2,2
+p1951.png,With dysplasia,3,2
+p1952.png,With dysplasia,3,2
+p1953.png,With dysplasia,4,2
+p1954.png,With dysplasia,2,2
+p1955.png,With dysplasia,5,2
+p1956.png,With dysplasia,5,2
+p1957.png,With dysplasia,2,2
+p1958.png,With dysplasia,2,2
+p1959.png,With dysplasia,5,2
+p1960.png,With dysplasia,4,2
+p1961.png,With dysplasia,4,2
+p1962.png,With dysplasia,4,2
+p1963.png,With dysplasia,4,2
+p1964.png,With dysplasia,5,2
+p1965.png,With dysplasia,3,2
+p1966.png,With dysplasia,2,2
+p1967.png,With dysplasia,5,2
+p1968.png,With dysplasia,1,2
+p1969.png,With dysplasia,3,2
+p1970.png,With dysplasia,4,2
+p1971.png,With dysplasia,2,2
+p1972.png,With dysplasia,1,2
+p1973.png,With dysplasia,3,2
+p1974.png,With dysplasia,4,2
+p1975.png,With dysplasia,1,2
+p1976.png,With dysplasia,1,2
+p1977.png,With dysplasia,4,2
+p1978.png,With dysplasia,2,2
+p1979.png,With dysplasia,2,2
+p1980.png,With dysplasia,4,2
+p1981.png,With dysplasia,4,2
+p1982.png,With dysplasia,2,2
+p1983.png,With dysplasia,3,2
+p1984.png,With dysplasia,5,2
+p1985.png,With dysplasia,3,2
+p1986.png,With dysplasia,1,2
+p1987.png,With dysplasia,3,2
+p1988.png,With dysplasia,5,2
+p1989.png,With dysplasia,2,2
+p1990.png,With dysplasia,1,2
+p1991.png,With dysplasia,5,2
+p1992.png,With dysplasia,5,2
+p1993.png,With dysplasia,2,2
+p1994.png,With dysplasia,4,2
+p1995.png,With dysplasia,4,2
+p1996.png,With dysplasia,2,2
+p1997.png,With dysplasia,1,2
+p1998.png,With dysplasia,2,2
+p1999.png,With dysplasia,4,2
+p2000.png,With dysplasia,3,2
+p2001.png,With dysplasia,5,2
+p2002.png,With dysplasia,3,2
+p2003.png,With dysplasia,3,2
+p2004.png,With dysplasia,2,2
+p2005.png,With dysplasia,1,2
+p2006.png,With dysplasia,4,2
+p2007.png,With dysplasia,3,2
+p2008.png,With dysplasia,4,2
+p2009.png,With dysplasia,2,2
+p2010.png,With dysplasia,1,2
+p2011.png,With dysplasia,1,2
+p2012.png,With dysplasia,1,2
+p2013.png,With dysplasia,3,2
+p2014.png,With dysplasia,3,2
+p2015.png,With dysplasia,3,2
+p2016.png,With dysplasia,1,2
+p2017.png,With dysplasia,2,2
+p2018.png,With dysplasia,5,2
+p2019.png,With dysplasia,3,2
+p2020.png,With dysplasia,3,2
+p2021.png,With dysplasia,5,2
+p2022.png,With dysplasia,1,2
+p2023.png,With dysplasia,1,2
+p2024.png,With dysplasia,1,2
+p2025.png,With dysplasia,4,2
+p2026.png,With dysplasia,2,2
+p2027.png,With dysplasia,3,2
+p2028.png,With dysplasia,4,2
+p2029.png,With dysplasia,5,2
+p2030.png,With dysplasia,5,2
+p2031.png,With dysplasia,3,2
+p2032.png,With dysplasia,5,2
+p2033.png,With dysplasia,5,2
+p2034.png,With dysplasia,5,2
+p2035.png,With dysplasia,5,2
+p2036.png,With dysplasia,4,2
+p2037.png,With dysplasia,1,2
+p2038.png,With dysplasia,1,2
+p2039.png,With dysplasia,2,2
+p2040.png,With dysplasia,3,2
+p2041.png,With dysplasia,3,2
+p2042.png,With dysplasia,1,2
+p2043.png,With dysplasia,4,2
+p2044.png,With dysplasia,3,2
+p2045.png,With dysplasia,5,2
+p2046.png,With dysplasia,2,2
+p2047.png,With dysplasia,3,2
+p2048.png,With dysplasia,3,2
+p2049.png,With dysplasia,2,2
+p2050.png,With dysplasia,5,2
+p2051.png,With dysplasia,2,2
+p2052.png,With dysplasia,1,2
+p2053.png,With dysplasia,2,2
+p2054.png,With dysplasia,4,2
+p2055.png,With dysplasia,5,2
+p2056.png,With dysplasia,2,2
+p2057.png,With dysplasia,2,2
+p2058.png,With dysplasia,4,2
+p2059.png,With dysplasia,1,2
+p2060.png,With dysplasia,5,2
+p2061.png,With dysplasia,4,2
+p2062.png,With dysplasia,4,2
+p2063.png,With dysplasia,2,2
+p2064.png,With dysplasia,4,2
+p2065.png,With dysplasia,3,2
+p2066.png,With dysplasia,4,2
+p2067.png,With dysplasia,1,2
+p2068.png,With dysplasia,5,2
+p2069.png,With dysplasia,5,2
+p2070.png,With dysplasia,1,2
+p2071.png,With dysplasia,3,2
+p2072.png,With dysplasia,5,2
+p2073.png,With dysplasia,5,2
+p2074.png,With dysplasia,4,2
+p2075.png,With dysplasia,4,2
+p2076.png,With dysplasia,4,2
+p2077.png,With dysplasia,3,2
+p2078.png,With dysplasia,3,2
+p2079.png,With dysplasia,3,2
+p2080.png,With dysplasia,3,2
+p2081.png,With dysplasia,3,2
+p2082.png,With dysplasia,3,2
+p2083.png,With dysplasia,4,2
+p2084.png,With dysplasia,2,2
+p2085.png,With dysplasia,2,2
+p2086.png,With dysplasia,5,2
+p2087.png,With dysplasia,3,2
+p2088.png,With dysplasia,3,2
+p2089.png,With dysplasia,5,2
+p2090.png,With dysplasia,3,2
+p2091.png,With dysplasia,2,2
+p2092.png,With dysplasia,3,2
+p2093.png,With dysplasia,3,2
+p2094.png,With dysplasia,1,2
+p2095.png,With dysplasia,5,2
+p2096.png,With dysplasia,1,2
+p2097.png,With dysplasia,3,2
+p2098.png,With dysplasia,5,2
+p2099.png,With dysplasia,4,2
+p2100.png,With dysplasia,4,2
+p2101.png,With dysplasia,1,2
+p2102.png,With dysplasia,2,2
+p2103.png,With dysplasia,2,2
+p2104.png,With dysplasia,2,2
+p2105.png,With dysplasia,5,2
+p2106.png,With dysplasia,4,2
+p2107.png,With dysplasia,5,2
+p2108.png,With dysplasia,1,2
+p2109.png,With dysplasia,1,2
+p2110.png,With dysplasia,5,2
+p2111.png,With dysplasia,3,2
+p2112.png,With dysplasia,4,2
+p2113.png,With dysplasia,1,2
+p2114.png,With dysplasia,1,2
+p2115.png,With dysplasia,5,2
+p2116.png,With dysplasia,4,2
+p2117.png,With dysplasia,2,2
+p2118.png,With dysplasia,2,2
+p2119.png,With dysplasia,5,2
+p2120.png,With dysplasia,5,2
+p2121.png,With dysplasia,4,2
+p2122.png,With dysplasia,2,2
+p2123.png,With dysplasia,3,2
+p2124.png,With dysplasia,1,2
+p2125.png,With dysplasia,2,2
+p2126.png,With dysplasia,3,2
+p2127.png,With dysplasia,4,2
+p2128.png,With dysplasia,3,2
+p2129.png,With dysplasia,3,2
+p2130.png,With dysplasia,5,2
+p2131.png,With dysplasia,5,2
+p2132.png,With dysplasia,5,2
+p2133.png,With dysplasia,4,2
+p2134.png,With dysplasia,4,2
+p2135.png,With dysplasia,4,2
+p2136.png,With dysplasia,3,2
+p2137.png,With dysplasia,5,2
+p2138.png,With dysplasia,5,2
+p2139.png,With dysplasia,2,2
+p2140.png,With dysplasia,4,2
+p2141.png,With dysplasia,5,2
+p2142.png,With dysplasia,2,2
+p2143.png,With dysplasia,3,2
+p2144.png,With dysplasia,4,2
+p2145.png,With dysplasia,4,2
+p2146.png,With dysplasia,5,2
+p2147.png,With dysplasia,2,2
+p2148.png,With dysplasia,3,2
+p2149.png,With dysplasia,5,2
+p2150.png,With dysplasia,3,2
+p2151.png,With dysplasia,1,2
+p2152.png,With dysplasia,5,2
+p2153.png,With dysplasia,4,2
+p2154.png,With dysplasia,1,2
+p2155.png,With dysplasia,1,2
+p2156.png,With dysplasia,4,2
+p2157.png,With dysplasia,3,2
+p2158.png,With dysplasia,1,2
+p2159.png,With dysplasia,3,2
+p2160.png,With dysplasia,4,2
+p2161.png,With dysplasia,2,2
+p2162.png,With dysplasia,3,2
+p2163.png,With dysplasia,2,2
+p2164.png,With dysplasia,4,2
+p2165.png,With dysplasia,3,2
+p2166.png,With dysplasia,2,2
+p2167.png,With dysplasia,2,2
+p2168.png,With dysplasia,2,2
+p2169.png,With dysplasia,2,2
+p2170.png,With dysplasia,5,2
+p2171.png,With dysplasia,1,2
+p2172.png,With dysplasia,1,2
+p2173.png,With dysplasia,4,2
+p2174.png,With dysplasia,5,2
+p2175.png,With dysplasia,4,2
+p2176.png,With dysplasia,2,2
+p2177.png,With dysplasia,1,2
+p2178.png,With dysplasia,3,2
+p2179.png,With dysplasia,3,2
+p2180.png,With dysplasia,5,2
+p2181.png,With dysplasia,2,2
+p2182.png,With dysplasia,1,2
+p2183.png,With dysplasia,3,2
+p2184.png,With dysplasia,3,2
+p2185.png,With dysplasia,3,2
+p2186.png,With dysplasia,4,2
+p2187.png,With dysplasia,2,2
+p2188.png,With dysplasia,3,2
+p2189.png,With dysplasia,1,2
+p2190.png,With dysplasia,2,2
+p2191.png,With dysplasia,2,2
+p2192.png,With dysplasia,5,2
+p2193.png,With dysplasia,2,2
+p2194.png,With dysplasia,2,2
+p2195.png,With dysplasia,4,2
+p2196.png,With dysplasia,5,2
+p2197.png,With dysplasia,3,2
+p2198.png,With dysplasia,4,2
+p2199.png,With dysplasia,4,2
+p2200.png,With dysplasia,1,2
+p2201.png,With dysplasia,3,2
+p2202.png,With dysplasia,2,2
+p2203.png,With dysplasia,3,2
+p2204.png,With dysplasia,1,2
+p2205.png,With dysplasia,2,2
+p2206.png,With dysplasia,2,2
+p2207.png,With dysplasia,2,2
+p2208.png,With dysplasia,5,2
+p2209.png,With dysplasia,1,2
+p2210.png,With dysplasia,5,2
+p2211.png,With dysplasia,2,2
+p2212.png,With dysplasia,4,2
+p2213.png,With dysplasia,1,2
+p2214.png,With dysplasia,3,2
+p2215.png,With dysplasia,4,2
+p2216.png,With dysplasia,5,2
+p2217.png,With dysplasia,5,2
+p2218.png,With dysplasia,3,2
+p2219.png,With dysplasia,2,2
+p2220.png,With dysplasia,4,2
+p2221.png,With dysplasia,1,2
+p2222.png,With dysplasia,2,2
+p2223.png,With dysplasia,3,2
+p2224.png,With dysplasia,2,2
+p2225.png,With dysplasia,4,2
+p2226.png,With dysplasia,2,2
+p2227.png,With dysplasia,3,2
+p2228.png,With dysplasia,4,2
+p2229.png,With dysplasia,5,2
+p2230.png,With dysplasia,3,2
+p2231.png,With dysplasia,3,2
+p2232.png,With dysplasia,3,2
+p2233.png,With dysplasia,1,2
+p2234.png,With dysplasia,1,2
+p2235.png,With dysplasia,3,2
+p2236.png,With dysplasia,3,2
+p2237.png,With dysplasia,3,2
+p2238.png,With dysplasia,1,2
+p2239.png,With dysplasia,5,2
+p2240.png,With dysplasia,5,2
+p2241.png,With dysplasia,2,2
+p2242.png,With dysplasia,3,2
+p2243.png,With dysplasia,1,2
+p2244.png,With dysplasia,3,2
+p2245.png,With dysplasia,1,2
+p2246.png,With dysplasia,2,2
+p2247.png,With dysplasia,3,2
+p2248.png,With dysplasia,4,2
+p2249.png,With dysplasia,3,2
+p2250.png,With dysplasia,2,2
+p2251.png,With dysplasia,1,2
+p2252.png,With dysplasia,3,2
+p2253.png,With dysplasia,5,2
+p2254.png,With dysplasia,4,2
+p2255.png,With dysplasia,2,2
+p2256.png,With dysplasia,2,2
+p2257.png,With dysplasia,4,2
+p2258.png,With dysplasia,5,2
+p2259.png,With dysplasia,1,2
+p2260.png,With dysplasia,4,2
+p2261.png,With dysplasia,5,2
+p2262.png,With dysplasia,3,2
+p2263.png,With dysplasia,5,2
+p2264.png,With dysplasia,3,2
+p2265.png,With dysplasia,2,2
+p2266.png,With dysplasia,2,2
+p2267.png,With dysplasia,1,2
+p2268.png,With dysplasia,3,2
+p2269.png,With dysplasia,1,2
+p2270.png,With dysplasia,3,2
+p2271.png,With dysplasia,2,2
+p2272.png,With dysplasia,4,2
+p2273.png,With dysplasia,1,2
+p2274.png,With dysplasia,1,2
+p2275.png,With dysplasia,3,2
+p2276.png,With dysplasia,4,2
+p2277.png,With dysplasia,4,2
+p2278.png,With dysplasia,5,2
+p2279.png,With dysplasia,3,2
+p2280.png,With dysplasia,4,2
+p2281.png,With dysplasia,5,2
+p2282.png,With dysplasia,3,2
+p2283.png,With dysplasia,2,2
+p2284.png,With dysplasia,3,2
+p2285.png,With dysplasia,5,2
+p2286.png,With dysplasia,4,2
+p2287.png,With dysplasia,5,2
+p2288.png,With dysplasia,4,2
+p2289.png,With dysplasia,3,2
+p2290.png,With dysplasia,1,2
+p2291.png,With dysplasia,2,2
+p2292.png,With dysplasia,5,2
+p2293.png,With dysplasia,3,2
+p2294.png,With dysplasia,2,2
+p2295.png,With dysplasia,2,2
+p2296.png,With dysplasia,3,2
+p2297.png,With dysplasia,1,2
+p2298.png,With dysplasia,1,2
+p2299.png,With dysplasia,3,2
+p2300.png,With dysplasia,3,2
+p2301.png,With dysplasia,3,2
+p2302.png,With dysplasia,1,2
+p2303.png,With dysplasia,4,2
+p2304.png,With dysplasia,5,2
+p2305.png,With dysplasia,5,2
+p2306.png,With dysplasia,5,2
+p2307.png,With dysplasia,2,2
+p2308.png,With dysplasia,2,2
+p2309.png,With dysplasia,2,2
+p2310.png,With dysplasia,3,2
+p2311.png,With dysplasia,2,2
+p2312.png,With dysplasia,4,2
+p2313.png,With dysplasia,5,2
+p2314.png,With dysplasia,5,2
+p2315.png,With dysplasia,5,2
+p2316.png,With dysplasia,1,2
+p2317.png,With dysplasia,4,2
+p2318.png,With dysplasia,3,2
+p2319.png,With dysplasia,4,2
+p2320.png,With dysplasia,3,2
+p2321.png,With dysplasia,1,2
+p2322.png,With dysplasia,4,2
+p2323.png,With dysplasia,1,2
+p2324.png,With dysplasia,2,2
+p2325.png,With dysplasia,2,2
+p2326.png,With dysplasia,2,2
+p2327.png,With dysplasia,3,2
+p2328.png,With dysplasia,3,2
+p2329.png,With dysplasia,4,2
+p2330.png,With dysplasia,2,2
+p2331.png,With dysplasia,4,2
+p2332.png,With dysplasia,3,2
+p2333.png,With dysplasia,4,2
+p2334.png,With dysplasia,1,2
+p2335.png,With dysplasia,3,2
+p2336.png,With dysplasia,2,2
+p2337.png,With dysplasia,4,2
+p2338.png,With dysplasia,1,2
+p2339.png,With dysplasia,2,2
+p2340.png,With dysplasia,4,2
+p2341.png,With dysplasia,4,2
+p2342.png,With dysplasia,5,2
+p2343.png,With dysplasia,1,2
+p2344.png,With dysplasia,2,2
+p2345.png,With dysplasia,2,2
+p2346.png,With dysplasia,5,2
+p2347.png,With dysplasia,3,2
+p2348.png,With dysplasia,2,2
+p2349.png,With dysplasia,4,2
+p2350.png,With dysplasia,1,2
+p2351.png,With dysplasia,2,2
+p2352.png,With dysplasia,3,2
+p2353.png,With dysplasia,2,2
+p2354.png,With dysplasia,3,2
+p2355.png,With dysplasia,5,2
+p2356.png,With dysplasia,5,2
+p2357.png,With dysplasia,4,2
+p2358.png,With dysplasia,5,2
+p2359.png,With dysplasia,5,2
+p2360.png,With dysplasia,5,2
+p2361.png,With dysplasia,4,2
+p2362.png,With dysplasia,1,2
+p2363.png,With dysplasia,1,2
+p2364.png,With dysplasia,2,2
+p2365.png,With dysplasia,2,2
+p2366.png,With dysplasia,5,2
+p2367.png,With dysplasia,4,2
+p2368.png,With dysplasia,4,2
+p2369.png,With dysplasia,2,2
+p2370.png,With dysplasia,2,2
+p2371.png,With dysplasia,4,2
+p2372.png,With dysplasia,3,2
+p2373.png,With dysplasia,1,2
+p2374.png,With dysplasia,1,2
+p2375.png,With dysplasia,4,2
+p2376.png,With dysplasia,1,2
+p2377.png,With dysplasia,1,2
+p2378.png,With dysplasia,4,2
+p2379.png,With dysplasia,2,2
+p2380.png,With dysplasia,1,2
+p2381.png,With dysplasia,4,2
+p2382.png,With dysplasia,2,2
+p2383.png,With dysplasia,3,2
+p2384.png,With dysplasia,1,2
+p2385.png,With dysplasia,1,2
+p2386.png,With dysplasia,2,2
+p2387.png,With dysplasia,5,2
+p2388.png,With dysplasia,5,2
+p2389.png,With dysplasia,2,2
+p2390.png,With dysplasia,4,2
+p2391.png,With dysplasia,1,2
+p2392.png,With dysplasia,5,2
+p2393.png,With dysplasia,1,2
+p2394.png,With dysplasia,2,2
+p2395.png,With dysplasia,2,2
+p2396.png,With dysplasia,1,2
+p2397.png,With dysplasia,2,2
+p2398.png,With dysplasia,4,2
+p2399.png,With dysplasia,3,2
+p2400.png,With dysplasia,4,2
+p2401.png,With dysplasia,5,2
+p2402.png,With dysplasia,1,2
+p2403.png,With dysplasia,1,2
+p2404.png,With dysplasia,1,2
+p2405.png,With dysplasia,2,2
+p2406.png,With dysplasia,5,2
+p2407.png,With dysplasia,3,2
+p2408.png,With dysplasia,3,2
+p2409.png,With dysplasia,4,2
+p2410.png,With dysplasia,1,2
+p2411.png,With dysplasia,5,2
+p2412.png,With dysplasia,3,2
+p2413.png,With dysplasia,2,2
+p2414.png,With dysplasia,1,2
+p2415.png,With dysplasia,4,2
+p2416.png,With dysplasia,4,2
+p2417.png,With dysplasia,5,2
+p2418.png,With dysplasia,5,2
+p2419.png,With dysplasia,2,2
+p2420.png,With dysplasia,5,2
+p2421.png,With dysplasia,5,2
+p2422.png,With dysplasia,3,2
+p2423.png,With dysplasia,4,2
+p2424.png,With dysplasia,4,2
+p2425.png,With dysplasia,5,2
+p2426.png,With dysplasia,1,2
+p2427.png,With dysplasia,1,2
+p2428.png,With dysplasia,1,2
+p2429.png,With dysplasia,5,2
+p2430.png,With dysplasia,4,2
+p2431.png,With dysplasia,1,2
+p2432.png,With dysplasia,4,2
+p2433.png,With dysplasia,2,2
+p2434.png,With dysplasia,2,2
+p2435.png,With dysplasia,3,2
+p2436.png,With dysplasia,2,2
+p2437.png,With dysplasia,1,2
+p2438.png,With dysplasia,1,2
+p2439.png,With dysplasia,4,2
+p2440.png,With dysplasia,2,2
+p2441.png,With dysplasia,5,2
+p2442.png,With dysplasia,3,2
+p2443.png,With dysplasia,4,2
+p2444.png,With dysplasia,1,2
+p2445.png,With dysplasia,2,2
+p2446.png,With dysplasia,3,2
+p2447.png,With dysplasia,1,2
+p2448.png,With dysplasia,1,2
+p2449.png,With dysplasia,3,2
+p2450.png,With dysplasia,5,2
+p2451.png,With dysplasia,4,2
+p2452.png,With dysplasia,3,2
+p2453.png,With dysplasia,2,2
+p2454.png,With dysplasia,3,2
+p2455.png,With dysplasia,1,2
+p2456.png,With dysplasia,5,2
+p2457.png,With dysplasia,3,2
+p2458.png,With dysplasia,5,2
+p2459.png,With dysplasia,3,2
+p2460.png,With dysplasia,3,2
+p2461.png,With dysplasia,2,2
+p2462.png,With dysplasia,2,2
+p2463.png,With dysplasia,4,2
+p2464.png,With dysplasia,1,2
+p2465.png,With dysplasia,2,2
+p2466.png,With dysplasia,5,2
+p2467.png,With dysplasia,4,2
+p2468.png,With dysplasia,4,2
+p2469.png,With dysplasia,2,2
+p2470.png,With dysplasia,3,2
+p2471.png,With dysplasia,5,2
+p2472.png,With dysplasia,4,2
+p2473.png,With dysplasia,4,2
+p2474.png,With dysplasia,2,2
+p2475.png,With dysplasia,5,2
+p2476.png,With dysplasia,4,2
+p2477.png,With dysplasia,2,2
+p2478.png,With dysplasia,1,2
+p2479.png,With dysplasia,2,2
+p2480.png,With dysplasia,2,2
+p2481.png,With dysplasia,2,2
+p2482.png,With dysplasia,4,2
+p2483.png,With dysplasia,1,2
+p2484.png,With dysplasia,2,2
+p2485.png,With dysplasia,4,2
+p2486.png,With dysplasia,4,2
+p2487.png,With dysplasia,1,2
+p2488.png,With dysplasia,5,2
+p2489.png,With dysplasia,4,2
+p2490.png,With dysplasia,3,2
+p2491.png,With dysplasia,3,2
+p2492.png,With dysplasia,1,2
+p2493.png,With dysplasia,4,2
+p2494.png,With dysplasia,3,2
+p2495.png,With dysplasia,3,2
+p2496.png,With dysplasia,2,2
+p2497.png,With dysplasia,4,2
+p2498.png,With dysplasia,1,2
+p2499.png,With dysplasia,2,2
+p2500.png,With dysplasia,5,2
+p2501.png,With dysplasia,2,2
+p2502.png,With dysplasia,5,2
+p2503.png,With dysplasia,4,2
+p2504.png,With dysplasia,2,2
+p2505.png,With dysplasia,5,2
+p2506.png,With dysplasia,4,2
+p2507.png,With dysplasia,4,2
+p2508.png,With dysplasia,5,2
+p2509.png,With dysplasia,3,2
+p2510.png,With dysplasia,5,2
+p2511.png,With dysplasia,5,2
+p2512.png,With dysplasia,2,2
+p2513.png,With dysplasia,5,2
+p2514.png,With dysplasia,1,2
+p2515.png,With dysplasia,3,2
+p2516.png,With dysplasia,3,2
+p2517.png,With dysplasia,5,2
+p2518.png,With dysplasia,2,2
+p2519.png,With dysplasia,5,2
+p2520.png,With dysplasia,1,2
+p2521.png,With dysplasia,5,2
+p2522.png,With dysplasia,2,2
+p2523.png,With dysplasia,4,2
+p2524.png,With dysplasia,1,2
+p2525.png,With dysplasia,2,2
+p2526.png,With dysplasia,3,2
+p2527.png,With dysplasia,5,2
+p2528.png,With dysplasia,4,2
+p2529.png,With dysplasia,2,2
+p2530.png,With dysplasia,1,2
+p2531.png,With dysplasia,5,2
+p2532.png,With dysplasia,2,2
+p2533.png,With dysplasia,3,2
+p2534.png,With dysplasia,4,2
+p2535.png,With dysplasia,5,2
+p2536.png,With dysplasia,3,2
+p2537.png,With dysplasia,5,2
+p2538.png,With dysplasia,5,2
+p2539.png,With dysplasia,3,2
+p2540.png,With dysplasia,1,2
+p2541.png,With dysplasia,4,2
+p2542.png,With dysplasia,5,2
+p2543.png,With dysplasia,1,2
+p2544.png,With dysplasia,5,2
+p2545.png,With dysplasia,4,2
+p2546.png,With dysplasia,2,2
+p2547.png,With dysplasia,5,2
+p2548.png,With dysplasia,3,2
+p2549.png,With dysplasia,5,2
+p2550.png,With dysplasia,4,2
+p2551.png,With dysplasia,4,2
+p2552.png,With dysplasia,5,2
+p2553.png,With dysplasia,3,2
+p2554.png,With dysplasia,5,2
+p2555.png,With dysplasia,3,2
+p2556.png,With dysplasia,3,2
+p2557.png,With dysplasia,5,2
+p2558.png,With dysplasia,2,2
+p2559.png,With dysplasia,4,2
+p2560.png,With dysplasia,5,2
+p2561.png,With dysplasia,1,2
+p2562.png,With dysplasia,1,2
+p2563.png,With dysplasia,5,2
+p2564.png,With dysplasia,3,2
+p2565.png,With dysplasia,3,2
+p2566.png,With dysplasia,3,2
+p2567.png,With dysplasia,5,2
+p2568.png,With dysplasia,1,2
+p2569.png,With dysplasia,3,2
+p2570.png,With dysplasia,3,2
+p2571.png,With dysplasia,2,2
+p2572.png,With dysplasia,1,2
+p2573.png,With dysplasia,1,2
+p2574.png,With dysplasia,1,2
+p2575.png,With dysplasia,5,2
+p2576.png,With dysplasia,2,2
+p2577.png,With dysplasia,3,2
+p2578.png,With dysplasia,3,2
+p2579.png,With dysplasia,2,2
+p2580.png,With dysplasia,1,2
+p2581.png,With dysplasia,2,2
+p2582.png,With dysplasia,3,2
+p2583.png,With dysplasia,3,2
+p2584.png,With dysplasia,4,2
+p2585.png,With dysplasia,3,2
+p2586.png,With dysplasia,2,2
+p2587.png,With dysplasia,5,2
+p2588.png,With dysplasia,1,2
+p2589.png,With dysplasia,3,2
+p2590.png,With dysplasia,4,2
+p2591.png,With dysplasia,4,2
+p2592.png,With dysplasia,5,2
+p2593.png,With dysplasia,4,2
+p2594.png,With dysplasia,5,2
+p2595.png,With dysplasia,4,2
+p2596.png,With dysplasia,3,2
+p2597.png,With dysplasia,5,2
+p2598.png,With dysplasia,4,2
+p2599.png,With dysplasia,4,2
+p2600.png,With dysplasia,5,2
+p2601.png,With dysplasia,5,2
+p2602.png,With dysplasia,3,2
+p2603.png,With dysplasia,5,2
+p2604.png,With dysplasia,5,2
+p2605.png,With dysplasia,3,2
+p2606.png,With dysplasia,3,2
+p2607.png,With dysplasia,4,2
+p2608.png,With dysplasia,3,2
+p2609.png,With dysplasia,3,2
+p2610.png,With dysplasia,3,2
+p2611.png,With dysplasia,5,2
+p2612.png,With dysplasia,5,2
+p2613.png,With dysplasia,1,2
+p2614.png,With dysplasia,4,2
+p2615.png,With dysplasia,1,2
+p2616.png,With dysplasia,3,2
+p2617.png,With dysplasia,5,2
+p2618.png,With dysplasia,5,2
+p2619.png,With dysplasia,3,2
+p2620.png,With dysplasia,1,2
+p2621.png,With dysplasia,1,2
+p2622.png,With dysplasia,3,2
+p2623.png,With dysplasia,1,2
+p2624.png,With dysplasia,5,2
+p2625.png,With dysplasia,1,2
+p2626.png,With dysplasia,1,2
+p2627.png,With dysplasia,5,2
+p2628.png,With dysplasia,3,2
+p2629.png,With dysplasia,4,2
+p2630.png,With dysplasia,2,2
+p2631.png,With dysplasia,3,2
+p2632.png,With dysplasia,1,2
+p2633.png,With dysplasia,1,2
+p2634.png,With dysplasia,3,2
+p2635.png,With dysplasia,3,2
+p2636.png,With dysplasia,1,2
+p2637.png,With dysplasia,3,2
+p2638.png,With dysplasia,5,2
+p2639.png,With dysplasia,4,2
+p2640.png,With dysplasia,5,2
+p2641.png,With dysplasia,4,2
+p2642.png,With dysplasia,2,2
+p2643.png,With dysplasia,4,2
+p2644.png,With dysplasia,1,2
+p2645.png,With dysplasia,5,2
+p2646.png,With dysplasia,5,2
+p2647.png,With dysplasia,3,2
+p2648.png,With dysplasia,1,2
+p2649.png,With dysplasia,5,2
+p2650.png,With dysplasia,3,2
+p2651.png,With dysplasia,4,2
+p2652.png,With dysplasia,1,2
+p2653.png,With dysplasia,1,2
+p2654.png,With dysplasia,3,2
+p2655.png,With dysplasia,5,2
+p2656.png,With dysplasia,5,2
+p2657.png,With dysplasia,5,2
+p2658.png,With dysplasia,1,2
+p2659.png,With dysplasia,1,2
+p2660.png,With dysplasia,5,2
+p2661.png,With dysplasia,5,2
+p2662.png,With dysplasia,1,2
+p2663.png,With dysplasia,4,2
+p2664.png,With dysplasia,2,2
+p2665.png,With dysplasia,3,2
+p2666.png,With dysplasia,2,2
+p2667.png,With dysplasia,2,2
+p2668.png,With dysplasia,2,2
+p2669.png,With dysplasia,1,2
+p2670.png,With dysplasia,5,2
+p2671.png,With dysplasia,4,2
+p2672.png,With dysplasia,4,2
+p2673.png,With dysplasia,2,2
+p2674.png,With dysplasia,1,2
+p2675.png,With dysplasia,2,2
+p2676.png,With dysplasia,2,2
+p2677.png,With dysplasia,5,2
+p2678.png,With dysplasia,5,2
+p2679.png,With dysplasia,2,2
+p2680.png,With dysplasia,2,2
+p2681.png,With dysplasia,1,2
+p2682.png,With dysplasia,2,2
+p2683.png,With dysplasia,1,2
+p2684.png,With dysplasia,5,2
+p2685.png,With dysplasia,4,2
+p2686.png,With dysplasia,5,2
+p2687.png,With dysplasia,2,2
+p2688.png,With dysplasia,2,2
+p2689.png,With dysplasia,3,2
+p2690.png,With dysplasia,3,2
+p2691.png,With dysplasia,5,2
+p2692.png,With dysplasia,2,2
+p2693.png,With dysplasia,3,2
+p2694.png,With dysplasia,3,2
+p2695.png,With dysplasia,2,2
+p2696.png,With dysplasia,3,2
+p2697.png,With dysplasia,2,2
+p2698.png,With dysplasia,3,2
+p2699.png,With dysplasia,1,2
+p2700.png,With dysplasia,3,2
+p2701.png,With dysplasia,3,2
+p2702.png,With dysplasia,2,2
+p2703.png,With dysplasia,2,2
+p2704.png,With dysplasia,3,2
+p2705.png,With dysplasia,5,2
+p2706.png,With dysplasia,3,2
+p2707.png,With dysplasia,5,2
+p2708.png,With dysplasia,2,2
+p2709.png,With dysplasia,3,2
+p2710.png,With dysplasia,4,2
+p2711.png,With dysplasia,1,2
+p2712.png,With dysplasia,4,2
+p2713.png,With dysplasia,3,2
+p2714.png,With dysplasia,1,2
+p2715.png,With dysplasia,2,2
+p2716.png,With dysplasia,5,2
+p2717.png,With dysplasia,2,2
+p2718.png,With dysplasia,5,2
+p2719.png,With dysplasia,4,2
+p2720.png,With dysplasia,1,2
+p2721.png,With dysplasia,3,2
+p2722.png,With dysplasia,4,2
+p2723.png,With dysplasia,2,2
+p2724.png,With dysplasia,3,2
+p2725.png,With dysplasia,5,2
+p2726.png,With dysplasia,4,2
+p2727.png,With dysplasia,3,2
+p2728.png,With dysplasia,2,2
+p2729.png,With dysplasia,5,2
+p2730.png,With dysplasia,5,2
+p2731.png,With dysplasia,2,2
+p2732.png,With dysplasia,5,2
+p2733.png,With dysplasia,3,2
+p2734.png,With dysplasia,1,2
+p2735.png,With dysplasia,4,2
+p2736.png,With dysplasia,1,2
+p2737.png,With dysplasia,1,2
+p2738.png,With dysplasia,2,2
+p2739.png,With dysplasia,4,2
+p2740.png,With dysplasia,4,2
+p2741.png,With dysplasia,5,2
+p2742.png,With dysplasia,3,2
+p2743.png,With dysplasia,1,2
+p2744.png,With dysplasia,1,2
+p2745.png,With dysplasia,2,2
+p2746.png,With dysplasia,3,2
+p2747.png,With dysplasia,5,2
+p2748.png,With dysplasia,1,2
+p2749.png,With dysplasia,5,2
+p2750.png,With dysplasia,5,2
+p2751.png,With dysplasia,5,2
+p2752.png,With dysplasia,5,2
+p2753.png,With dysplasia,2,2
+p2754.png,With dysplasia,1,2
+p2755.png,With dysplasia,1,2
+p2756.png,With dysplasia,2,2
+p2757.png,With dysplasia,1,2
+p2758.png,With dysplasia,4,2
+p2759.png,With dysplasia,5,2
+p2760.png,With dysplasia,1,2
+p2761.png,With dysplasia,4,2
+p2762.png,With dysplasia,5,2
+p2763.png,With dysplasia,1,2
+p2764.png,With dysplasia,1,2
+p2765.png,With dysplasia,2,2
+p2766.png,With dysplasia,1,2
+p2767.png,With dysplasia,1,2
+p2768.png,With dysplasia,2,2
+p2769.png,With dysplasia,3,2
+p2770.png,With dysplasia,5,2
+p2771.png,With dysplasia,5,2
+p2772.png,With dysplasia,4,2
+p2773.png,With dysplasia,2,2
+p2774.png,With dysplasia,3,2
+p2775.png,With dysplasia,4,2
+p2776.png,With dysplasia,2,2
+p2777.png,With dysplasia,4,2
+p2778.png,With dysplasia,2,2
+p2779.png,With dysplasia,1,2
+p2780.png,With dysplasia,1,2
+p2781.png,With dysplasia,4,2
+p2782.png,With dysplasia,4,2
+p2783.png,With dysplasia,1,2
+p2784.png,With dysplasia,1,2
+p2785.png,With dysplasia,2,2
+p2786.png,With dysplasia,1,2
+p2787.png,With dysplasia,2,2
+p2788.png,With dysplasia,3,2
+p2789.png,With dysplasia,1,2
+p2790.png,With dysplasia,1,2
+p2791.png,With dysplasia,2,2
+p2792.png,With dysplasia,4,2
+p2793.png,With dysplasia,5,2
+p2794.png,With dysplasia,5,2
+p2795.png,With dysplasia,4,2
+p2796.png,With dysplasia,2,2
+p2797.png,With dysplasia,3,2
+p2798.png,With dysplasia,5,2
+p2799.png,With dysplasia,5,2
+p2800.png,With dysplasia,1,2
+p2801.png,With dysplasia,5,2
+p2802.png,With dysplasia,4,2
+p2803.png,With dysplasia,5,2
+p2804.png,With dysplasia,2,2
+p2805.png,With dysplasia,4,2
+p2806.png,With dysplasia,1,2
+p2807.png,With dysplasia,4,2
+p2808.png,With dysplasia,2,2
+p2809.png,With dysplasia,1,2
+p2810.png,With dysplasia,4,2
+p2811.png,With dysplasia,2,2
+p2812.png,With dysplasia,5,2
+p2813.png,With dysplasia,1,2
+p2814.png,With dysplasia,3,2
+p2815.png,With dysplasia,5,2
+p2816.png,With dysplasia,3,2
+p2817.png,With dysplasia,1,2
+p2818.png,With dysplasia,4,2
+p2819.png,With dysplasia,4,2
+p2820.png,With dysplasia,4,2
+p2821.png,With dysplasia,1,2
+p2822.png,With dysplasia,2,2
+p2823.png,With dysplasia,2,2
+p2824.png,With dysplasia,3,2
+p2825.png,With dysplasia,1,2
+p2826.png,With dysplasia,1,2
+p2827.png,With dysplasia,5,2
+p2828.png,With dysplasia,3,2
+p2829.png,With dysplasia,5,2
+p2830.png,With dysplasia,5,2
+p2831.png,OSCC,2,1
+p2832.png,OSCC,5,1
+p2833.png,OSCC,1,1
+p2834.png,OSCC,3,1
+p2835.png,OSCC,4,1
+p2836.png,OSCC,3,1
+p2837.png,OSCC,3,1
+p2838.png,OSCC,1,1
+p2839.png,OSCC,5,1
+p2840.png,OSCC,1,1
+p2841.png,OSCC,2,1
+p2842.png,OSCC,4,1
+p2843.png,OSCC,1,1
+p2844.png,OSCC,4,1
+p2845.png,OSCC,3,1
+p2846.png,OSCC,2,1
+p2847.png,OSCC,3,1
+p2848.png,OSCC,3,1
+p2849.png,OSCC,3,1
+p2850.png,OSCC,2,1
+p2851.png,OSCC,2,1
+p2852.png,OSCC,4,1
+p2853.png,OSCC,4,1
+p2854.png,OSCC,2,1
+p2855.png,OSCC,3,1
+p2856.png,OSCC,1,1
+p2857.png,OSCC,3,1
+p2858.png,OSCC,2,1
+p2859.png,OSCC,3,1
+p2860.png,OSCC,1,1
+p2861.png,OSCC,5,1
+p2862.png,OSCC,3,1
+p2863.png,OSCC,3,1
+p2864.png,OSCC,4,1
+p2865.png,OSCC,1,1
+p2866.png,OSCC,4,1
+p2867.png,OSCC,3,1
+p2868.png,OSCC,4,1
+p2869.png,OSCC,1,1
+p2870.png,OSCC,1,1
+p2871.png,OSCC,4,1
+p2872.png,OSCC,4,1
+p2873.png,OSCC,3,1
+p2874.png,OSCC,2,1
+p2875.png,OSCC,3,1
+p2876.png,OSCC,5,1
+p2877.png,OSCC,5,1
+p2878.png,OSCC,1,1
+p2879.png,OSCC,3,1
+p2880.png,OSCC,3,1
+p2881.png,OSCC,4,1
+p2882.png,OSCC,1,1
+p2883.png,OSCC,5,1
+p2884.png,OSCC,2,1
+p2885.png,OSCC,3,1
+p2886.png,OSCC,5,1
+p2887.png,OSCC,1,1
+p2888.png,OSCC,5,1
+p2889.png,OSCC,5,1
+p2890.png,OSCC,5,1
+p2891.png,OSCC,3,1
+p2892.png,OSCC,5,1
+p2893.png,OSCC,3,1
+p2894.png,OSCC,5,1
+p2895.png,OSCC,1,1
+p2896.png,OSCC,2,1
+p2897.png,OSCC,3,1
+p2898.png,OSCC,2,1
+p2899.png,OSCC,2,1
+p2900.png,OSCC,2,1
+p2901.png,OSCC,1,1
+p2902.png,OSCC,1,1
+p2903.png,OSCC,5,1
+p2904.png,OSCC,2,1
+p2905.png,OSCC,4,1
+p2906.png,OSCC,4,1
+p2907.png,OSCC,3,1
+p2908.png,OSCC,1,1
+p2909.png,OSCC,5,1
+p2910.png,OSCC,1,1
+p2911.png,OSCC,5,1
+p2912.png,OSCC,1,1
+p2913.png,OSCC,4,1
+p2914.png,OSCC,2,1
+p2915.png,OSCC,5,1
+p2916.png,OSCC,1,1
+p2917.png,OSCC,1,1
+p2918.png,OSCC,2,1
+p2919.png,OSCC,2,1
+p2920.png,OSCC,3,1
+p2921.png,Without dysplasia,5,0
+p2922.png,Without dysplasia,3,0
+p2923.png,Without dysplasia,4,0
+p2924.png,Without dysplasia,5,0
+p2925.png,Without dysplasia,1,0
+p2926.png,Without dysplasia,5,0
+p2927.png,Without dysplasia,1,0
+p2928.png,Without dysplasia,3,0
+p2929.png,Without dysplasia,5,0
+p2930.png,Without dysplasia,3,0
+p2931.png,Without dysplasia,2,0
+p2932.png,Without dysplasia,3,0
+p2933.png,Without dysplasia,4,0
+p2934.png,Without dysplasia,2,0
+p2935.png,Without dysplasia,5,0
+p2936.png,Without dysplasia,5,0
+p2937.png,Without dysplasia,5,0
+p2938.png,Without dysplasia,3,0
+p2939.png,Without dysplasia,1,0
+p2940.png,Without dysplasia,5,0
+p2941.png,Without dysplasia,1,0
+p2942.png,Without dysplasia,4,0
+p2943.png,Without dysplasia,5,0
+p2944.png,Without dysplasia,2,0
+p2945.png,Without dysplasia,5,0
+p2946.png,Without dysplasia,4,0
+p2947.png,Without dysplasia,3,0
+p2948.png,Without dysplasia,4,0
+p2949.png,Without dysplasia,2,0
+p2950.png,Without dysplasia,1,0
+p2951.png,Without dysplasia,4,0
+p2952.png,Without dysplasia,2,0
+p2953.png,Without dysplasia,1,0
+p2954.png,Without dysplasia,1,0
+p2955.png,Without dysplasia,1,0
+p2956.png,Without dysplasia,3,0
+p2957.png,Without dysplasia,2,0
+p2958.png,Without dysplasia,4,0
+p2959.png,Without dysplasia,1,0
+p2960.png,Without dysplasia,2,0
+p2961.png,Without dysplasia,1,0
+p2962.png,Without dysplasia,1,0
+p2963.png,Without dysplasia,5,0
+p2964.png,Without dysplasia,2,0
+p2965.png,Without dysplasia,3,0
+p2966.png,Without dysplasia,4,0
+p2967.png,Without dysplasia,4,0
+p2968.png,Without dysplasia,5,0
+p2969.png,Without dysplasia,2,0
+p2970.png,Without dysplasia,3,0
+p2971.png,Without dysplasia,2,0
+p2972.png,Without dysplasia,3,0
+p2973.png,Without dysplasia,1,0
+p2974.png,Without dysplasia,2,0
+p2975.png,Without dysplasia,1,0
+p2976.png,Without dysplasia,5,0
+p2977.png,Without dysplasia,3,0
+p2978.png,Without dysplasia,5,0
+p2979.png,Without dysplasia,4,0
+p2980.png,With dysplasia,4,2
+p2981.png,With dysplasia,4,2
+p2982.png,With dysplasia,1,2
+p2983.png,With dysplasia,5,2
+p2984.png,With dysplasia,5,2
+p2985.png,With dysplasia,1,2
+p2986.png,With dysplasia,5,2
+p2987.png,With dysplasia,5,2
+p2988.png,With dysplasia,4,2
+p2989.png,With dysplasia,4,2
+p2990.png,With dysplasia,3,2
+p2991.png,With dysplasia,1,2
+p2992.png,With dysplasia,5,2
+p2993.png,With dysplasia,4,2
+p2994.png,With dysplasia,3,2
+p2995.png,With dysplasia,1,2
+p2996.png,With dysplasia,5,2
+p2997.png,With dysplasia,1,2
+p2998.png,With dysplasia,1,2
+p2999.png,With dysplasia,4,2
+p3000.png,With dysplasia,2,2
+p3001.png,With dysplasia,4,2
+p3002.png,With dysplasia,1,2
+p3003.png,With dysplasia,1,2
+p3004.png,With dysplasia,4,2
+p3005.png,With dysplasia,2,2
+p3006.png,With dysplasia,4,2
+p3007.png,With dysplasia,3,2
+p3008.png,With dysplasia,3,2
+p3009.png,With dysplasia,5,2
+p3010.png,With dysplasia,1,2
+p3011.png,With dysplasia,3,2
+p3012.png,With dysplasia,1,2
+p3013.png,With dysplasia,1,2
+p3014.png,With dysplasia,4,2
+p3015.png,With dysplasia,4,2
+p3016.png,With dysplasia,2,2
+p3017.png,With dysplasia,2,2
+p3018.png,With dysplasia,3,2
+p3019.png,With dysplasia,2,2
+p3020.png,With dysplasia,5,2
+p3021.png,With dysplasia,5,2
+p3022.png,With dysplasia,2,2
+p3023.png,With dysplasia,1,2
+p3024.png,With dysplasia,5,2
+p3025.png,With dysplasia,5,2
+p3026.png,With dysplasia,4,2
+p3027.png,With dysplasia,4,2
+p3028.png,With dysplasia,4,2
+p3029.png,With dysplasia,1,2
+p3030.png,With dysplasia,1,2
+p3031.png,With dysplasia,1,2
+p3032.png,With dysplasia,1,2
+p3033.png,With dysplasia,1,2
+p3034.png,With dysplasia,2,2
+p3035.png,With dysplasia,3,2
+p3036.png,With dysplasia,2,2
+p3037.png,With dysplasia,2,2
+p3038.png,With dysplasia,1,2
+p3039.png,With dysplasia,4,2
+p3040.png,With dysplasia,1,2
+p3041.png,With dysplasia,3,2
+p3042.png,With dysplasia,5,2
+p3043.png,With dysplasia,4,2
+p3044.png,With dysplasia,2,2
+p3045.png,With dysplasia,4,2
+p3046.png,With dysplasia,4,2
+p3047.png,With dysplasia,2,2
+p3048.png,With dysplasia,4,2
+p3049.png,With dysplasia,2,2
+p3050.png,With dysplasia,3,2
+p3051.png,With dysplasia,5,2
+p3052.png,With dysplasia,5,2
+p3053.png,With dysplasia,3,2
+p3054.png,With dysplasia,2,2
+p3055.png,With dysplasia,2,2
+p3056.png,With dysplasia,4,2
+p3057.png,With dysplasia,1,2
+p3058.png,With dysplasia,3,2
+p3059.png,With dysplasia,4,2
+p3060.png,With dysplasia,4,2
+p3061.png,With dysplasia,5,2
+p3062.png,With dysplasia,4,2
+p3063.png,With dysplasia,3,2
+p3064.png,With dysplasia,5,2
+p3065.png,With dysplasia,2,2
+p3066.png,With dysplasia,4,2
+p3067.png,With dysplasia,4,2
+p3068.png,With dysplasia,1,2
+p3069.png,With dysplasia,1,2
+p3070.png,With dysplasia,4,2
+p3071.png,With dysplasia,1,2
+p3072.png,With dysplasia,2,2
+p3073.png,With dysplasia,4,2
+p3074.png,With dysplasia,4,2
+p3075.png,With dysplasia,1,2
+p3076.png,With dysplasia,4,2
+p3077.png,With dysplasia,2,2
+p3078.png,With dysplasia,2,2
+p3079.png,With dysplasia,2,2
+p3080.png,With dysplasia,5,2
+p3081.png,With dysplasia,5,2
+p3082.png,With dysplasia,5,2
+p3083.png,With dysplasia,5,2
+p3084.png,With dysplasia,4,2
+p3085.png,With dysplasia,1,2
+p3086.png,With dysplasia,3,2
+p3087.png,With dysplasia,4,2
+p3088.png,With dysplasia,1,2
+p3089.png,With dysplasia,4,2
+p3090.png,With dysplasia,1,2
+p3091.png,With dysplasia,4,2
+p3092.png,With dysplasia,5,2
+p3093.png,With dysplasia,4,2
+p3094.png,With dysplasia,2,2
+p3095.png,With dysplasia,3,2
+p3096.png,With dysplasia,2,2
+p3097.png,With dysplasia,3,2
+p3098.png,With dysplasia,1,2
+p3099.png,With dysplasia,1,2
+p3100.png,With dysplasia,4,2
+p3101.png,With dysplasia,2,2
+p3102.png,With dysplasia,1,2
+p3103.png,With dysplasia,1,2
+p3104.png,With dysplasia,2,2
+p3105.png,With dysplasia,3,2
+p3106.png,With dysplasia,4,2
+p3107.png,With dysplasia,1,2
+p3108.png,With dysplasia,5,2
+p3109.png,With dysplasia,2,2
+p3110.png,With dysplasia,5,2
+p3111.png,With dysplasia,3,2
+p3112.png,With dysplasia,4,2
+p3113.png,With dysplasia,5,2
+p3114.png,With dysplasia,4,2
+p3115.png,With dysplasia,4,2
+p3116.png,With dysplasia,1,2
+p3117.png,With dysplasia,2,2
+p3118.png,With dysplasia,1,2
+p3119.png,With dysplasia,4,2
+p3120.png,With dysplasia,1,2
+p3121.png,With dysplasia,1,2
+p3122.png,With dysplasia,2,2
+p3123.png,With dysplasia,3,2
+p3124.png,With dysplasia,1,2
+p3125.png,With dysplasia,1,2
+p3126.png,With dysplasia,2,2
+p3127.png,With dysplasia,4,2
+p3128.png,With dysplasia,3,2
+p3129.png,With dysplasia,1,2
+p3130.png,With dysplasia,4,2
+p3131.png,With dysplasia,3,2
+p3132.png,With dysplasia,4,2
+p3133.png,With dysplasia,1,2
+p3134.png,With dysplasia,2,2
+p3135.png,With dysplasia,2,2

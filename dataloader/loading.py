@@ -266,9 +266,9 @@ class PadUfesBinary(Dataset):
         
         return img, int(self.df.loc[index][self.y])
 
-class PNdbUfes(Dataset):
-    def __init__(self, root: str, train: bool = True):
-        self.trainsize = (224,224)
+class PNdbUfes(MyDataset):
+    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True):
+        super(PadUfes20, self).__init__(root, csv_train, csv_test, train)
         if train:
             self.transform_center = transforms.Compose([
                 trans.CropCenterSquare(),
@@ -287,22 +287,8 @@ class PNdbUfes(Dataset):
                 transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
             ])
             
-        self.train = train
-        self.root = root
-        
-        # Defining .csv file to be used
-        if self.train:
-            csv_name = "sabpatch_parsed_folders.csv"
-        else:
-            csv_name = "sabpatch_parsed_test.csv"
-            
-        # Opening dataframe:
-        self.df = pd.read_csv(os.path.join(self.root, csv_name), header = 0)
         self.x = "path"
         self.y = "label_number"
-        
-    def __len__(self):
-        return len(self.df)
     
     def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
         if torch.is_tensor(index):
@@ -310,9 +296,7 @@ class PNdbUfes(Dataset):
                 
         img_path = os.path.join(self.root, "images", self.df.loc[index][self.x])
         img = Image.open(img_path).convert('RGB')
-        
         img = self.transform_center(img)
-            
         return img, int(self.df.loc[index][self.y])
     
 class HIBADataset(MyDataset):

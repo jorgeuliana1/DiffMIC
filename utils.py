@@ -144,8 +144,18 @@ def get_dataset(args, config):
         train_dataset = HIBASixClinicalDataset(config.data.dataroot, train=True)
         test_dataset = HIBASixClinicalDataset(config.data.dataroot, train=False)
     elif config.data.dataset == "P-NDB-UFES":
-        train_dataset = PNdbUfes(config.data.dataroot, train=True)
-        test_dataset = PNdbUfes(config.data.dataroot, train=False)
+        train_dataset = PNdbUfes(
+            config.data.dataroot,
+            csv_train=config.data.traindata,
+            csv_test=config.data.testdata,
+            train=True
+        )
+        test_dataset = PNdbUfes(
+            config.data.dataroot,
+            csv_train=config.data.traindata,
+            csv_test=config.data.testdata,
+            train=False
+        )
     elif config.data.dataset == "LIPAI":
         train_dataset = LIPAIDataset(config.data.dataroot, train=True)
         test_dataset = LIPAIDataset(config.data.dataroot, train=False)

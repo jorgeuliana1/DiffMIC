@@ -5,6 +5,9 @@ data:
     num_classes: 3
     num_workers: 9
     dataroot: '/data/datasets/images/NDB-UFES'
+    traindata: './dataset/P-NDB-UFES/sabpatch_parsed_folders.csv'
+    testdata: './dataset/P-NDB-UFES/sabpatch_parsed_test.csv'
+    labels_balance: [0.18781888, 0.29942602, 0.5127551]
 
 model:
     type: "simple"
