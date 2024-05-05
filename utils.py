@@ -208,15 +208,20 @@ def compute_isic_metrics(gt, pred):
 def compute_f1_score(gt, pred):
     gt_class = gt.cpu().detach().numpy()
     pred_np = pred.cpu().detach().numpy()
-
-    #gt_class = np.argmax(gt_np, axis=1)
     pred_class = np.argmax(pred_np, axis=1)
-
     F1 = f1_score(gt_class, pred_class, average='macro')
-    #AUC_ovo = metrics.roc_auc_score(gt_np, pred_np, average='macro', multi_class='ovo')
-    #AUC_macro = metrics.roc_auc_score(gt_class, pred_np, average='macro', multi_class='ovo')
-
-    #SPEC = specificity_score(gt_class, pred_class, average='macro')
-
-    # print(confusion_matrix(gt_class, pred_class))
     return F1
+
+def compute_recall_score(gt, pred):
+    gt_class = gt.cpu().detach().numpy()
+    pred_np = pred.cpu().detach().numpy()
+    pred_class = np.argmax(pred_np, axis=1)
+    recall = recall_score(gt_class, pred_class, average='macro')
+    return recall
+
+def compute_precision_score(gt, pred):
+    gt_class = gt.cpu().detach().numpy()
+    pred_np = pred.cpu().detach().numpy()
+    pred_class = np.argmax(pred_np, axis=1)
+    precision = precision_score(gt_class, pred_class, average='macro')
+    return precision
