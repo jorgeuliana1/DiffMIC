@@ -447,6 +447,9 @@ class HIBASixDataset(Dataset):
         self.df = pd.read_csv(os.path.join(self.root, csv_name), header = 0)
         self.x = "image"
         self.y = "diagnosis_label"
+        
+        # Adding image names
+        self.df[self.x] = self.df["isic_id"] + ".jpg"
 
     def __len__(self):
         return len(self.df)
