@@ -599,11 +599,12 @@ class Diffusion(object):
         acc_avg /= (test_batch_idx + 1)
         kappa_avg /= (test_batch_idx + 1)
         precision_avg = compute_precision_score(y1_true, y1_pred)
-        recall_avg = compute_recall_score(y1_true, y1_pred)        
+        recall_avg = compute_recall_score(y1_true, y1_pred)
+        bacc_avg = compute_bacc_score(y1_true, y1_pred)
         logging.info(
                             (
                                     f"[Test:] Average accuracy: {acc_avg}, Average Kappa: {kappa_avg}" + \
-                                    f", F1: {f1_avg}, Prec.: {precision_avg}, Recall: {recall_avg}"
+                                    f", F1: {f1_avg}, Prec.: {precision_avg}, Recall: {recall_avg}, BAcc: {bacc_avg}"
                             )
                     )
 
