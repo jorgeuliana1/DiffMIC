@@ -1,0 +1,32 @@
+isic_id,attribution,copyright_license,age_approx,anatom_site_general,benign_malignant,concomitant_biopsy,dermoscopic_type,diagnosis,diagnosis_confirm_type,family_hx_mm,fitzpatrick_skin_type,image_type,lesion_id,patient_id,personal_hx_mm,sex,diagnosis_cleaned,diagnosis_label
+ISIC_3114203,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,benign,True,,actinic keratosis,histopathology,,II,clinical: overview,IL_7041260,IP_7256360,,male,actinic keratosis,0
+ISIC_4489445,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,squamous cell carcinoma,histopathology,,II,clinical: overview,IL_7399308,IP_7923120,,male,squamous cell carcinoma,4
+ISIC_3585954,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_5507125,IP_2427319,,female,basal cell carcinoma,1
+ISIC_4888155,Hospital Italiano de Buenos Aires,CC-BY,55.0,head/neck,benign,True,,actinic keratosis,histopathology,True,II,clinical: overview,IL_9049450,IP_2208139,False,female,actinic keratosis,0
+ISIC_6525238,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,,clinical: overview,IL_3266357,IP_2081101,,male,basal cell carcinoma,1
+ISIC_0799918,Hospital Italiano de Buenos Aires,CC-BY,85.0,anterior torso,benign,True,,seborrheic keratosis,histopathology,False,II,clinical: overview,IL_3664250,IP_3702153,False,male,seborrheic keratosis,5
+ISIC_8495716,Hospital Italiano de Buenos Aires,CC-BY,35.0,anterior torso,malignant,True,,basal cell carcinoma,histopathology,,,clinical: overview,IL_8573962,IP_9002218,,female,basal cell carcinoma,1
+ISIC_1309231,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,squamous cell carcinoma,histopathology,,II,clinical: overview,IL_2659423,IP_1414430,,female,squamous cell carcinoma,4
+ISIC_3019909,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,benign,True,,nevus,histopathology,,II,clinical: overview,IL_8887018,IP_5527482,,male,nevus,3
+ISIC_7169848,Hospital Italiano de Buenos Aires,CC-BY,80.0,anterior torso,malignant,True,,squamous cell carcinoma,histopathology,False,II,clinical: overview,IL_2440183,IP_3315006,False,female,squamous cell carcinoma,4
+ISIC_5836857,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,melanoma,histopathology,False,II,clinical: overview,IL_8955295,IP_2359644,True,male,melanoma,2
+ISIC_5059671,Hospital Italiano de Buenos Aires,CC-BY,85.0,lower extremity,malignant,True,,melanoma,histopathology,,II,clinical: overview,IL_4891081,IP_0325006,,female,melanoma,2
+ISIC_3498622,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,malignant,True,,squamous cell carcinoma,histopathology,,II,clinical: overview,IL_6640027,IP_8388966,,male,squamous cell carcinoma,4
+ISIC_9660302,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,III,clinical: overview,IL_6022331,IP_1319015,,male,basal cell carcinoma,1
+ISIC_9082062,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,benign,True,,nevus,histopathology,,II,clinical: overview,IL_4524069,IP_6558273,True,male,nevus,3
+ISIC_5449807,Hospital Italiano de Buenos Aires,CC-BY,75.0,lower extremity,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_6020575,IP_4393692,,male,basal cell carcinoma,1
+ISIC_8548189,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,benign,False,,seborrheic keratosis,,,II,clinical: overview,IL_8678803,IP_2738763,,female,seborrheic keratosis,5
+ISIC_9925949,Hospital Italiano de Buenos Aires,CC-BY,20.0,posterior torso,benign,True,,nevus,histopathology,False,II,clinical: overview,IL_1775432,IP_7203368,False,female,nevus,3
+ISIC_2354429,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,malignant,True,,basal cell carcinoma,histopathology,False,II,clinical: overview,IL_2407401,IP_0031063,True,female,basal cell carcinoma,1
+ISIC_0133379,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_3383993,IP_3342129,,female,basal cell carcinoma,1
+ISIC_3222130,Hospital Italiano de Buenos Aires,CC-BY,,anterior torso,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_9896383,IP_0095265,,female,basal cell carcinoma,1
+ISIC_5911355,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,malignant,True,,basal cell carcinoma,histopathology,False,II,clinical: overview,IL_3412296,IP_8624681,False,male,basal cell carcinoma,1
+ISIC_0921082,Hospital Italiano de Buenos Aires,CC-BY,75.0,upper extremity,benign,True,,nevus,histopathology,False,II,clinical: overview,IL_2307963,IP_1040510,True,female,nevus,3
+ISIC_7221652,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,,melanoma,histopathology,False,I,clinical: overview,IL_6201048,IP_0212365,True,male,melanoma,2
+ISIC_6241688,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,malignant,True,,melanoma,histopathology,False,III,clinical: overview,IL_8605960,IP_3682931,False,male,melanoma,2
+ISIC_3518714,Hospital Italiano de Buenos Aires,CC-BY,50.0,lower extremity,malignant,True,,melanoma,histopathology,False,II,clinical: overview,IL_3810076,IP_6406539,True,male,melanoma,2
+ISIC_8781042,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,benign,True,,nevus,histopathology,False,III,clinical: overview,IL_1160690,IP_3682931,False,male,nevus,3
+ISIC_3311204,Hospital Italiano de Buenos Aires,CC-BY,60.0,lower extremity,malignant,True,,melanoma,histopathology,,II,clinical: overview,IL_6936924,IP_7362744,,male,melanoma,2
+ISIC_5784016,Hospital Italiano de Buenos Aires,CC-BY,70.0,upper extremity,malignant,True,,squamous cell carcinoma,histopathology,,II,clinical: overview,IL_2144167,IP_8369422,,female,squamous cell carcinoma,4
+ISIC_9922955,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,malignant,True,,basal cell carcinoma,histopathology,False,II,clinical: overview,IL_1694184,IP_5801898,False,female,basal cell carcinoma,1
+ISIC_3098914,Hospital Italiano de Buenos Aires,CC-BY,85.0,upper extremity,malignant,True,,basal cell carcinoma,histopathology,,III,clinical: overview,IL_1120407,IP_1173614,True,female,basal cell carcinoma,1
