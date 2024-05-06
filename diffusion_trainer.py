@@ -80,7 +80,7 @@ class Diffusion(object):
                 labels_balance = np.asarray(config.data.labels_balance)
                 labels_weight = 1 / labels_balance
                 normalized_weight = labels_weight / labels_weight.sum()
-                weight_tensor = torch.tensor(normalized_weight, dtype=torch.float)
+                weight_tensor = torch.tensor(normalized_weight, dtype=torch.float).to(self.device)
                 self.aux_cost_function = torch.nn.CrossEntropyLoss(weight=weight_tensor)
             else:
                 self.aux_cost_function = nn.CrossEntropyLoss()
@@ -174,7 +174,7 @@ class Diffusion(object):
             labels_balance = np.asarray(config.data.labels_balance)
             labels_weight = 1 / labels_balance
             normalized_weight = labels_weight / labels_weight.sum()
-            weight_tensor = torch.tensor(normalized_weight, dtype=torch.float)
+            weight_tensor = torch.tensor(normalized_weight, dtype=torch.float).to(self.device)
             criterion = torch.nn.CrossEntropyLoss(weight=weight_tensor)
         else:
             criterion = nn.CrossEntropyLoss()
