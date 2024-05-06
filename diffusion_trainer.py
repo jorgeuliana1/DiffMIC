@@ -75,7 +75,16 @@ class Diffusion(object):
         # initial prediction model as guided condition
         if config.diffusion.apply_aux_cls:
             self.cond_pred_model = AuxCls(config).to(self.device)
-            self.aux_cost_function = nn.CrossEntropyLoss()
+            
+            if hasattr(config.data, "labels_balance"):
+                labels_balance = np.asarray(config.data.labels_balance)
+                labels_weight = 1 / labels_balance
+                normalized_weight = labels_weight / labels_weight.sum()
+                weight_tensor = torch.tensor(normalized_weight, dtype=torch.float)
+                self.aux_cost_function = torch.nn.CrossEntropyLoss(weight=weight_tensor)
+            else:
+                self.aux_cost_function = nn.CrossEntropyLoss()
+                
         else:
             pass
 
@@ -160,7 +169,16 @@ class Diffusion(object):
             y_acc_aux_model))
 
         optimizer = get_optimizer(self.config.optim, model.parameters())
-        criterion = nn.CrossEntropyLoss()
+        
+        if hasattr(config.data, "labels_balance"):
+            labels_balance = np.asarray(config.data.labels_balance)
+            labels_weight = 1 / labels_balance
+            normalized_weight = labels_weight / labels_weight.sum()
+            weight_tensor = torch.tensor(normalized_weight, dtype=torch.float)
+            criterion = torch.nn.CrossEntropyLoss(weight=weight_tensor)
+        else:
+            criterion = nn.CrossEntropyLoss()
+            
         brier_score = nn.MSELoss()
 
         # apply an auxiliary optimizer for the guidance classifier
