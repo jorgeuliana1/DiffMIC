@@ -325,7 +325,7 @@ def main():
         raise NotImplementedError("Invalid loss option")
 
     try:
-        for fold_n in args.n_folds:
+        for fold_n in range(args.n_folds):
             diff_args = argparse.Namespace(**vars(args))
             diff_args.log_path = os.path.join(args.log_path, f"fold_n_{fold_n:02d}")
             runner = Diffusion(diff_args, config, device=config.device)
