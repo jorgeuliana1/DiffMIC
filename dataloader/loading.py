@@ -159,13 +159,15 @@ class ISICDataset(Dataset):
         return self.size
     
 class MyDataset(Dataset):
-    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True):
+    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True, val: bool = False, fold_n: int = -1):
         self.trainsize = (224,224)
         self.train = train
+        self.val = val
         self.root = root
+        self.fold_n = fold_n
 
         # Defining .csv file to be used
-        if self.train:
+        if self.train or self.val:
             csv_name = csv_train
         else:
             csv_name = csv_test
@@ -184,8 +186,8 @@ class MyDataset(Dataset):
         return np.asarray(sorted_v_counts)
     
 class PadUfes20(MyDataset):
-    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True):
-        super(PadUfes20, self).__init__(root, csv_train, csv_test, train)
+    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True, val: bool = False, fold_n: int = -1):
+        super(PadUfes20, self).__init__(root, csv_train, csv_test, train, val, fold_n)
         if self.train:
             self.transform_center = transforms.Compose([
                 trans.CropCenterSquare(),
@@ -206,6 +208,13 @@ class PadUfes20(MyDataset):
             
         self.x = "img_id"
         self.y = "diagnostic_number"
+        
+        if self.val:
+            val_indexes = self.df["folder"] == fold_n + 1
+            self.df = self.df[val_indexes]
+        elif self.train:
+            train_indexes = self.df["folder"] != fold_n + 1
+            self.df = self.df[train_indexes]
     
     def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
         if torch.is_tensor(index):

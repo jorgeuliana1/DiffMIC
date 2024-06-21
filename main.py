@@ -112,6 +112,9 @@ parser.add_argument(
     "--n_splits", type=int, default=10, help="total number of runs with different seeds for a specific task"
 )
 parser.add_argument(
+    "--n_folds", type=int, default=1, help="total number of runs with different folds for a specific task"
+)
+parser.add_argument(
     "--split", type=int, default=0, help="split ID"
 )
 parser.add_argument(
@@ -322,30 +325,59 @@ def main():
         raise NotImplementedError("Invalid loss option")
 
     try:
-        runner = Diffusion(args, config, device=config.device)
-        start_time = time.time()
-        procedure = None
-        if args.sample:
-            runner.sample()
-            procedure = "Sampling"
-        elif args.test:
-            runner.test()
-            procedure = "Testing"
-        else:
-            #set_random_seed(config.data.seed)
-            runner.train()
-            procedure = "Training"
-        end_time = time.time()
-        logging.info("\n{} procedure finished. It took {:.4f} minutes.\n\n\n".format(
-            procedure, (end_time - start_time) / 60))
-        # remove logging handlers
-        handlers = logger.handlers[:]
-        for handler in handlers:
-            logger.removeHandler(handler)
-            handler.close()
-        # # return test metric lists
-        # if args.test:
-        #     return y_majority_vote_accuracy_all_steps_list, config
+        for fold_n in args.n_folds:
+            diff_args = argparse.Namespace(**vars(args))
+            diff_args.log_path = os.path.join(args.log_path, f"fold_n_{fold_n:02d}")
+            runner = Diffusion(diff_args, config, device=config.device)
+            start_time = time.time()
+            acc_sum, kappa_sum, precision_sum, f1_sum, recall_sum, bacc_sum = [], [], [], [], [], []
+            procedure = None
+            if args.sample:
+                runner.sample()
+                procedure = "Sampling"
+            elif args.test:
+                runner.test()
+                procedure = "Testing"
+            else:
+                #set_random_seed(config.data.seed)
+                logging.info(f"\n\n\Started running {fold_n} fold.")
+                acc_avg, kappa_avg, precision_avg, f1_avg, recall_avg, bacc_avg = runner.train(fold_n)
+                
+                acc_sum.append(acc_avg)
+                kappa_sum.append(kappa_avg)
+                precision_sum.append(precision_avg)
+                recall_sum.append(recall_avg)
+                f1_sum.append(f1_avg)
+                bacc_sum.append(bacc_avg)
+                
+                logging.info(f"\nFinished running {fold_n} fold.\n\n\n")
+                procedure = "Training"
+            end_time = time.time()
+            logging.info("\n{} procedure finished. It took {:.4f} minutes.\n\n\n".format(
+                procedure, (end_time - start_time) / 60))
+            # remove logging handlers
+            handlers = logger.handlers[:]
+            for handler in handlers:
+                logger.removeHandler(handler)
+                handler.close()
+            # # return test metric lists
+            # if args.test:
+            #     return y_majority_vote_accuracy_all_steps_list, config
+        
+        acc_sum = np.asarray(acc_sum)
+        kappa_sum = np.asarray(kappa_sum)
+        precision_sum = np.asarray(precision_sum)
+        recall_sum = np.asarray(recall_sum)
+        f1_sum = np.asarray(f1_sum)
+        bacc_sum = np.asarray(bacc_sum)
+        
+        logging.info(f"acc: {np.mean(acc_sum)},{np.std(acc_sum)}")
+        logging.info(f"kappa: {np.mean(kappa_sum)},{np.std(kappa_sum)}")
+        logging.info(f"precision: {np.mean(precision_sum)},{np.std(precision_sum)}")
+        logging.info(f"recall: {np.mean(recall_sum)},{np.std(recall_sum)}")
+        logging.info(f"f1: {np.mean(f1_sum)},{np.std(f1_sum)}")
+        logging.info(f"bacc: {np.mean(bacc_sum)},{np.std(bacc_sum)}")
+        
     except Exception:
         logging.error(traceback.format_exc())
 

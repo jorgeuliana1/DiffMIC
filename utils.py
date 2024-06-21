@@ -94,7 +94,7 @@ def adjust_learning_rate(optimizer, epoch, config):
     return lr
 
 
-def get_dataset(args, config):
+def get_dataset(args, config, fold_n):
     data_object = None
     if config.data.dataset == "PLACENTAL":
         train_dataset = BUDataset(data_list=config.data.traindata, train=True)
@@ -110,13 +110,22 @@ def get_dataset(args, config):
             config.data.dataroot,
             csv_train=config.data.traindata,
             csv_test=config.data.testdata,
-            train=True
+            train=True,
+            fold_n=fold_n
+        )
+        val_dataset = PadUfes20(
+            config.data.dataroot,
+            csv_train=config.data.traindata,
+            csv_test=config.data.testdata,
+            train=False,
+            val=True,
+            fold_n=fold_n
         )
         test_dataset = PadUfes20(
             config.data.dataroot,
             csv_train=config.data.traindata,
             csv_test=config.data.testdata,
-            train=False
+            train=False,
         )
     elif config.data.dataset == "PAD-UFES-Binary":
         train_dataset = PadUfesBinary(config.data.dataroot, train=True)
@@ -162,7 +171,7 @@ def get_dataset(args, config):
     else:
         raise NotImplementedError(
             "Options: toy (classification of two Gaussian), MNIST, FashionMNIST, CIFAR10.")
-    return data_object, train_dataset, test_dataset
+    return data_object, train_dataset, val_dataset, test_dataset
 
 from sklearn.metrics import cohen_kappa_score
 # ------------------------------------------------------------------------------------

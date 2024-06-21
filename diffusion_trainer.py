@@ -141,14 +141,20 @@ class Diffusion(object):
         aux_optimizer.step()
         return aux_cost.cpu().item()
 
-    def train(self):
+    def train(self, fold_n):
         args = self.args
         config = self.config
         tb_logger = self.config.tb_logger
-        data_object, train_dataset, test_dataset = get_dataset(args, config)
-        print('loading dataset..')
+        data_object, train_dataset, eval_dataset, test_dataset = get_dataset(args, config, fold_n)
 
         train_loader = data.DataLoader(
+            train_dataset,
+            batch_size=config.training.batch_size,
+            shuffle=True,
+            num_workers=config.data.num_workers,
+            #sampler=sampler
+        )
+        eval_loader = data.DataLoader(
             train_dataset,
             batch_size=config.training.batch_size,
             shuffle=True,
@@ -427,8 +433,54 @@ class Diffusion(object):
                     (f"epoch: {epoch}, step: {step}, CE loss: {loss0.item()}, Noise Estimation loss: {loss.item()}, " +
                      f"data time: {data_time / (i + 1)}")
                 )
+                
+                # Evaluating in the evaluation set
+                acc_avg_eval = 0.
+                kappa_avg_eval = 0.
+                y1_true=None
+                y1_pred=None
+                for test_batch_idx, (images, target) in enumerate(eval_loader):
+                    images_unflat = images.to(self.device)
+                    if config.data.dataset == "toy" \
+                            or config.model.arch == "simple" \
+                            or config.model.arch == "linear":
+                        images = torch.flatten(images, 1)
+                    images = images.to(self.device)
+                    target = target.to(self.device)
+                    # target_vec = nn.functional.one_hot(target).float().to(self.device)
+                    with torch.no_grad():
+                        target_pred, y_global, y_local = self.compute_guiding_prediction(images_unflat)
+                        target_pred = target_pred.softmax(dim=1)
+                        # prior mean at timestep T
+                        y_T_mean = target_pred
+                        if config.diffusion.noise_prior:  # apply 0 instead of f_phi(x) as prior mean
+                            y_T_mean = torch.zeros(target_pred.shape).to(target_pred.device)
+                        if not config.diffusion.noise_prior:  # apply f_phi(x) instead of 0 as prior mean
+                            target_pred, y_global, y_local = self.compute_guiding_prediction(images_unflat)
+                            target_pred = target_pred.softmax(dim=1)
 
-                # Evaluate
+                        label_t_0 = p_sample_loop(model, images, target_pred, y_T_mean,
+                                                    self.num_timesteps, self.alphas,
+                                                    self.one_minus_alphas_bar_sqrt,
+                                                    only_last_sample=True)                               
+                        y1_pred = torch.cat([y1_pred, label_t_0]) if y1_pred is not None else label_t_0
+                        y1_true = torch.cat([y1_true, target]) if y1_true is not None else target
+                        acc_avg_eval += accuracy(label_t_0.detach().cpu(), target.cpu())[0].item()
+                kappa_avg_eval = cohen_kappa(y1_pred.detach().cpu(), y1_true.cpu()).item()
+                f1_avg_eval = compute_f1_score(y1_true,y1_pred).item()
+                        
+                acc_avg_eval /= (test_batch_idx + 1)
+                if not tb_logger is None:
+                    tb_logger.add_scalar('accuracy', acc_avg_eval, global_step=step)
+                logging.info(
+                    (
+                            f"epoch: {epoch}, step: {step}, " +
+                            f"Average accuracy: {acc_avg_eval}, Average Kappa: {kappa_avg_eval}, Average F1: {f1_avg_eval}" +
+                            f"in the evaluation set"
+                    )
+                )
+
+                # Evaluate in the training set
                 if epoch % self.config.training.validation_freq == 0 \
                         or epoch + 1 == self.config.training.n_epochs:
                         model.eval()
@@ -493,6 +545,10 @@ class Diffusion(object):
                                     f"Max accuracy: {max_accuracy:.2f}%"
                             )
                         )
+                        
+                        precision_avg = compute_precision_score(y1_true, y1_pred)
+                        recall_avg = compute_recall_score(y1_true, y1_pred)
+                        bacc_avg = compute_bacc_score(y1_true, y1_pred, labels_balance)
 
             # save the model after training is finished
             states = [
@@ -519,6 +575,8 @@ class Diffusion(object):
                 y_acc_aux_model = self.evaluate_guidance_model(test_loader)
                 logging.info("After joint-training, guidance classifier accuracy on the test set is {:.8f}.".format(
                     y_acc_aux_model))
+                
+        return acc_avg, kappa_avg, precision_avg, f1_avg, recall_avg, bacc_avg
 
     def test(self):
         args = self.args
