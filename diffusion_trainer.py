@@ -145,7 +145,7 @@ class Diffusion(object):
         args = self.args
         config = self.config
         tb_logger = self.config.tb_logger
-        data_object, train_dataset, eval_dataset, test_dataset = get_dataset(args, config, fold_n)
+        data_object, train_dataset, val_dataset, test_dataset = get_dataset(args, config, fold_n)
 
         train_loader = data.DataLoader(
             train_dataset,
@@ -154,8 +154,8 @@ class Diffusion(object):
             num_workers=config.data.num_workers,
             #sampler=sampler
         )
-        eval_loader = data.DataLoader(
-            train_dataset,
+        val_loader = data.DataLoader(
+            val_dataset,
             batch_size=config.training.batch_size,
             shuffle=True,
             num_workers=config.data.num_workers,
@@ -439,7 +439,7 @@ class Diffusion(object):
                 kappa_avg_eval = 0.
                 y1_true=None
                 y1_pred=None
-                for test_batch_idx, (images, target) in enumerate(eval_loader):
+                for test_batch_idx, (images, target) in enumerate(val_loader):
                     images_unflat = images.to(self.device)
                     if config.data.dataset == "toy" \
                             or config.model.arch == "simple" \
@@ -480,7 +480,11 @@ class Diffusion(object):
                     )
                 )
 
-                # Evaluate in the training set
+                # Evaluate in the testing set
+                acc_avg_eval = 0.
+                kappa_avg_eval = 0.
+                y1_true=None
+                y1_pred=None
                 if epoch % self.config.training.validation_freq == 0 \
                         or epoch + 1 == self.config.training.n_epochs:
                         model.eval()
