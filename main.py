@@ -328,6 +328,7 @@ def main():
         for fold_n in range(args.n_folds):
             diff_args = argparse.Namespace(**vars(args))
             diff_args.log_path = os.path.join(args.log_path, f"fold_n_{fold_n:02d}")
+            os.makedirs(diff_args.log_path, exist_ok=True)
             runner = Diffusion(diff_args, config, device=config.device)
             start_time = time.time()
             acc_sum, kappa_sum, precision_sum, f1_sum, recall_sum, bacc_sum = [], [], [], [], [], []
