@@ -581,7 +581,7 @@ class Diffusion(object):
     def test(self):
         args = self.args
         config = self.config
-        data_object, train_dataset, test_dataset = get_dataset(args, config, -1)
+        data_object, train_dataset, val_dataset, test_dataset = get_dataset(args, config, -1)
         log_path = os.path.join(self.args.log_path)
         train_loader = data.DataLoader(
             train_dataset,
