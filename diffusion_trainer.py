@@ -481,8 +481,8 @@ class Diffusion(object):
                 # )
 
                 # Evaluate in the testing set
-                acc_avg_eval = 0.
-                kappa_avg_eval = 0.
+                acc_avg = 0.
+                kappa_avg = 0.
                 y1_true=None
                 y1_pred=None
                 if epoch % self.config.training.validation_freq == 0 \
