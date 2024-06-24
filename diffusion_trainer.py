@@ -434,51 +434,51 @@ class Diffusion(object):
                      f"data time: {data_time / (i + 1)}")
                 )
                 
-                # # Evaluating in the evaluation set
-                # acc_avg_eval = 0.
-                # kappa_avg_eval = 0.
-                # y1_true=None
-                # y1_pred=None
-                # for test_batch_idx, (images, target) in enumerate(val_loader):
-                #     images_unflat = images.to(self.device)
-                #     if config.data.dataset == "toy" \
-                #             or config.model.arch == "simple" \
-                #             or config.model.arch == "linear":
-                #         images = torch.flatten(images, 1)
-                #     images = images.to(self.device)
-                #     target = target.to(self.device)
-                #     # target_vec = nn.functional.one_hot(target).float().to(self.device)
-                #     with torch.no_grad():
-                #         target_pred, y_global, y_local = self.compute_guiding_prediction(images_unflat)
-                #         target_pred = target_pred.softmax(dim=1)
-                #         # prior mean at timestep T
-                #         y_T_mean = target_pred
-                #         if config.diffusion.noise_prior:  # apply 0 instead of f_phi(x) as prior mean
-                #             y_T_mean = torch.zeros(target_pred.shape).to(target_pred.device)
-                #         if not config.diffusion.noise_prior:  # apply f_phi(x) instead of 0 as prior mean
-                #             target_pred, y_global, y_local = self.compute_guiding_prediction(images_unflat)
-                #             target_pred = target_pred.softmax(dim=1)
+                # Evaluating in the evaluation set
+                acc_avg_eval = 0.
+                kappa_avg_eval = 0.
+                y1_true=None
+                y1_pred=None
+                for test_batch_idx, (images, target) in enumerate(val_loader):
+                    images_unflat = images.to(self.device)
+                    if config.data.dataset == "toy" \
+                            or config.model.arch == "simple" \
+                            or config.model.arch == "linear":
+                        images = torch.flatten(images, 1)
+                    images = images.to(self.device)
+                    target = target.to(self.device)
+                    # target_vec = nn.functional.one_hot(target).float().to(self.device)
+                    with torch.no_grad():
+                        target_pred, y_global, y_local = self.compute_guiding_prediction(images_unflat)
+                        target_pred = target_pred.softmax(dim=1)
+                        # prior mean at timestep T
+                        y_T_mean = target_pred
+                        if config.diffusion.noise_prior:  # apply 0 instead of f_phi(x) as prior mean
+                            y_T_mean = torch.zeros(target_pred.shape).to(target_pred.device)
+                        if not config.diffusion.noise_prior:  # apply f_phi(x) instead of 0 as prior mean
+                            target_pred, y_global, y_local = self.compute_guiding_prediction(images_unflat)
+                            target_pred = target_pred.softmax(dim=1)
 
-                #         label_t_0 = p_sample_loop(model, images, target_pred, y_T_mean,
-                #                                     self.num_timesteps, self.alphas,
-                #                                     self.one_minus_alphas_bar_sqrt,
-                #                                     only_last_sample=True)                               
-                #         y1_pred = torch.cat([y1_pred, label_t_0]) if y1_pred is not None else label_t_0
-                #         y1_true = torch.cat([y1_true, target]) if y1_true is not None else target
-                #         acc_avg_eval += accuracy(label_t_0.detach().cpu(), target.cpu())[0].item()
-                # kappa_avg_eval = cohen_kappa(y1_pred.detach().cpu(), y1_true.cpu()).item()
-                # f1_avg_eval = compute_f1_score(y1_true,y1_pred).item()
+                        label_t_0 = p_sample_loop(model, images, target_pred, y_T_mean,
+                                                    self.num_timesteps, self.alphas,
+                                                    self.one_minus_alphas_bar_sqrt,
+                                                    only_last_sample=True)                               
+                        y1_pred = torch.cat([y1_pred, label_t_0]) if y1_pred is not None else label_t_0
+                        y1_true = torch.cat([y1_true, target]) if y1_true is not None else target
+                        acc_avg_eval += accuracy(label_t_0.detach().cpu(), target.cpu())[0].item()
+                kappa_avg_eval = cohen_kappa(y1_pred.detach().cpu(), y1_true.cpu()).item()
+                f1_avg_eval = compute_f1_score(y1_true,y1_pred).item()
                         
-                # acc_avg_eval /= (test_batch_idx + 1)
-                # if not tb_logger is None:
-                #     tb_logger.add_scalar('accuracy', acc_avg_eval, global_step=step)
-                # logging.info(
-                #     (
-                #             f"epoch: {epoch}, step: {step}, " +
-                #             f"Average accuracy: {acc_avg_eval}, Average Kappa: {kappa_avg_eval}, Average F1: {f1_avg_eval}" +
-                #             f"in the evaluation set"
-                #     )
-                # )
+                acc_avg_eval /= (test_batch_idx + 1)
+                if not tb_logger is None:
+                    tb_logger.add_scalar('accuracy', acc_avg_eval, global_step=step)
+                logging.info(
+                    (
+                            f"epoch: {epoch}, step: {step}, " +
+                            f"Average accuracy: {acc_avg_eval}, Average Kappa: {kappa_avg_eval}, Average F1: {f1_avg_eval}" +
+                            f"in the evaluation set"
+                    )
+                )
 
                 # Evaluate in the testing set
                 acc_avg = 0.
