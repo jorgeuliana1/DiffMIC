@@ -212,9 +212,9 @@ class PadUfes20(MyDataset):
         if self.val:
             val_indexes = self.df["folder"] == fold_n + 1
             self.df = self.df[val_indexes].reset_index()
-        # elif self.train:
-        #     train_indexes = self.df["folder"] != fold_n + 1
-        #     self.df = self.df[train_indexes].reset_index()
+        elif self.train:
+            train_indexes = self.df["folder"] != fold_n + 1
+            self.df = self.df[train_indexes].reset_index()
     
     def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
         if torch.is_tensor(index):
