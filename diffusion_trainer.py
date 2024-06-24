@@ -580,6 +580,14 @@ class Diffusion(object):
                 logging.info("After joint-training, guidance classifier accuracy on the test set is {:.8f}.".format(
                     y_acc_aux_model))
                 
+        del data_object
+        del train_dataset
+        del val_dataset
+        del test_dataset
+        del train_loader
+        del val_loader
+        del test_loader
+                
         return acc_avg, kappa_avg, precision_avg, f1_avg, recall_avg, bacc_avg
 
     def test(self):

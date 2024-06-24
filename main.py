@@ -356,11 +356,14 @@ def main():
             end_time = time.time()
             logging.info("\n{} procedure finished. It took {:.4f} minutes.\n\n\n".format(
                 procedure, (end_time - start_time) / 60))
-            # remove logging handlers
-            handlers = logger.handlers[:]
-            for handler in handlers:
-                logger.removeHandler(handler)
-                handler.close()
+            del runner
+            
+        # remove logging handlers
+        handlers = logger.handlers[:]
+        for handler in handlers:
+            logger.removeHandler(handler)
+            handler.close()
+                
             # # return test metric lists
             # if args.test:
             #     return y_majority_vote_accuracy_all_steps_list, config
