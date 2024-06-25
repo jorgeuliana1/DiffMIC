@@ -473,29 +473,30 @@ class Diffusion(object):
                      f"data time: {data_time / (i + 1)}")
                 )
 
-                # Evaluate on validation dataset
-                val_acc_avg, val_kappa_avg, val_f1_avg, val_precision_avg, val_recall_avg, val_bacc_avg = self.evaluate_model_on_dataset(
-                    model, val_loader, self.device, config)
-                
-                if not tb_logger is None:
-                    tb_logger.add_scalar('val_accuracy', val_acc_avg, global_step=step)
-                    tb_logger.add_scalar('val_kappa', val_kappa_avg, global_step=step)
-                    tb_logger.add_scalar('val_f1', val_f1_avg, global_step=step)
-                    tb_logger.add_scalar('val_precision', val_precision_avg, global_step=step)
-                    tb_logger.add_scalar('val_recall', val_recall_avg, global_step=step)
-                    tb_logger.add_scalar('val_bacc', val_bacc_avg, global_step=step)
-                
-                logging.info(
-                    (
-                        f"Validation - epoch: {epoch}, step: {step}, "
-                        f"Average accuracy: {val_acc_avg}, Average Kappa: {val_kappa_avg}, "
-                        f"Average F1: {val_f1_avg}, Precision: {val_precision_avg}, "
-                        f"Recall: {val_recall_avg}, Balanced Accuracy: {val_bacc_avg}"
-                    )
-                )
 
-                # Evaluate on test dataset
                 if epoch % self.config.training.validation_freq == 0 or epoch + 1 == self.config.training.n_epochs:
+                    # Evaluate on validation dataset
+                    val_acc_avg, val_kappa_avg, val_f1_avg, val_precision_avg, val_recall_avg, val_bacc_avg = self.evaluate_model_on_dataset(
+                        model, val_loader, self.device, config)
+                    
+                    if not tb_logger is None:
+                        tb_logger.add_scalar('val_accuracy', val_acc_avg, global_step=step)
+                        tb_logger.add_scalar('val_kappa', val_kappa_avg, global_step=step)
+                        tb_logger.add_scalar('val_f1', val_f1_avg, global_step=step)
+                        tb_logger.add_scalar('val_precision', val_precision_avg, global_step=step)
+                        tb_logger.add_scalar('val_recall', val_recall_avg, global_step=step)
+                        tb_logger.add_scalar('val_bacc', val_bacc_avg, global_step=step)
+                    
+                    logging.info(
+                        (
+                            f"Validation - epoch: {epoch}, step: {step}, "
+                            f"Average accuracy: {val_acc_avg}, Average Kappa: {val_kappa_avg}, "
+                            f"Average F1: {val_f1_avg}, Precision: {val_precision_avg}, "
+                            f"Recall: {val_recall_avg}, Balanced Accuracy: {val_bacc_avg}"
+                        )
+                    )
+                    
+                    # Evaluate on test dataset
                     test_acc_avg, test_kappa_avg, test_f1_avg, test_precision_avg, test_recall_avg, test_bacc_avg = self.evaluate_model_on_dataset(
                         model, test_loader, self.device, config)
                     
