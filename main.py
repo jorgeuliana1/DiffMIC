@@ -9,6 +9,7 @@ import time
 import torch
 import numpy as np
 import random
+import gc
 
 torch.set_printoptions(sci_mode=False)
 
@@ -357,6 +358,8 @@ def main():
             logging.info("\n{} procedure finished. It took {:.4f} minutes.\n\n\n".format(
                 procedure, (end_time - start_time) / 60))
             del runner
+            torch.cuda.empty_cache()
+            gc.collect()
             
         # remove logging handlers
         handlers = logger.handlers[:]

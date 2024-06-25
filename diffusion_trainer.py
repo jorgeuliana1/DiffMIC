@@ -140,6 +140,47 @@ class Diffusion(object):
         aux_cost.backward()
         aux_optimizer.step()
         return aux_cost.cpu().item()
+    
+    def evaluate_model_on_dataset(self, model, loader, device, config):
+        model.eval()
+        acc_avg = 0.0
+        kappa_avg = 0.0
+        y1_true = None
+        y1_pred = None
+
+        with torch.no_grad():
+            for batch_idx, (images, target) in enumerate(loader):
+                images_unflat = images.to(device)
+                if config.data.dataset == "toy" or config.model.arch == "simple" or config.model.arch == "linear":
+                    images = torch.flatten(images, 1)
+                images = images.to(device)
+                target = target.to(device)
+
+                target_pred, y_global, y_local = model.compute_guiding_prediction(images_unflat)
+                target_pred = target_pred.softmax(dim=1)
+                y_T_mean = target_pred
+                if config.diffusion.noise_prior:
+                    y_T_mean = torch.zeros(target_pred.shape).to(target_pred.device)
+                if not config.diffusion.noise_prior:
+                    target_pred, y_global, y_local = model.compute_guiding_prediction(images_unflat)
+                    target_pred = target_pred.softmax(dim=1)
+
+                label_t_0 = model.p_sample_loop(images, target_pred, y_T_mean, model.num_timesteps, model.alphas,
+                                                model.one_minus_alphas_bar_sqrt, only_last_sample=True)
+
+                y1_pred = torch.cat([y1_pred, label_t_0]) if y1_pred is not None else label_t_0
+                y1_true = torch.cat([y1_true, target]) if y1_true is not None else target
+                acc_avg += accuracy(label_t_0.detach().cpu(), target.cpu())[0].item()
+            
+            kappa_avg = cohen_kappa(y1_pred.detach().cpu(), y1_true.cpu()).item()
+            f1_avg = compute_f1_score(y1_true, y1_pred).item()
+            acc_avg /= (batch_idx + 1)
+            
+            precision_avg = compute_precision_score(y1_true, y1_pred)
+            recall_avg = compute_recall_score(y1_true, y1_pred)
+            bacc_avg = compute_bacc_score(y1_true, y1_pred, np.asarray(config.data.labels_balance))
+
+            return acc_avg, kappa_avg, f1_avg, precision_avg, recall_avg, bacc_avg
 
     def train(self, fold_n):
         args = self.args
@@ -433,123 +474,72 @@ class Diffusion(object):
                     (f"epoch: {epoch}, step: {step}, CE loss: {loss0.item()}, Noise Estimation loss: {loss.item()}, " +
                      f"data time: {data_time / (i + 1)}")
                 )
+
+                # Evaluate on validation dataset
+                val_acc_avg, val_kappa_avg, val_f1_avg, val_precision_avg, val_recall_avg, val_bacc_avg = self.evaluate_model_on_dataset(
+                    model, val_loader, self.device, config)
                 
-                # # Evaluating in the evaluation set
-                # acc_avg_eval = 0.
-                # y1_true=None
-                # y1_pred=None
-                # for val_batch_idx, (images, target) in enumerate(val_loader):
-                #     images_unflat = images.to(self.device)
-                #     if config.data.dataset == "toy" \
-                #             or config.model.arch == "simple" \
-                #             or config.model.arch == "linear":
-                #         images = torch.flatten(images, 1)
-                #     images = images.to(self.device)
-                #     target = target.to(self.device)
-                #     # target_vec = nn.functional.one_hot(target).float().to(self.device)
-                #     with torch.no_grad():
-                #         target_pred, y_global, y_local = self.compute_guiding_prediction(images_unflat)
-                #         target_pred = target_pred.softmax(dim=1)
-                #         # prior mean at timestep T
-                #         y_T_mean = target_pred
-                #         if config.diffusion.noise_prior:  # apply 0 instead of f_phi(x) as prior mean
-                #             y_T_mean = torch.zeros(target_pred.shape).to(target_pred.device)
-                #         if not config.diffusion.noise_prior:  # apply f_phi(x) instead of 0 as prior mean
-                #             target_pred, y_global, y_local = self.compute_guiding_prediction(images_unflat)
-                #             target_pred = target_pred.softmax(dim=1)
+                if not tb_logger is None:
+                    tb_logger.add_scalar('val_accuracy', val_acc_avg, global_step=step)
+                    tb_logger.add_scalar('val_kappa', val_kappa_avg, global_step=step)
+                    tb_logger.add_scalar('val_f1', val_f1_avg, global_step=step)
+                    tb_logger.add_scalar('val_precision', val_precision_avg, global_step=step)
+                    tb_logger.add_scalar('val_recall', val_recall_avg, global_step=step)
+                    tb_logger.add_scalar('val_bacc', val_bacc_avg, global_step=step)
+                
+                logging.info(
+                    (
+                        f"Validation - epoch: {epoch}, step: {step}, "
+                        f"Average accuracy: {val_acc_avg}, Average Kappa: {val_kappa_avg}, "
+                        f"Average F1: {val_f1_avg}, Precision: {val_precision_avg}, "
+                        f"Recall: {val_recall_avg}, Balanced Accuracy: {val_bacc_avg}"
+                    )
+                )
 
-                #         label_t_0 = p_sample_loop(model, images, target_pred, y_T_mean,
-                #                                     self.num_timesteps, self.alphas,
-                #                                     self.one_minus_alphas_bar_sqrt,
-                #                                     only_last_sample=True)                               
-                #         y1_pred = torch.cat([y1_pred, label_t_0]) if y1_pred is not None else label_t_0
-                #         y1_true = torch.cat([y1_true, target]) if y1_true is not None else target
-                #         acc_avg_eval += accuracy(label_t_0.detach().cpu(), target.cpu())[0].item()
-                        
-                # acc_avg_eval /= (val_batch_idx + 1)
-                # if not tb_logger is None:
-                #     tb_logger.add_scalar('accuracy', acc_avg_eval, global_step=step)
-                # logging.info(
-                #     (
-                #             f"epoch: {epoch}, step: {step}, " +
-                #             f"Average accuracy: {acc_avg_eval} " +
-                #             f"in the evaluation set"
-                #     )
-                # )
-
-                # Evaluate in the testing set
-                acc_avg = 0.
-                kappa_avg = 0.
-                y1_true=None
-                y1_pred=None
-                if epoch % self.config.training.validation_freq == 0 \
-                        or epoch + 1 == self.config.training.n_epochs:
-                        model.eval()
-                        self.cond_pred_model.eval()
-                        acc_avg = 0.
-                        kappa_avg = 0.
-                        y1_true=None
-                        y1_pred=None
-                        for test_batch_idx, (images, target) in enumerate(test_loader):
-                            images_unflat = images.to(self.device)
-                            if config.data.dataset == "toy" \
-                                    or config.model.arch == "simple" \
-                                    or config.model.arch == "linear":
-                                images = torch.flatten(images, 1)
-                            images = images.to(self.device)
-                            target = target.to(self.device)
-                            # target_vec = nn.functional.one_hot(target).float().to(self.device)
-                            with torch.no_grad():
-                                target_pred, y_global, y_local = self.compute_guiding_prediction(images_unflat)
-                                target_pred = target_pred.softmax(dim=1)
-                                # prior mean at timestep T
-                                y_T_mean = target_pred
-                                if config.diffusion.noise_prior:  # apply 0 instead of f_phi(x) as prior mean
-                                    y_T_mean = torch.zeros(target_pred.shape).to(target_pred.device)
-                                if not config.diffusion.noise_prior:  # apply f_phi(x) instead of 0 as prior mean
-                                    target_pred, y_global, y_local = self.compute_guiding_prediction(images_unflat)
-                                    target_pred = target_pred.softmax(dim=1)
-
-                                label_t_0 = p_sample_loop(model, images, target_pred, y_T_mean,
-                                                          self.num_timesteps, self.alphas,
-                                                          self.one_minus_alphas_bar_sqrt,
-                                                          only_last_sample=True)                               
-                                y1_pred = torch.cat([y1_pred, label_t_0]) if y1_pred is not None else label_t_0
-                                y1_true = torch.cat([y1_true, target]) if y1_true is not None else target
-                                acc_avg += accuracy(label_t_0.detach().cpu(), target.cpu())[0].item()
-                        kappa_avg = cohen_kappa(y1_pred.detach().cpu(), y1_true.cpu()).item()
-                        f1_avg = compute_f1_score(y1_true,y1_pred).item()
-                                
-                        acc_avg /= (test_batch_idx + 1)
-                        #kappa_avg /= (test_batch_idx + 1)
-                        if acc_avg > max_accuracy:
-                            logging.info("Update best accuracy at Epoch {}.".format(epoch))
-                            states = [
-                                model.state_dict(),
-                                optimizer.state_dict(),
-                                epoch,
-                                step,
+                # Evaluate on test dataset
+                if epoch % self.config.training.validation_freq == 0 or epoch + 1 == self.config.training.n_epochs:
+                    test_acc_avg, test_kappa_avg, test_f1_avg, test_precision_avg, test_recall_avg, test_bacc_avg = self.evaluate_model_on_dataset(
+                        model, test_loader, self.device, config)
+                    
+                    if test_acc_avg > max_accuracy:
+                        logging.info("Update best accuracy at Epoch {}.".format(epoch))
+                        states = [
+                            model.state_dict(),
+                            optimizer.state_dict(),
+                            epoch,
+                            step,
+                        ]
+                        torch.save(states, os.path.join(self.args.log_path, "ckpt_best.pth"))
+                        aux_states = [
+                                self.cond_pred_model.state_dict(),
+                                aux_optimizer.state_dict(),
                             ]
-                            torch.save(states, os.path.join(self.args.log_path, "ckpt_best.pth"))
-                            aux_states = [
-                                    self.cond_pred_model.state_dict(),
-                                    aux_optimizer.state_dict(),
-                                ]
-                            torch.save(aux_states, os.path.join(self.args.log_path, "aux_ckpt_best.pth"))
-                        max_accuracy = max(max_accuracy, acc_avg)
-                        if not tb_logger is None:
-                            tb_logger.add_scalar('accuracy', acc_avg, global_step=step)
-                        logging.info(
-                            (
-                                    f"epoch: {epoch}, step: {step}, " +
-                                    f"Average accuracy: {acc_avg}, Average Kappa: {kappa_avg}, Average F1: {f1_avg}," +
-                                    f"Max accuracy: {max_accuracy:.2f}%"
-                            )
-                        )
+                        torch.save(aux_states, os.path.join(self.args.log_path, "aux_ckpt_best.pth"))
                         
-                        precision_avg = compute_precision_score(y1_true, y1_pred)
-                        recall_avg = compute_recall_score(y1_true, y1_pred)
-                        bacc_avg = compute_bacc_score(y1_true, y1_pred, labels_balance)
+                        best_acc_avg = test_acc_avg
+                        best_kappa_avg = test_kappa_avg
+                        best_precision_avg = test_precision_avg
+                        best_f1_avg = test_f1_avg
+                        best_recall_avg = test_recall_avg
+                        best_bacc_avg = test_bacc_avg
+                    max_accuracy = max(max_accuracy, test_acc_avg)
+                    
+                    if not tb_logger is None:
+                        tb_logger.add_scalar('test_accuracy', test_acc_avg, global_step=step)
+                        tb_logger.add_scalar('test_kappa', test_kappa_avg, global_step=step)
+                        tb_logger.add_scalar('test_f1', test_f1_avg, global_step=step)
+                        tb_logger.add_scalar('test_precision', test_precision_avg, global_step=step)
+                        tb_logger.add_scalar('test_recall', test_recall_avg, global_step=step)
+                        tb_logger.add_scalar('test_bacc', test_bacc_avg, global_step=step)
+                    
+                    logging.info(
+                        (
+                            f"Test - epoch: {epoch}, step: {step}, "
+                            f"Average accuracy: {test_acc_avg}, Average Kappa: {test_kappa_avg}, "
+                            f"Average F1: {test_f1_avg}, Precision: {test_precision_avg}, "
+                            f"Recall: {test_recall_avg}, Balanced Accuracy: {test_bacc_avg}"
+                        )
+                    )
 
             # save the model after training is finished
             states = [
@@ -584,8 +574,16 @@ class Diffusion(object):
         del train_loader
         del val_loader
         del test_loader
+        
+        if 'ema_helper' in locals():
+            del ema_helper
+        if 'aux_optimizer' in locals():
+            del aux_optimizer
+        
+        torch.cuda.empty_cache()
+        gc.collect()
                 
-        return acc_avg, kappa_avg, precision_avg, f1_avg, recall_avg, bacc_avg
+        return best_acc_avg, best_kappa_avg, best_precision_avg, best_f1_avg, best_recall_avg, best_bacc_avg
 
     def test(self):
         args = self.args
