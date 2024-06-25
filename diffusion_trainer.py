@@ -156,17 +156,15 @@ class Diffusion(object):
                 images = images.to(device)
                 target = target.to(device)
 
-                target_pred, y_global, y_local = model.compute_guiding_prediction(images_unflat)
+                target_pred, y_global, y_local = self.compute_guiding_prediction(images_unflat)
                 target_pred = target_pred.softmax(dim=1)
-                y_T_mean = target_pred
                 if config.diffusion.noise_prior:
                     y_T_mean = torch.zeros(target_pred.shape).to(target_pred.device)
-                if not config.diffusion.noise_prior:
-                    target_pred, y_global, y_local = self.compute_guiding_prediction(images_unflat)
-                    target_pred = target_pred.softmax(dim=1)
+                else:
+                    y_T_mean = target_pred
 
-                label_t_0 = model.p_sample_loop(images, target_pred, y_T_mean, self.num_timesteps, self.alphas,
-                                                self.one_minus_alphas_bar_sqrt, only_last_sample=True)
+                label_t_0 = p_sample_loop(model, images, target_pred, y_T_mean, self.num_timesteps, self.alphas,
+                                          self.one_minus_alphas_bar_sqrt, only_last_sample=True)
 
                 y1_pred = torch.cat([y1_pred, label_t_0]) if y1_pred is not None else label_t_0
                 y1_true = torch.cat([y1_true, target]) if y1_true is not None else target
