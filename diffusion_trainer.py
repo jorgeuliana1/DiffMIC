@@ -542,7 +542,8 @@ class Diffusion(object):
                             f"Test - epoch: {epoch}, step: {step}, "
                             f"Average accuracy: {test_acc_avg}, Average Kappa: {test_kappa_avg}, "
                             f"Average F1: {test_f1_avg}, Precision: {test_precision_avg}, "
-                            f"Recall: {test_recall_avg}, Balanced Accuracy: {test_bacc_avg}"
+                            f"Recall: {test_recall_avg}, Balanced Accuracy: {test_bacc_avg}, "
+                            f"Max accuracy: {max_accuracy}"
                         )
                     )
 
