@@ -182,7 +182,7 @@ class Diffusion(object):
             
         precision_avg = compute_precision_score(y1_true, y1_pred)
         recall_avg = compute_recall_score(y1_true, y1_pred)
-        bacc_avg = compute_bacc_score(y1_true, y1_pred, np.asarray(config.data.labels_balance))
+        bacc_avg = compute_bacc_score(y1_true, y1_pred, np.asarray(self.labels_balance))
 
         return acc_avg, kappa_avg, f1_avg, precision_avg, recall_avg, bacc_avg
 
@@ -221,14 +221,12 @@ class Diffusion(object):
 
         optimizer = get_optimizer(self.config.optim, model.parameters())
         
-        if hasattr(config.data, "labels_balance"):
-            labels_balance = np.asarray(train_dataset.labels_balance)
-            labels_weight = 1 / labels_balance
-            normalized_weight = labels_weight / labels_weight.sum()
-            weight_tensor = torch.tensor(normalized_weight, dtype=torch.float).to(self.device)
-            criterion = torch.nn.CrossEntropyLoss(weight=weight_tensor)
-        else:
-            criterion = nn.CrossEntropyLoss()
+        self.labels_balance = train_dataset.labels_balance
+        labels_balance = np.asarray(train_dataset.labels_balance)
+        labels_weight = 1 / labels_balance
+        normalized_weight = labels_weight / labels_weight.sum()
+        weight_tensor = torch.tensor(normalized_weight, dtype=torch.float).to(self.device)
+        criterion = torch.nn.CrossEntropyLoss(weight=weight_tensor)
 
         # apply an auxiliary optimizer for the guidance classifier
         if config.diffusion.apply_aux_cls:
