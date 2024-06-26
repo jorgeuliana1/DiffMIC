@@ -222,15 +222,13 @@ class Diffusion(object):
         optimizer = get_optimizer(self.config.optim, model.parameters())
         
         if hasattr(config.data, "labels_balance"):
-            labels_balance = np.asarray(config.data.labels_balance)
+            labels_balance = np.asarray(train_dataset.labels_balance)
             labels_weight = 1 / labels_balance
             normalized_weight = labels_weight / labels_weight.sum()
             weight_tensor = torch.tensor(normalized_weight, dtype=torch.float).to(self.device)
             criterion = torch.nn.CrossEntropyLoss(weight=weight_tensor)
         else:
             criterion = nn.CrossEntropyLoss()
-            
-        brier_score = nn.MSELoss()
 
         # apply an auxiliary optimizer for the guidance classifier
         if config.diffusion.apply_aux_cls:
