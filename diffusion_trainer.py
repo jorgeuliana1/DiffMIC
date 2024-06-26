@@ -143,42 +143,48 @@ class Diffusion(object):
     
     def evaluate_model_on_dataset(self, model, loader, device, config):
         model.eval()
-        acc_avg = 0.0
-        kappa_avg = 0.0
-        y1_true = None
-        y1_pred = None
-
-        with torch.no_grad():
-            for batch_idx, (images, target) in enumerate(loader):
-                images_unflat = images.to(device)
-                if config.data.dataset == "toy" or config.model.arch == "simple" or config.model.arch == "linear":
-                    images = torch.flatten(images, 1)
-                images = images.to(device)
-                target = target.to(device)
-
+        self.cond_pred_model.eval()
+        acc_avg = 0.
+        kappa_avg = 0.
+        y1_true=None
+        y1_pred=None
+        for test_batch_idx, (images, target) in enumerate(loader):
+            images_unflat = images.to(device)
+            if config.data.dataset == "toy" \
+                    or config.model.arch == "simple" \
+                    or config.model.arch == "linear":
+                images = torch.flatten(images, 1)
+            images = images.to(device)
+            target = target.to(device)
+            # target_vec = nn.functional.one_hot(target).float().to(device)
+            with torch.no_grad():
                 target_pred, y_global, y_local = self.compute_guiding_prediction(images_unflat)
                 target_pred = target_pred.softmax(dim=1)
-                if config.diffusion.noise_prior:
+                # prior mean at timestep T
+                y_T_mean = target_pred
+                if config.diffusion.noise_prior:  # apply 0 instead of f_phi(x) as prior mean
                     y_T_mean = torch.zeros(target_pred.shape).to(target_pred.device)
-                else:
-                    y_T_mean = target_pred
+                if not config.diffusion.noise_prior:  # apply f_phi(x) instead of 0 as prior mean
+                    target_pred, y_global, y_local = self.compute_guiding_prediction(images_unflat)
+                    target_pred = target_pred.softmax(dim=1)
 
-                label_t_0 = p_sample_loop(model, images, target_pred, y_T_mean, self.num_timesteps, self.alphas,
-                                          self.one_minus_alphas_bar_sqrt, only_last_sample=True)
-
+                label_t_0 = p_sample_loop(model, images, target_pred, y_T_mean,
+                                            self.num_timesteps, self.alphas,
+                                            self.one_minus_alphas_bar_sqrt,
+                                            only_last_sample=True)                               
                 y1_pred = torch.cat([y1_pred, label_t_0]) if y1_pred is not None else label_t_0
                 y1_true = torch.cat([y1_true, target]) if y1_true is not None else target
                 acc_avg += accuracy(label_t_0.detach().cpu(), target.cpu())[0].item()
+        kappa_avg = cohen_kappa(y1_pred.detach().cpu(), y1_true.cpu()).item()
+        f1_avg = compute_f1_score(y1_true,y1_pred).item()
+                
+        acc_avg /= (test_batch_idx + 1)
             
-            kappa_avg = cohen_kappa(y1_pred.detach().cpu(), y1_true.cpu()).item()
-            f1_avg = compute_f1_score(y1_true, y1_pred).item()
-            acc_avg /= (batch_idx + 1)
-            
-            precision_avg = compute_precision_score(y1_true, y1_pred)
-            recall_avg = compute_recall_score(y1_true, y1_pred)
-            bacc_avg = compute_bacc_score(y1_true, y1_pred, np.asarray(config.data.labels_balance))
+        precision_avg = compute_precision_score(y1_true, y1_pred)
+        recall_avg = compute_recall_score(y1_true, y1_pred)
+        bacc_avg = compute_bacc_score(y1_true, y1_pred, np.asarray(config.data.labels_balance))
 
-            return acc_avg, kappa_avg, f1_avg, precision_avg, recall_avg, bacc_avg
+        return acc_avg, kappa_avg, f1_avg, precision_avg, recall_avg, bacc_avg
 
     def train(self, fold_n):
         args = self.args
