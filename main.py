@@ -326,13 +326,13 @@ def main():
         raise NotImplementedError("Invalid loss option")
 
     try:
+        acc_sum, kappa_sum, precision_sum, f1_sum, recall_sum, bacc_sum = [], [], [], [], [], []
         for fold_n in range(args.n_folds):
             diff_args = argparse.Namespace(**vars(args))
             diff_args.log_path = os.path.join(args.log_path, f"fold_n_{fold_n:02d}")
             os.makedirs(diff_args.log_path, exist_ok=True)
             runner = Diffusion(diff_args, config, device=config.device)
             start_time = time.time()
-            acc_sum, kappa_sum, precision_sum, f1_sum, recall_sum, bacc_sum = [], [], [], [], [], []
             procedure = None
             if args.sample:
                 runner.sample()
@@ -341,7 +341,7 @@ def main():
                 f1_avg, acc_avg, kappa_avg, precision_avg, recall_avg, bacc_avg = runner.test(fold_n)
                 procedure = "Testing"
                 
-                acc_sum.append(acc_avg)
+                acc_sum.append(acc_avg / 100)
                 kappa_sum.append(kappa_avg)
                 precision_sum.append(precision_avg)
                 recall_sum.append(recall_avg)
@@ -352,7 +352,7 @@ def main():
                 logging.info(f"\n\n\Started running {fold_n} fold.")
                 acc_avg, kappa_avg, precision_avg, f1_avg, recall_avg, bacc_avg = runner.train(fold_n)
                 
-                acc_sum.append(acc_avg)
+                acc_sum.append(acc_avg / 100)
                 kappa_sum.append(kappa_avg)
                 precision_sum.append(precision_avg)
                 recall_sum.append(recall_avg)
