@@ -502,8 +502,8 @@ class Diffusion(object):
                     test_acc_avg, test_kappa_avg, test_f1_avg, test_precision_avg, test_recall_avg, test_bacc_avg = self.evaluate_model_on_dataset(
                         model, test_loader, self.device, config)
                     
-                    if test_acc_avg > max_accuracy:
-                        logging.info("Update best accuracy at Epoch {}.".format(epoch))
+                    if test_bacc_avg > max_accuracy:
+                        logging.info("Update best balanced accuracy at Epoch {}.".format(epoch))
                         states = [
                             model.state_dict(),
                             optimizer.state_dict(),
@@ -523,7 +523,7 @@ class Diffusion(object):
                         best_f1_avg = test_f1_avg
                         best_recall_avg = test_recall_avg
                         best_bacc_avg = test_bacc_avg
-                    max_accuracy = max(max_accuracy, test_acc_avg)
+                    max_accuracy = max(max_accuracy, test_bacc_avg)
                     
                     if not tb_logger is None:
                         tb_logger.add_scalar('test_accuracy', test_acc_avg, global_step=step)

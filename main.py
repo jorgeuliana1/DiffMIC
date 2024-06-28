@@ -385,12 +385,12 @@ def main():
         f1_sum = np.asarray(f1_sum)
         bacc_sum = np.asarray(bacc_sum)
         
-        logging.info(f"acc: {np.mean(acc_sum)},{np.std(acc_sum)}")
-        logging.info(f"kappa: {np.mean(kappa_sum)},{np.std(kappa_sum)}")
-        logging.info(f"precision: {np.mean(precision_sum)},{np.std(precision_sum)}")
-        logging.info(f"recall: {np.mean(recall_sum)},{np.std(recall_sum)}")
-        logging.info(f"f1: {np.mean(f1_sum)},{np.std(f1_sum)}")
-        logging.info(f"bacc: {np.mean(bacc_sum)},{np.std(bacc_sum)}")
+        logging.info(f" Accuracy: {np.mean(acc_sum):.4f} +- {np.std(acc_sum):.4f}")
+        logging.info(f" Balanced Accuracy: {np.mean(bacc_sum):.4f} +- {np.std(bacc_sum):.4f}")
+        logging.info(f" Kappa: {np.mean(kappa_sum):.4f} +- {np.std(kappa_sum):.4f}")
+        logging.info(f" Precision: {np.mean(precision_sum):.4f} +- {np.std(precision_sum):.4f}")
+        logging.info(f" Recall: {np.mean(recall_sum):.4f} +- {np.std(recall_sum):.4f}")
+        logging.info(f" F1 Score: {np.mean(f1_sum):.4f} +- {np.std(f1_sum):.4f}")
         
     except Exception:
         logging.error(traceback.format_exc())
