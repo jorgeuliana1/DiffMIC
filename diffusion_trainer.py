@@ -587,12 +587,18 @@ class Diffusion(object):
                 
         return best_acc_avg, best_kappa_avg, best_precision_avg, best_f1_avg, best_recall_avg, best_bacc_avg
 
-    def test(self):
+    def test(self, fold_n):
         args = self.args
         config = self.config
-        data_object, train_dataset, val_dataset, test_dataset = get_dataset(args, config, -1)
+        data_object, train_dataset, val_dataset, test_dataset = get_dataset(args, config, fold_n)
         log_path = os.path.join(self.args.log_path)
         train_loader = data.DataLoader(
+            train_dataset,
+            batch_size=config.training.batch_size,
+            shuffle=True,
+            num_workers=config.data.num_workers,
+        )
+        val_loader = data.DataLoader(
             train_dataset,
             batch_size=config.training.batch_size,
             shuffle=True,
@@ -681,7 +687,7 @@ class Diffusion(object):
                 y1_true = torch.cat([y1_true, target]) if y1_true is not None else target                 
 
         # Getting labels_balance in order to obtain BACC
-        labels_balance = np.asarray(self.config.data.labels_balance)
+        labels_balance = np.asarray(train_dataset.labels_balance)
 
         f1_avg = compute_f1_score(y1_true,y1_pred)
         acc_avg /= (test_batch_idx + 1)
@@ -690,10 +696,12 @@ class Diffusion(object):
         recall_avg = compute_recall_score(y1_true, y1_pred)
         bacc_avg = compute_bacc_score(y1_true, y1_pred, labels_balance)
         logging.info(
-                            (
-                                    f"[Test:] Average accuracy: {acc_avg}, Average Kappa: {kappa_avg}" + \
-                                    f", F1: {f1_avg}, Prec.: {precision_avg}, Recall: {recall_avg}, BAcc: {bacc_avg}"
-                            )
+                        (
+                            f"Test - "
+                            f"Average accuracy: {acc_avg}, Average Kappa: {kappa_avg}, "
+                            f"Average F1: {f1_avg}, Precision: {precision_avg}, "
+                            f"Recall: {recall_avg}, Balanced Accuracy: {bacc_avg}"
+                        )
                     )
 
 

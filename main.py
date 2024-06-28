@@ -338,7 +338,7 @@ def main():
                 runner.sample()
                 procedure = "Sampling"
             elif args.test:
-                runner.test()
+                runner.test(fold_n)
                 procedure = "Testing"
             else:
                 #set_random_seed(config.data.seed)
