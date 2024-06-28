@@ -338,8 +338,15 @@ def main():
                 runner.sample()
                 procedure = "Sampling"
             elif args.test:
-                runner.test(fold_n)
+                f1_avg, acc_avg, kappa_avg, precision_avg, recall_avg, bacc_avg = runner.test(fold_n)
                 procedure = "Testing"
+                
+                acc_sum.append(acc_avg)
+                kappa_sum.append(kappa_avg)
+                precision_sum.append(precision_avg)
+                recall_sum.append(recall_avg)
+                f1_sum.append(f1_avg)
+                bacc_sum.append(bacc_avg)
             else:
                 #set_random_seed(config.data.seed)
                 logging.info(f"\n\n\Started running {fold_n} fold.")

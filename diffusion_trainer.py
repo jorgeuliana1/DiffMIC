@@ -703,5 +703,7 @@ class Diffusion(object):
                             f"Recall: {recall_avg}, Balanced Accuracy: {bacc_avg}"
                         )
                     )
-
+        
+        
+        return f1_avg, acc_avg, kappa_avg, precision_avg, recall_avg, bacc_avg
 
