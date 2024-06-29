@@ -127,9 +127,6 @@ def get_dataset(args, config, fold_n):
             csv_test=config.data.testdata,
             train=False,
         )
-    elif config.data.dataset == "PAD-UFES-Binary":
-        train_dataset = PadUfesBinary(config.data.dataroot, train=True)
-        test_dataset = PadUfesBinary(config.data.dataroot, train=False)
     elif config.data.dataset == "HIBA":
         train_dataset = HIBADataset(
             config.data.dataroot,
@@ -157,13 +154,22 @@ def get_dataset(args, config, fold_n):
             config.data.dataroot,
             csv_train=config.data.traindata,
             csv_test=config.data.testdata,
-            train=True
+            train=True,
+            fold_n=fold_n
+        )
+        val_dataset = PNdbUfes(
+            config.data.dataroot,
+            csv_train=config.data.traindata,
+            csv_test=config.data.testdata,
+            train=False,
+            val=True,
+            fold_n=fold_n
         )
         test_dataset = PNdbUfes(
             config.data.dataroot,
             csv_train=config.data.traindata,
             csv_test=config.data.testdata,
-            train=False
+            train=False,
         )
     elif config.data.dataset == "LIPAI":
         train_dataset = LIPAIDataset(config.data.dataroot, train=True)
