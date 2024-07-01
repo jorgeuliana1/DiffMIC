@@ -55,7 +55,7 @@ def get_optimizer(config_optim, parameters):
     elif config_optim.optimizer == 'RMSProp':
         return optim.RMSprop(parameters, lr=config_optim.lr, weight_decay=config_optim.weight_decay)
     elif config_optim.optimizer == 'SGD':
-        return optim.SGD(parameters, lr=config_optim.lr, weight_decay=1e-4, momentum=0.9)
+        return optim.SGD(parameters, lr=config_optim.lr, weight_decay=1e-3, momentum=0.9)
     else:
         raise NotImplementedError(
             'Optimizer {} not understood.'.format(config_optim.optimizer))

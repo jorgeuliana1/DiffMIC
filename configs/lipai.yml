@@ -47,7 +47,7 @@ diffusion:
         logging_interval: 1
     
 training:
-    batch_size: 96
+    batch_size: 30
     n_epochs: 200
     warmup_epochs: 40
     add_t0_loss: False
@@ -63,13 +63,13 @@ training:
     image_folder: 'training_image_samples'
 
 sampling:
-    batch_size: 96
+    batch_size: 30
     sampling_size: 1000
     last_only: True
     image_folder: 'sampling_image_samples'
 
 testing:
-    batch_size: 96
+    batch_size: 30
     sampling_size: 1000
     last_only: True
     plot_freq: 200
@@ -90,7 +90,7 @@ testing:
 optim:
     weight_decay: 0.000
     optimizer: "Adam"
-    lr: 0.001
+    lr: 0.0001
     beta1: 0.9
     amsgrad: False
     eps: 0.00000001
