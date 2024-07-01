@@ -197,14 +197,12 @@ class Diffusion(object):
             batch_size=config.training.batch_size,
             shuffle=True,
             num_workers=config.data.num_workers,
-            #sampler=sampler
         )
         val_loader = data.DataLoader(
             val_dataset,
             batch_size=config.training.batch_size,
             shuffle=True,
             num_workers=config.data.num_workers,
-            #sampler=sampler
         )
         test_loader = data.DataLoader(
             test_dataset,
@@ -220,7 +218,8 @@ class Diffusion(object):
             y_acc_aux_model))
 
         optimizer = get_optimizer(self.config.optim, model.parameters())
-        
+        scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='max', factor=0.1, patience=1, min_lr=1e-6)
+
         self.labels_balance = train_dataset.labels_balance
         labels_balance = np.asarray(train_dataset.labels_balance)
         labels_weight = 1 / labels_balance
@@ -344,7 +343,6 @@ class Diffusion(object):
                     else:
                         x_batch, y_labels_batch = feature_label_set
                         y_one_hot_batch, y_logits_batch = cast_label_to_one_hot_and_prototype(y_labels_batch, config)
-                        # y_labels_batch = y_labels_batch.reshape(-1, 1)
                     if config.optim.lr_schedule:
                         adjust_learning_rate(optimizer, i / len(train_loader) + epoch, config)
                     n = x_batch.size(0)
@@ -365,10 +363,9 @@ class Diffusion(object):
 
                     # noise estimation loss
                     x_batch = x_batch.to(self.device)
-                    # y_0_batch = y_logits_batch.to(self.device)
                     y_0_hat_batch, y_0_global, y_0_local = self.compute_guiding_prediction(x_unflat_batch)
                     y_0_hat_batch = y_0_hat_batch.softmax(dim=1)
-                    y_0_global,y_0_local = y_0_global.softmax(dim=1),y_0_local.softmax(dim=1)
+                    y_0_global, y_0_local = y_0_global.softmax(dim=1), y_0_local.softmax(dim=1)
 
                     y_T_mean = y_0_hat_batch
                     if config.diffusion.noise_prior:  # apply 0 instead of f_phi(x) as prior mean
@@ -381,17 +378,10 @@ class Diffusion(object):
                                         self.alphas_bar_sqrt, self.one_minus_alphas_bar_sqrt, t, noise=e)
                     y_t_batch_local = q_sample(y_0_batch, y_0_local,
                                         self.alphas_bar_sqrt, self.one_minus_alphas_bar_sqrt, t, noise=e)
-                    # output = model(x_batch, y_t_batch, t, y_T_mean)
                     output = model(x_batch, y_t_batch, t, y_0_hat_batch)
                     output_global = model(x_batch, y_t_batch_global, t, y_0_global)
                     output_local = model(x_batch, y_t_batch_local, t, y_0_local)
-
-                    #e_z = torch.randn_like(z_out).to(z_out.device)
-                    # loss = (e - output).square().mean()
                     loss = (e - output).square().mean() + 0.5*(compute_mmd(e,output_global) + compute_mmd(e,output_local))  # use the same noise sample e during training to compute loss
-                    #loss = compute_mmd(e, output)
-                    #losses = loss_function(train_batch, output, e, z)
-                    #loss = losses['loss']
                     # cross-entropy for y_0 reparameterization
                     loss0 = torch.tensor([0])
                     if args.add_ce_loss:
@@ -501,6 +491,7 @@ class Diffusion(object):
                     # Evaluate on test dataset
                     test_acc_avg, test_kappa_avg, test_f1_avg, test_precision_avg, test_recall_avg, test_bacc_avg = self.evaluate_model_on_dataset(
                         model, test_loader, self.device, config)
+                    scheduler.step(test_bacc_avg)
                     
                     if test_bacc_avg > max_accuracy:
                         logging.info("Update best balanced accuracy at Epoch {}.".format(epoch))
