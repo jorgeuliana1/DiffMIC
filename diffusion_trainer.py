@@ -218,7 +218,7 @@ class Diffusion(object):
             y_acc_aux_model))
 
         optimizer = get_optimizer(self.config.optim, model.parameters())
-        scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='max', factor=0.1, patience=1, min_lr=1e-6)
+        scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=10, min_lr=1e-6)
 
         self.labels_balance = train_dataset.labels_balance
         labels_balance = np.asarray(train_dataset.labels_balance)
@@ -404,6 +404,7 @@ class Diffusion(object):
                         )
 
                     # optimize diffusion model that predicts eps_theta
+                    scheduler.step(loss)
                     optimizer.zero_grad()
                     loss.backward()
                     try:
@@ -491,7 +492,6 @@ class Diffusion(object):
                     # Evaluate on test dataset
                     test_acc_avg, test_kappa_avg, test_f1_avg, test_precision_avg, test_recall_avg, test_bacc_avg = self.evaluate_model_on_dataset(
                         model, test_loader, self.device, config)
-                    scheduler.step(test_bacc_avg)
                     
                     if test_bacc_avg > max_accuracy:
                         logging.info("Update best balanced accuracy at Epoch {}.".format(epoch))
