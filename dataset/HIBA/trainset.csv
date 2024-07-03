@@ -530,7 +530,6 @@ ISIC_3298946,Hospital Italiano de Buenos Aires,CC-BY,85.0,posterior torso,malign
 ISIC_3299133,Hospital Italiano de Buenos Aires,CC-BY,70.0,lateral torso,malignant,True,,melanoma,histopathology,,II,clinical: overview,IL_0834101,IP_5138682,,male,2,2.0
 ISIC_3304758,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,benign,True,contact polarized,actinic keratosis,histopathology,False,II,dermoscopic,IL_0904087,IP_4772694,True,female,5,2.0
 ISIC_3311204,Hospital Italiano de Buenos Aires,CC-BY,60.0,lower extremity,malignant,True,,melanoma,histopathology,,II,clinical: overview,IL_6936924,IP_7362744,,male,2,0.0
-ISIC_3323494,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,benign,False,contact polarized,lichenoid keratosis,,,II,dermoscopic,IL_7404456,IP_8165031,,male,9,4.0
 ISIC_3332799,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,malignant,True,contact polarized,squamous cell carcinoma,histopathology,False,III,dermoscopic,IL_0501728,IP_6005497,True,female,6,4.0
 ISIC_3333078,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,,III,dermoscopic,IL_2452828,IP_1319015,,male,1,1.0
 ISIC_3342666,Hospital Italiano de Buenos Aires,CC-BY,65.0,anterior torso,malignant,True,,squamous cell carcinoma,histopathology,,II,clinical: overview,IL_8168888,IP_6579706,,male,6,1.0
@@ -754,7 +753,6 @@ ISIC_4767060,Hospital Italiano de Buenos Aires,CC-BY,25.0,upper extremity,benign
 ISIC_4784710,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,benign,False,contact polarized,nevus,,True,III,dermoscopic,IL_9770171,IP_7035571,False,male,0,4.0
 ISIC_4786444,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,benign,False,contact polarized,seborrheic keratosis,,False,II,dermoscopic,IL_6342673,IP_0031063,True,female,4,2.0
 ISIC_4787478,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,benign,False,contact polarized,nevus,,True,III,dermoscopic,IL_0544421,IP_7035571,False,male,0,2.0
-ISIC_4788959,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,benign,False,,lichenoid keratosis,,,II,clinical: overview,IL_7404456,IP_8165031,,male,9,2.0
 ISIC_4794233,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,,,dermoscopic,IL_3266357,IP_2081101,,male,1,2.0
 ISIC_4798806,Hospital Italiano de Buenos Aires,CC-BY,40.0,,benign,False,,vascular lesion,,False,II,clinical: overview,IL_7167818,IP_3028994,True,male,3,3.0
 ISIC_4815806,Hospital Italiano de Buenos Aires,CC-BY,55.0,posterior torso,benign,False,contact polarized,nevus,,False,IV,dermoscopic,IL_6781257,IP_7243858,False,female,0,2.0

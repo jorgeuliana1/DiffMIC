@@ -424,7 +424,6 @@ index,isic_id,attribution,copyright_license,age_approx,anatom_site_general,benig
 525,ISIC_3275416,Hospital Italiano de Buenos Aires,CC-BY,85.0,lower extremity,malignant,True,contact polarized,squamous cell carcinoma,histopathology,,II,dermoscopic,IL_3895273,IP_5805678,True,male,5,4.0
 527,ISIC_3298946,Hospital Italiano de Buenos Aires,CC-BY,85.0,posterior torso,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_8963555,IP_6995173,,male,1,0.0
 529,ISIC_3304758,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,benign,True,contact polarized,actinic keratosis,histopathology,False,II,dermoscopic,IL_0904087,IP_4772694,True,female,4,1.0
-531,ISIC_3323494,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,benign,False,contact polarized,lichenoid keratosis,,,II,dermoscopic,IL_7404456,IP_8165031,,male,9,3.0
 532,ISIC_3332799,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,malignant,True,contact polarized,squamous cell carcinoma,histopathology,False,III,dermoscopic,IL_0501728,IP_6005497,True,female,5,4.0
 533,ISIC_3333078,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,basal cell carcinoma,histopathology,,III,dermoscopic,IL_2452828,IP_1319015,,male,1,2.0
 535,ISIC_3344632,Hospital Italiano de Buenos Aires,CC-BY,80.0,lower extremity,malignant,True,contact polarized,basal cell carcinoma,histopathology,,II,dermoscopic,IL_4400056,IP_6420395,,female,1,4.0

@@ -153,7 +153,6 @@ index,isic_id,attribution,copyright_license,age_approx,anatom_site_general,benig
 746,ISIC_4732712,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,squamous cell carcinoma,histopathology,,II,clinical: overview,IL_5443888,IP_4336233,,male,5,0.0
 749,ISIC_4762072,Hospital Italiano de Buenos Aires,CC-BY,85.0,lower extremity,malignant,True,,melanoma,histopathology,,II,clinical: overview,IL_0060683,IP_7442897,,female,0,1.0
 750,ISIC_4766156,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,malignant,True,,melanoma,histopathology,,II,clinical: overview,IL_5167755,IP_8710793,,male,0,3.0
-755,ISIC_4788959,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,benign,False,,lichenoid keratosis,,,II,clinical: overview,IL_7404456,IP_8165031,,male,9,4.0
 757,ISIC_4798806,Hospital Italiano de Buenos Aires,CC-BY,40.0,,benign,False,,vascular lesion,,False,II,clinical: overview,IL_7167818,IP_3028994,True,male,1,4.0
 759,ISIC_4816001,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,benign,True,,nevus,histopathology,,II,clinical: overview,IL_5520788,IP_6783333,,male,3,3.0
 761,ISIC_4825485,Hospital Italiano de Buenos Aires,CC-BY,40.0,lower extremity,benign,True,,dermatofibroma,histopathology,,II,clinical: overview,IL_9024769,IP_0685905,,female,4,0.0
