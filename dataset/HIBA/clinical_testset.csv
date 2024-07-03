@@ -1,0 +1,58 @@
+index,isic_id,attribution,copyright_license,age_approx,anatom_site_general,benign_malignant,concomitant_biopsy,dermoscopic_type,diagnosis,diagnosis_confirm_type,family_hx_mm,fitzpatrick_skin_type,image_type,lesion_id,patient_id,personal_hx_mm,sex,diagnosis_discretized
+1394,ISIC_8781042,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,benign,True,,nevus,histopathology,False,III,clinical: overview,IL_1160690,IP_3682931,False,male,3
+1398,ISIC_8793798,Hospital Italiano de Buenos Aires,CC-BY,60.0,,malignant,True,,melanoma,histopathology,False,II,clinical: overview,IL_3601366,IP_0240453,True,female,0
+1403,ISIC_8803373,Hospital Italiano de Buenos Aires,CC-BY,65.0,,malignant,True,,basal cell carcinoma,histopathology,False,II,clinical: overview,IL_4874075,IP_3388406,False,male,2
+1410,ISIC_8841175,Hospital Italiano de Buenos Aires,CC-BY,85.0,upper extremity,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_5682932,IP_5543648,,female,2
+1413,ISIC_8850095,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,False,II,clinical: overview,IL_5217061,IP_7265725,True,male,2
+1422,ISIC_8904408,Hospital Italiano de Buenos Aires,CC-BY,55.0,anterior torso,benign,True,,nevus,histopathology,,,clinical: overview,IL_4885444,IP_9947705,False,female,3
+1427,ISIC_8930922,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_7436943,IP_7884622,,male,2
+1428,ISIC_8939503,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_3039529,IP_6872677,,female,2
+1432,ISIC_8948371,Hospital Italiano de Buenos Aires,CC-BY,80.0,upper extremity,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_9330933,IP_6558273,True,male,2
+1435,ISIC_8966458,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_5041050,IP_0551634,,female,2
+1437,ISIC_8969985,Hospital Italiano de Buenos Aires,CC-BY,60.0,lower extremity,benign,True,,dermatofibroma,histopathology,,II,clinical: overview,IL_2139148,IP_9436253,,male,4
+1447,ISIC_9043183,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_4681551,IP_1100982,,female,2
+1449,ISIC_9060197,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,III,clinical: overview,IL_1035603,IP_3373935,,female,2
+1451,ISIC_9071082,Hospital Italiano de Buenos Aires,CC-BY,50.0,lower extremity,benign,False,,dermatofibroma,,,II,clinical: overview,IL_3803224,IP_7762922,,female,4
+1454,ISIC_9082062,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,benign,True,,nevus,histopathology,,II,clinical: overview,IL_4524069,IP_6558273,True,male,3
+1457,ISIC_9097641,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,malignant,True,,melanoma,histopathology,,II,clinical: overview,IL_8214313,IP_3580447,,male,0
+1458,ISIC_9098311,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,,melanoma,histopathology,False,II,clinical: overview,IL_6841868,IP_5804995,True,male,0
+1461,ISIC_9107240,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_7302914,IP_9086452,,male,2
+1466,ISIC_9129115,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,benign,True,,actinic keratosis,histopathology,,II,clinical: overview,IL_2485486,IP_8947694,,female,6
+1478,ISIC_9195841,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,melanoma,histopathology,,II,clinical: overview,IL_2551859,IP_4805821,,male,0
+1486,ISIC_9257589,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,,squamous cell carcinoma,histopathology,,II,clinical: overview,IL_9195889,IP_2681150,,female,5
+1495,ISIC_9311797,Hospital Italiano de Buenos Aires,CC-BY,65.0,upper extremity,malignant,True,,squamous cell carcinoma,histopathology,False,II,clinical: overview,IL_6036150,IP_5430722,True,male,5
+1503,ISIC_9353417,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,benign,False,,nevus,,True,II,clinical: overview,IL_9809892,IP_0276872,,male,3
+1506,ISIC_9378991,Hospital Italiano de Buenos Aires,CC-BY,55.0,upper extremity,benign,False,,nevus,,,III,clinical: overview,IL_1663524,IP_6003393,,female,3
+1507,ISIC_9379115,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,squamous cell carcinoma,histopathology,,II,clinical: overview,IL_4437201,IP_2754431,,female,5
+1508,ISIC_9389788,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,benign,True,,actinic keratosis,histopathology,,II,clinical: overview,IL_1806732,IP_5349935,,female,6
+1509,ISIC_9393700,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,squamous cell carcinoma,histopathology,,II,clinical: overview,IL_4838500,IP_7442897,,female,5
+1510,ISIC_9396173,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,melanoma,histopathology,,II,clinical: overview,IL_3397118,IP_9731995,,female,0
+1511,ISIC_9396732,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,benign,False,,nevus,,,II,clinical: overview,IL_6467350,IP_7428337,,female,3
+1513,ISIC_9401469,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_3949893,IP_0964498,,male,2
+1516,ISIC_9417610,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_4914444,IP_5750465,,female,2
+1522,ISIC_9446067,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_4995475,IP_5549808,,female,2
+1525,ISIC_9480238,Hospital Italiano de Buenos Aires,CC-BY,40.0,lower extremity,benign,False,,dermatofibroma,,,II,clinical: overview,IL_2978481,IP_7351253,,male,4
+1526,ISIC_9481737,Hospital Italiano de Buenos Aires,CC-BY,30.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_7571871,IP_1724147,,male,2
+1529,ISIC_9497941,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,benign,True,,nevus,histopathology,False,III,clinical: overview,IL_6794721,IP_3682931,False,male,3
+1531,ISIC_9513630,Hospital Italiano de Buenos Aires,CC-BY,45.0,posterior torso,benign,True,,nevus,histopathology,False,II,clinical: overview,IL_3801788,IP_2413128,False,male,3
+1532,ISIC_9523184,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_4038060,IP_5485052,,male,2
+1535,ISIC_9561124,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_3372341,IP_8165031,,male,2
+1542,ISIC_9597037,Hospital Italiano de Buenos Aires,CC-BY,35.0,lower extremity,malignant,True,,melanoma,histopathology,False,II,clinical: overview,IL_8406844,IP_6588465,True,female,0
+1543,ISIC_9600064,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,melanoma,histopathology,False,II,clinical: overview,IL_8955295,IP_2359644,True,male,0
+1547,ISIC_9611628,Hospital Italiano de Buenos Aires,CC-BY,60.0,posterior torso,benign,True,,nevus,histopathology,,II,clinical: overview,IL_9391482,IP_5650689,,female,3
+1550,ISIC_9645798,Hospital Italiano de Buenos Aires,CC-BY,80.0,lower extremity,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_4052831,IP_9929036,,female,2
+1551,ISIC_9651464,Hospital Italiano de Buenos Aires,CC-BY,75.0,upper extremity,benign,False,,nevus,,True,II,clinical: overview,IL_3878395,IP_2411102,,female,3
+1552,ISIC_9653384,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,benign,False,,dermatofibroma,,False,I,clinical: overview,IL_9875496,IP_4891909,False,female,4
+1553,ISIC_9660302,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,III,clinical: overview,IL_6022331,IP_1319015,,male,2
+1561,ISIC_9683541,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,squamous cell carcinoma,histopathology,,II,clinical: overview,IL_2429626,IP_1729411,,male,5
+1564,ISIC_9701230,Hospital Italiano de Buenos Aires,CC-BY,45.0,lower extremity,benign,True,,nevus,histopathology,,II,clinical: overview,IL_3035673,IP_8779056,,female,3
+1574,ISIC_9765735,Hospital Italiano de Buenos Aires,CC-BY,80.0,lower extremity,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_0462608,IP_6558273,True,male,2
+1579,ISIC_9795586,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,benign,True,,seborrheic keratosis,histopathology,False,II,clinical: overview,IL_7629840,IP_0991357,True,male,7
+1588,ISIC_9882427,Hospital Italiano de Buenos Aires,CC-BY,80.0,anterior torso,benign,True,,nevus,histopathology,,II,clinical: overview,IL_9265651,IP_6558273,True,male,3
+1591,ISIC_9905557,Hospital Italiano de Buenos Aires,CC-BY,55.0,lower extremity,benign,True,,nevus,histopathology,False,II,clinical: overview,IL_6061997,IP_1773325,False,female,3
+1595,ISIC_9910672,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,,II,clinical: overview,IL_9222824,IP_0147267,,female,2
+1596,ISIC_9922955,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,malignant,True,,basal cell carcinoma,histopathology,False,II,clinical: overview,IL_1694184,IP_5801898,False,female,2
+1597,ISIC_9925949,Hospital Italiano de Buenos Aires,CC-BY,20.0,posterior torso,benign,True,,nevus,histopathology,False,II,clinical: overview,IL_1775432,IP_7203368,False,female,3
+1603,ISIC_9947461,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,basal cell carcinoma,histopathology,False,I,clinical: overview,IL_6361168,IP_4473222,True,male,2
+1607,ISIC_9968790,Hospital Italiano de Buenos Aires,CC-BY,80.0,upper extremity,benign,True,,nevus,histopathology,,III,clinical: overview,IL_7370033,IP_7670614,,female,3
+1613,ISIC_9997367,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,benign,False,,actinic keratosis,,,II,clinical: overview,IL_1956821,IP_2692251,,female,6
