@@ -497,7 +497,7 @@ class LIPAIDataset(MyDataset):
         if torch.is_tensor(index):
             index = index.tolist()
                 
-        img_path = os.path.join(self.root, "images", self.df.loc[index][self.x] + ".tif")
+        img_path = os.path.join(self.root, "images", self.df.loc[index][self.y], self.df.loc[index][self.x] + ".tif")
         img = Image.open(img_path).convert('RGB')
         img = self.transform_center(img)
         return img, int(self.df.loc[index][self.y])
