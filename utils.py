@@ -172,8 +172,27 @@ def get_dataset(args, config, fold_n):
             train=False,
         )
     elif config.data.dataset == "LIPAI":
-        train_dataset = LIPAIDataset(config.data.dataroot, train=True)
-        test_dataset = LIPAIDataset(config.data.dataroot, train=False)
+        train_dataset = LIPAIDataset(
+            config.data.dataroot,
+            csv_train=config.data.traindata,
+            csv_test=config.data.testdata,
+            train=True,
+            fold_n=fold_n
+        )
+        val_dataset = LIPAIDataset(
+            config.data.dataroot,
+            csv_train=config.data.traindata,
+            csv_test=config.data.testdata,
+            train=False,
+            val=True,
+            fold_n=fold_n
+        )
+        test_dataset = LIPAIDataset(
+            config.data.dataroot,
+            csv_train=config.data.traindata,
+            csv_test=config.data.testdata,
+            train=False,
+        )
     else:
         raise NotImplementedError(
             "Options: toy (classification of two Gaussian), MNIST, FashionMNIST, CIFAR10.")
