@@ -467,7 +467,7 @@ class HIBASixClinicalDataset(Dataset):
 
 class LIPAIDataset(MyDataset):
     def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True, val: bool = False, fold_n: int = -1):
-        super(PadUfes20, self).__init__(root, csv_train, csv_test, train, val, fold_n)
+        super(LIPAIDataset, self).__init__(root, csv_train, csv_test, train, val, fold_n)
         if train:
             self.transform_center = transforms.Compose([
                 trans.CropCenterSquare(),
