@@ -132,23 +132,23 @@ def get_dataset(args, config, fold_n):
             config.data.dataroot,
             csv_train=config.data.traindata,
             csv_test=config.data.testdata,
-            train=True
+            train=True,
+            fold_n=fold_n
+        )
+        val_dataset = HIBADataset(
+            config.data.dataroot,
+            csv_train=config.data.traindata,
+            csv_test=config.data.testdata,
+            train=False,
+            val=True,
+            fold_n=fold_n
         )
         test_dataset = HIBADataset(
             config.data.dataroot,
             csv_train=config.data.traindata,
             csv_test=config.data.testdata,
-            train=False
+            train=False,
         )
-    elif config.data.dataset == "HIBA-Binary":
-        train_dataset = HIBABinaryDataset(config.data.dataroot, train=True)
-        test_dataset = HIBABinaryDataset(config.data.dataroot, train=False)
-    elif config.data.dataset == "HIBA-Six":
-        train_dataset = HIBASixDataset(config.data.dataroot, train=True)
-        test_dataset = HIBASixDataset(config.data.dataroot, train=False)
-    elif config.data.dataset == "HIBA-Six-Clinical":
-        train_dataset = HIBASixClinicalDataset(config.data.dataroot, train=True)
-        test_dataset = HIBASixClinicalDataset(config.data.dataroot, train=False)
     elif config.data.dataset == "P-NDB-UFES":
         train_dataset = PNdbUfes(
             config.data.dataroot,

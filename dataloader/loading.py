@@ -266,8 +266,8 @@ class PNdbUfes(MyDataset):
         return img, int(self.df.loc[index][self.y])
     
 class HIBADataset(MyDataset):
-    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True):
-        super(HIBADataset, self).__init__(root, csv_train, csv_test, train)
+    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True, val: bool = False, fold_n: int = -1):
+        super(HIBADataset, self).__init__(root, csv_train, csv_test, train, val, fold_n)
         if train:
             self.transform_center = transforms.Compose([
                 trans.CropCenterSquare(),
@@ -287,10 +287,17 @@ class HIBADataset(MyDataset):
             ])
             
         self.x = "image"
-        self.y = "diagnosis_label"
+        self.y = "diagnosis_discretized"
         
         # Adding image names
         self.df[self.x] = self.df["isic_id"] + ".JPG"
+        
+        if self.val:
+            val_indexes = self.df["fold"].astype(int) == fold_n
+            self.df = self.df[val_indexes].reset_index()
+        elif self.train:
+            train_indexes = self.df["fold"].astype(int) != fold_n
+            self.df = self.df[train_indexes].reset_index()
     
     def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
         if torch.is_tensor(index):
@@ -302,168 +309,6 @@ class HIBADataset(MyDataset):
         img = self.transform_center(img)
             
         return img, int(self.df.loc[index][self.y])
-    
-class HIBABinaryDataset(Dataset):
-    def __init__(self, root: str, train: bool = True):
-        self.trainsize = (224,224)
-        if train:
-            self.transform_center = transforms.Compose([
-                trans.CropCenterSquare(),
-                transforms.Resize(self.trainsize),
-                trans.RandomHorizontalFlip(),
-                trans.RandomRotation(30),
-                transforms.ToTensor(),
-                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
-            ])
-        else:
-            self.transform_center = transforms.Compose([
-                trans.CropCenterSquare(),
-                transforms.Resize(self.trainsize),
-                #trans.CenterCrop(self.trainsize),
-                transforms.ToTensor(),
-                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
-            ])
-            
-        self.train = train
-        self.root = root
-        
-        # Defining .csv file to be used
-        csv_name = "simplified_data.csv"
-            
-        # Opening dataframe:
-        self.df = pd.read_csv(os.path.join(self.root, csv_name), header = 0)
-        self.x = "image"
-        self.y = "diagnosis_id"
-        
-        if self.train:
-            self.df = self.df[self.df["fold"] != 0].reset_index()
-        else:
-            self.df = self.df[self.df["fold"] == 0].reset_index()
-
-    def __len__(self):
-        return len(self.df)
-    
-    def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
-        if torch.is_tensor(index):
-            index = index.tolist()
-                
-        img_path = os.path.join(self.root, "images", self.df.loc[index][self.x])
-        img = Image.open(img_path).convert('RGB')
-        
-        img = self.transform_center(img)
-            
-        return img, int(self.df.loc[index][self.y])
-    
-class HIBASixDataset(Dataset):
-    def __init__(self, root: str, train: bool = True):
-        self.trainsize = (224,224)
-        if train:
-            self.transform_center = transforms.Compose([
-                trans.CropCenterSquare(),
-                transforms.Resize(self.trainsize),
-                trans.RandomHorizontalFlip(),
-                trans.RandomRotation(30),
-                transforms.ToTensor(),
-                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
-            ])
-        else:
-            self.transform_center = transforms.Compose([
-                trans.CropCenterSquare(),
-                transforms.Resize(self.trainsize),
-                #trans.CenterCrop(self.trainsize),
-                transforms.ToTensor(),
-                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
-            ])
-            
-        self.train = train
-        self.root = root
-        
-        # Defining .csv file to be used
-        csv_name = "simplified_data.csv"
-            
-        # Defining .csv file to be used
-        if self.train:
-            csv_name = "hiba6_parsed_train.csv"
-        else:
-            csv_name = "hiba6_parsed_test.csv"
-            
-        # Opening dataframe:
-        self.df = pd.read_csv(os.path.join(self.root, csv_name), header = 0)
-        self.x = "image"
-        self.y = "diagnosis_label"
-        
-        # Adding image names
-        self.df[self.x] = self.df["isic_id"] + ".JPG"
-
-    def __len__(self):
-        return len(self.df)
-    
-    def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
-        if torch.is_tensor(index):
-            index = index.tolist()
-                
-        img_path = os.path.join(self.root, "images", self.df.loc[index][self.x])
-        img = Image.open(img_path).convert('RGB')
-        
-        img = self.transform_center(img)
-            
-        return img, int(self.df.loc[index][self.y])
-    
-
-class HIBASixClinicalDataset(Dataset):
-    def __init__(self, root: str, train: bool = True):
-        self.trainsize = (224,224)
-        if train:
-            self.transform_center = transforms.Compose([
-                trans.CropCenterSquare(),
-                transforms.Resize(self.trainsize),
-                trans.RandomHorizontalFlip(),
-                trans.RandomRotation(30),
-                transforms.ToTensor(),
-                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
-            ])
-        else:
-            self.transform_center = transforms.Compose([
-                trans.CropCenterSquare(),
-                transforms.Resize(self.trainsize),
-                #trans.CenterCrop(self.trainsize),
-                transforms.ToTensor(),
-                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
-            ])
-            
-        self.train = train
-        self.root = root
-        
-        # Defining .csv file to be used
-        csv_name = "simplified_data.csv"
-            
-        # Defining .csv file to be used
-        if self.train:
-            csv_name = "hiba6_clinical_train.csv"
-        else:
-            csv_name = "hiba6_clinical_test.csv"
-            
-        # Opening dataframe:
-        self.df = pd.read_csv(os.path.join(self.root, csv_name), header = 0)
-        self.x = "image"
-        self.y = "diagnosis_label"
-        
-        # Adding image names
-        self.df[self.x] = self.df["isic_id"] + ".JPG"
-
-    def __len__(self):
-        return len(self.df)
-    
-    def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
-        if torch.is_tensor(index):
-            index = index.tolist()
-                
-        img_path = os.path.join(self.root, "images", self.df.loc[index][self.x])
-        img = Image.open(img_path).convert('RGB')
-        
-        img = self.transform_center(img)
-            
-        return img, int(self.df.loc[index][self.y])    
 
 class LIPAIDataset(MyDataset):
     def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True, val: bool = False, fold_n: int = -1):

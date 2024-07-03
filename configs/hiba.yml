@@ -5,8 +5,8 @@ data:
     num_classes: 10
     num_workers: 9
     dataroot: '/data/datasets/images/HIBA'
-    traindata: './dataset/HIBA/HIBA_train.csv'
-    testdata: './dataset/HIBA/HIBA_test.csv'
+    traindata: './dataset/HIBA/trainset.csv'
+    testdata: './dataset/HIBA/testset.csv'
 
 model:
     type: "simple"
@@ -47,8 +47,8 @@ diffusion:
         logging_interval: 1
     
 training:
-    batch_size: 96
-    n_epochs: 1000
+    batch_size: 30
+    n_epochs: 150
     warmup_epochs: 40
     add_t0_loss: False
     n_steps_req_grad: 100
@@ -63,13 +63,13 @@ training:
     image_folder: 'training_image_samples'
 
 sampling:
-    batch_size: 96
+    batch_size: 30
     sampling_size: 1000
     last_only: True
     image_folder: 'sampling_image_samples'
 
 testing:
-    batch_size: 96
+    batch_size: 30
     sampling_size: 1000
     last_only: True
     plot_freq: 200
