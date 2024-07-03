@@ -492,8 +492,6 @@ class LIPAIDataset(MyDataset):
             self.df = self.df[self.df["fold"] == 0].reset_index()
         elif self.val:
             self.df = self.df[self.df["fold"] == 1].reset_index()
-        else:
-            raise Exception("`train` and `val` can't be both False")
     
     def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
         if torch.is_tensor(index):
