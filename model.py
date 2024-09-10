@@ -51,24 +51,29 @@ class ConditionalModel(nn.Module):
         self.lin4 = nn.Linear(feature_dim, y_dim)
 
     def forward(self, x, y, t, yhat=None):
+        features = []
         x = self.encoder_x(x)
         x = self.norm(x)
         if self.guidance:
             #for yh in yhat:
             y = torch.cat([y, yhat], dim=-1)
         y = self.lin1(y, t)
+        features.append(y)
         y = self.unetnorm1(y)
         y = F.softplus(y)
         y = x * y
         y = self.lin2(y, t)
+        features.append(y)
         y = self.unetnorm2(y)
         y = F.softplus(y)
         y = self.lin3(y, t)
+        features.append(y)
         y = self.unetnorm3(y)
         y = F.softplus(y)
         y = self.lin4(y)
+        features.append(y)
 
-        return y
+        return y, features
 
 
 

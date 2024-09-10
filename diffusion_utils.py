@@ -76,7 +76,8 @@ def p_sample(model, x, y, y_0_hat, y_T_mean, t, alphas, one_minus_alphas_bar_sqr
     gamma_1 = (sqrt_one_minus_alpha_bar_t_m_1.square()) * (alpha_t.sqrt()) / (sqrt_one_minus_alpha_bar_t.square())
     gamma_2 = 1 + (sqrt_alpha_bar_t - 1) * (alpha_t.sqrt() + sqrt_alpha_bar_t_m_1) / (
         sqrt_one_minus_alpha_bar_t.square())
-    eps_theta = model(x, y, t, y_0_hat).to(device).detach()
+    model_output = model(x, y, t, y_0_hat)
+    eps_theta = model_output[0].to(device).detach()
     # y_0 reparameterization
     y_0_reparam = 1 / sqrt_alpha_bar_t * (
             y - (1 - sqrt_alpha_bar_t) * y_T_mean - eps_theta * sqrt_one_minus_alpha_bar_t)
@@ -85,7 +86,7 @@ def p_sample(model, x, y, y_0_hat, y_T_mean, t, alphas, one_minus_alphas_bar_sqr
     # posterior variance
     beta_t_hat = (sqrt_one_minus_alpha_bar_t_m_1.square()) / (sqrt_one_minus_alpha_bar_t.square()) * (1 - alpha_t)
     y_t_m_1 = y_t_m_1_hat.to(device) + beta_t_hat.sqrt().to(device) * z.to(device)
-    return y_t_m_1
+    return y_t_m_1, model_output[1]
 
 
 
@@ -96,7 +97,7 @@ def p_sample_t_1to0(model, x, y, y_0_hat, y_T_mean, one_minus_alphas_bar_sqrt):
     t = torch.tensor([0]).to(device)  # corresponding to timestep 1 (i.e., t=1 in diffusion models)
     sqrt_one_minus_alpha_bar_t = extract(one_minus_alphas_bar_sqrt, t, y)
     sqrt_alpha_bar_t = (1 - sqrt_one_minus_alpha_bar_t.square()).sqrt()
-    eps_theta = model(x, y, t, y_0_hat).to(device).detach()
+    eps_theta = model(x, y, t, y_0_hat)[0].to(device).detach()
     # y_0 reparameterization
     y_0_reparam = 1 / sqrt_alpha_bar_t * (
             y - (1 - sqrt_alpha_bar_t) * y_T_mean - eps_theta * sqrt_one_minus_alpha_bar_t)
@@ -112,7 +113,7 @@ def y_0_reparam(model, x, y, y_0_hat, y_T_mean, t, one_minus_alphas_bar_sqrt):
     device = next(model.parameters()).device
     sqrt_one_minus_alpha_bar_t = extract(one_minus_alphas_bar_sqrt, t, y)
     sqrt_alpha_bar_t = (1 - sqrt_one_minus_alpha_bar_t.square()).sqrt()
-    eps_theta = model(x, y, t, y_0_hat).to(device).detach()
+    eps_theta = model(x, y, t, y_0_hat)[0].to(device).detach()
     # y_0 reparameterization
     y_0_reparam = 1 / sqrt_alpha_bar_t * (
             y - (1 - sqrt_alpha_bar_t) * y_T_mean - eps_theta * sqrt_one_minus_alpha_bar_t).to(device)
@@ -122,6 +123,7 @@ def y_0_reparam(model, x, y, y_0_hat, y_T_mean, t, one_minus_alphas_bar_sqrt):
 def p_sample_loop(model, x, y_0_hat, y_T_mean, n_steps, alphas, one_minus_alphas_bar_sqrt,
                   only_last_sample=False):
     num_t, y_p_seq = None, None
+    features_ = []
     device = next(model.parameters()).device
     z = torch.randn_like(y_T_mean).to(device)
     cur_y = z + y_T_mean  # sampled y_T
@@ -131,7 +133,8 @@ def p_sample_loop(model, x, y_0_hat, y_T_mean, n_steps, alphas, one_minus_alphas
         y_p_seq = [cur_y]
     for t in reversed(range(1, n_steps)):
         y_t = cur_y
-        cur_y = p_sample(model, x, y_t, y_0_hat, y_T_mean, t, alphas, one_minus_alphas_bar_sqrt)  # y_{t-1}
+        cur_y, features = p_sample(model, x, y_t, y_0_hat, y_T_mean, t, alphas, one_minus_alphas_bar_sqrt)  # y_{t-1}
+        features_.append(features)
         if only_last_sample:
             num_t += 1
         else:
@@ -139,12 +142,12 @@ def p_sample_loop(model, x, y_0_hat, y_T_mean, n_steps, alphas, one_minus_alphas
     if only_last_sample:
         assert num_t == n_steps
         y_0 = p_sample_t_1to0(model, x, cur_y, y_0_hat, y_T_mean, one_minus_alphas_bar_sqrt)
-        return y_0
+        return y_0, features_
     else:
         assert len(y_p_seq) == n_steps
         y_0 = p_sample_t_1to0(model, x, y_p_seq[-1], y_0_hat, y_T_mean, one_minus_alphas_bar_sqrt)
         y_p_seq.append(y_0)
-        return y_p_seq
+        return y_p_seq, features_
 
 
 def compute_kernel(x, y):

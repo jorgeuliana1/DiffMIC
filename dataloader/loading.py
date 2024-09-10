@@ -186,7 +186,7 @@ class MyDataset(Dataset):
         return np.asarray(sorted_v_counts)
     
 class PadUfes20(MyDataset):
-    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True, val: bool = False, fold_n: int = -1):
+    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True, val: bool = False, fold_n: int = -1, use_folds = False):
         super(PadUfes20, self).__init__(root, csv_train, csv_test, train, val, fold_n)
         if self.train:
             self.transform_center = transforms.Compose([
@@ -209,12 +209,16 @@ class PadUfes20(MyDataset):
         self.x = "img_id"
         self.y = "diagnostic_number"
         
-        if self.val:
-            val_indexes = self.df["folder"] == fold_n + 1
+        if use_folds:
+            if self.val:
+                val_indexes = self.df["folder"] == fold_n + 1
+                self.df = self.df[val_indexes].reset_index()
+            elif self.train:
+                train_indexes = self.df["folder"] != fold_n + 1
+                self.df = self.df[train_indexes].reset_index()
+        elif self.val:
+            val_indexes = self.df["folder"] == -1 # Empty dataset
             self.df = self.df[val_indexes].reset_index()
-        elif self.train:
-            train_indexes = self.df["folder"] != fold_n + 1
-            self.df = self.df[train_indexes].reset_index()
     
     def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
         if torch.is_tensor(index):
@@ -226,7 +230,7 @@ class PadUfes20(MyDataset):
         return img, int(self.df.loc[index][self.y])
 
 class PNdbUfes(MyDataset):
-    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True, val: bool = False, fold_n: int = -1):
+    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True, val: bool = False, fold_n: int = -1, use_folds=False):
         super(PNdbUfes, self).__init__(root, csv_train, csv_test, train, val, fold_n)
         if train:
             self.transform_center = transforms.Compose([
@@ -249,12 +253,16 @@ class PNdbUfes(MyDataset):
         self.x = "path"
         self.y = "label_number"
         
-        if self.val:
-            val_indexes = self.df["folder"] == fold_n + 1
+        if use_folds:
+            if self.val:
+                val_indexes = self.df["folder"] == fold_n + 1
+                self.df = self.df[val_indexes].reset_index()
+            elif self.train:
+                train_indexes = self.df["folder"] != fold_n + 1
+                self.df = self.df[train_indexes].reset_index()
+        elif self.val:
+            val_indexes = self.df["folder"] == -1 # Empty dataset
             self.df = self.df[val_indexes].reset_index()
-        elif self.train:
-            train_indexes = self.df["folder"] != fold_n + 1
-            self.df = self.df[train_indexes].reset_index()
     
     def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
         if torch.is_tensor(index):
@@ -266,7 +274,7 @@ class PNdbUfes(MyDataset):
         return img, int(self.df.loc[index][self.y])
     
 class HIBADataset(MyDataset):
-    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True, val: bool = False, fold_n: int = -1):
+    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True, val: bool = False, fold_n: int = -1, use_folds=False):
         super(HIBADataset, self).__init__(root, csv_train, csv_test, train, val, fold_n)
         if train:
             self.transform_center = transforms.Compose([
@@ -292,12 +300,16 @@ class HIBADataset(MyDataset):
         # Adding image names
         self.df[self.x] = self.df["isic_id"] + ".JPG"
         
-        if self.val:
-            val_indexes = self.df["fold"].astype(int) == fold_n
+        if use_folds:
+            if self.val:
+                val_indexes = self.df["fold"] == fold_n + 1
+                self.df = self.df[val_indexes].reset_index()
+            elif self.train:
+                train_indexes = self.df["fold"] != fold_n + 1
+                self.df = self.df[train_indexes].reset_index()
+        elif self.val:
+            val_indexes = self.df["fold"] == -1 # Empty dataset
             self.df = self.df[val_indexes].reset_index()
-        elif self.train:
-            train_indexes = self.df["fold"].astype(int) != fold_n
-            self.df = self.df[train_indexes].reset_index()
     
     def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
         if torch.is_tensor(index):
@@ -307,11 +319,11 @@ class HIBADataset(MyDataset):
         img = Image.open(img_path).convert('RGB')
         
         img = self.transform_center(img)
-            
+
         return img, int(self.df.loc[index][self.y])
 
 class LIPAIDataset(MyDataset):
-    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True, val: bool = False, fold_n: int = -1):
+    def __init__(self, root: str, csv_train: str, csv_test: str, train: bool = True, val: bool = False, fold_n: int = -1, use_folds=False):
         super(LIPAIDataset, self).__init__(root, csv_train, csv_test, train, val, fold_n)
         if train:
             self.transform_center = transforms.Compose([
@@ -333,10 +345,16 @@ class LIPAIDataset(MyDataset):
         self.x = "id"
         self.y = "discretized_diagnosis"
         
-        if self.train:
-            self.df = self.df[self.df["fold"] == 0].reset_index()
+        if use_folds:
+            if self.val:
+                val_indexes = self.df["fold"] == fold_n + 1
+                self.df = self.df[val_indexes].reset_index()
+            elif self.train:
+                train_indexes = self.df["fold"] != fold_n + 1
+                self.df = self.df[train_indexes].reset_index()
         elif self.val:
-            self.df = self.df[self.df["fold"] == 1].reset_index()
+            val_indexes = self.df["fold"] == -1 # Empty dataset
+            self.df = self.df[val_indexes].reset_index()
     
     def __getitem__(self, index) -> Tuple[torch.Tensor, int]:
         if torch.is_tensor(index):

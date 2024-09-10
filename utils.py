@@ -276,21 +276,21 @@ def compute_f1_score(gt, pred):
     gt_class = gt.cpu().detach().numpy()
     pred_np = pred.cpu().detach().numpy()
     pred_class = np.argmax(pred_np, axis=1)
-    F1 = f1_score(gt_class, pred_class, average='macro')
+    F1 = f1_score(gt_class, pred_class, average='weighted')
     return F1
 
 def compute_recall_score(gt, pred):
     gt_class = gt.cpu().detach().numpy()
     pred_np = pred.cpu().detach().numpy()
     pred_class = np.argmax(pred_np, axis=1)
-    recall = recall_score(gt_class, pred_class, average='macro')
+    recall = recall_score(gt_class, pred_class, average='weighted')
     return recall
 
 def compute_precision_score(gt, pred):
     gt_class = gt.cpu().detach().numpy()
     pred_np = pred.cpu().detach().numpy()
     pred_class = np.argmax(pred_np, axis=1)
-    precision = precision_score(gt_class, pred_class, average='macro')
+    precision = precision_score(gt_class, pred_class, average='weighted')
     return precision
 
 def compute_bacc_score(gt, pred, labels_balance):
@@ -307,6 +307,6 @@ def compute_bacc_score(gt, pred, labels_balance):
     sample_weight = np.array([class_weights[label] for label in gt_class])  # Weights for each sample
     
     # Calculate balanced accuracy using sample weights
-    bacc = balanced_accuracy_score(gt_class, pred_class, sample_weight=sample_weight)
+    bacc = balanced_accuracy_score(gt_class, pred_class)#, sample_weight=sample_weight)
     
     return bacc
