@@ -111,7 +111,8 @@ def get_dataset(args, config, fold_n):
             csv_train=config.data.traindata,
             csv_test=config.data.testdata,
             train=True,
-            fold_n=fold_n
+            fold_n=fold_n,
+            use_folds=fold_n != -1
         )
         val_dataset = PadUfes20(
             config.data.dataroot,
@@ -119,13 +120,15 @@ def get_dataset(args, config, fold_n):
             csv_test=config.data.testdata,
             train=False,
             val=True,
-            fold_n=fold_n
+            fold_n=fold_n,
+            use_folds=fold_n != -1
         )
         test_dataset = PadUfes20(
             config.data.dataroot,
             csv_train=config.data.traindata,
             csv_test=config.data.testdata,
             train=False,
+            use_folds=fold_n != -1
         )
     elif config.data.dataset == "HIBA":
         train_dataset = HIBADataset(
@@ -133,7 +136,8 @@ def get_dataset(args, config, fold_n):
             csv_train=config.data.traindata,
             csv_test=config.data.testdata,
             train=True,
-            fold_n=fold_n
+            fold_n=fold_n,
+            use_folds=fold_n != -1
         )
         val_dataset = HIBADataset(
             config.data.dataroot,
@@ -141,13 +145,15 @@ def get_dataset(args, config, fold_n):
             csv_test=config.data.testdata,
             train=False,
             val=True,
-            fold_n=fold_n
+            fold_n=fold_n,
+            use_folds=fold_n != -1
         )
         test_dataset = HIBADataset(
             config.data.dataroot,
             csv_train=config.data.traindata,
             csv_test=config.data.testdata,
             train=False,
+            use_folds=fold_n != -1
         )
     elif config.data.dataset == "P-NDB-UFES":
         train_dataset = PNdbUfes(
@@ -155,7 +161,8 @@ def get_dataset(args, config, fold_n):
             csv_train=config.data.traindata,
             csv_test=config.data.testdata,
             train=True,
-            fold_n=fold_n
+            fold_n=fold_n,
+            use_folds=fold_n != -1
         )
         val_dataset = PNdbUfes(
             config.data.dataroot,
@@ -163,13 +170,15 @@ def get_dataset(args, config, fold_n):
             csv_test=config.data.testdata,
             train=False,
             val=True,
-            fold_n=fold_n
+            fold_n=fold_n,
+            use_folds=fold_n != -1
         )
         test_dataset = PNdbUfes(
             config.data.dataroot,
             csv_train=config.data.traindata,
             csv_test=config.data.testdata,
             train=False,
+            use_folds=fold_n != -1
         )
     elif config.data.dataset == "LIPAI":
         train_dataset = LIPAIDataset(
@@ -177,7 +186,8 @@ def get_dataset(args, config, fold_n):
             csv_train=config.data.traindata,
             csv_test=config.data.testdata,
             train=True,
-            fold_n=fold_n
+            fold_n=fold_n,
+            use_folds=fold_n != -1
         )
         val_dataset = LIPAIDataset(
             config.data.dataroot,
@@ -185,13 +195,15 @@ def get_dataset(args, config, fold_n):
             csv_test=config.data.testdata,
             train=False,
             val=True,
-            fold_n=fold_n
+            fold_n=fold_n,
+            use_folds=fold_n != -1
         )
         test_dataset = LIPAIDataset(
             config.data.dataroot,
             csv_train=config.data.traindata,
             csv_test=config.data.testdata,
             train=False,
+            use_folds=fold_n != -1
         )
     else:
         raise NotImplementedError(
@@ -276,21 +288,21 @@ def compute_f1_score(gt, pred):
     gt_class = gt.cpu().detach().numpy()
     pred_np = pred.cpu().detach().numpy()
     pred_class = np.argmax(pred_np, axis=1)
-    F1 = f1_score(gt_class, pred_class, average='weighted')
+    F1 = f1_score(gt_class, pred_class, average='macro')
     return F1
 
 def compute_recall_score(gt, pred):
     gt_class = gt.cpu().detach().numpy()
     pred_np = pred.cpu().detach().numpy()
     pred_class = np.argmax(pred_np, axis=1)
-    recall = recall_score(gt_class, pred_class, average='weighted')
+    recall = recall_score(gt_class, pred_class, average='macro')
     return recall
 
 def compute_precision_score(gt, pred):
     gt_class = gt.cpu().detach().numpy()
     pred_np = pred.cpu().detach().numpy()
     pred_class = np.argmax(pred_np, axis=1)
-    precision = precision_score(gt_class, pred_class, average='weighted')
+    precision = precision_score(gt_class, pred_class, average='macro')
     return precision
 
 def compute_bacc_score(gt, pred, labels_balance):
