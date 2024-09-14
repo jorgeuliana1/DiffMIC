@@ -1,0 +1,257 @@
+index,isic_id,attribution,copyright_license,age_approx,anatom_site_general,benign_malignant,concomitant_biopsy,dermoscopic_type,diagnosis,diagnosis_confirm_type,family_hx_mm,fitzpatrick_skin_type,image_type,lesion_id,patient_id,personal_hx_mm,sex,label,fold,diagnosis_discretized
+3,ISIC_0094098,Hospital Italiano de Buenos Aires,CC-BY,65.0,posterior torso,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_6961144,IP_1218261,True,male,0,1.0,2
+7,ISIC_0116640,Hospital Italiano de Buenos Aires,CC-BY,80.0,lower extremity,malignant,True,,MEL,histopathology,True,I,clinical: overview,IL_5502639,IP_7526334,True,female,0,3.0,2
+8,ISIC_0119854,Hospital Italiano de Buenos Aires,CC-BY,80.0,anterior torso,malignant,True,,BCC,histopathology,,I,clinical: overview,IL_9587318,IP_2079372,,female,2,2.0,1
+9,ISIC_0133379,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_3383993,IP_3342129,,female,2,4.0,1
+10,ISIC_0133773,Hospital Italiano de Buenos Aires,CC-BY,80.0,upper extremity,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_1022413,IP_6640998,,female,2,1.0,1
+24,ISIC_0211418,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_3341905,IP_5842685,,female,2,1.0,1
+40,ISIC_0330896,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_7198013,IP_2844264,,female,2,2.0,1
+46,ISIC_0370022,Hospital Italiano de Buenos Aires,CC-BY,40.0,lower extremity,benign,False,,NEV,,False,,clinical: overview,IL_4510049,IP_4446353,True,female,3,3.0,3
+48,ISIC_0373249,Hospital Italiano de Buenos Aires,CC-BY,60.0,lower extremity,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_1701283,IP_9885775,True,female,0,3.0,2
+71,ISIC_0514929,Hospital Italiano de Buenos Aires,CC-BY,65.0,posterior torso,malignant,True,,MEL,histopathology,,I,clinical: overview,IL_5856523,IP_3279811,,male,0,4.0,2
+77,ISIC_0542742,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_8012686,IP_9116795,,female,2,1.0,1
+80,ISIC_0562305,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_5370176,IP_3371330,,female,2,1.0,1
+83,ISIC_0580759,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_8239498,IP_7256360,,male,5,2.0,4
+93,ISIC_0633437,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_7402225,IP_2137123,,male,0,1.0,2
+96,ISIC_0644328,Hospital Italiano de Buenos Aires,CC-BY,30.0,posterior torso,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_5047846,IP_0232163,False,male,3,4.0,3
+97,ISIC_0647125,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_9840135,IP_7923120,,male,2,4.0,1
+104,ISIC_0708451,Hospital Italiano de Buenos Aires,CC-BY,60.0,posterior torso,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_8692596,IP_9341045,True,male,0,4.0,2
+106,ISIC_0721601,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,benign,False,,ACK,,,II,clinical: overview,IL_9163996,IP_1612316,,female,6,1.0,0
+110,ISIC_0761934,Hospital Italiano de Buenos Aires,CC-BY,80.0,lower extremity,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_3905702,IP_6838851,,female,0,2.0,2
+111,ISIC_0765095,Hospital Italiano de Buenos Aires,CC-BY,85.0,anterior torso,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_9826099,IP_3451310,,male,5,1.0,4
+120,ISIC_0799918,Hospital Italiano de Buenos Aires,CC-BY,85.0,anterior torso,benign,True,,SEK,histopathology,False,II,clinical: overview,IL_3664250,IP_3702153,False,male,7,3.0,5
+125,ISIC_0821196,Hospital Italiano de Buenos Aires,CC-BY,85.0,upper extremity,benign,True,,SEK,histopathology,,II,clinical: overview,IL_3529997,IP_4260877,,male,7,4.0,5
+126,ISIC_0830433,Hospital Italiano de Buenos Aires,CC-BY,85.0,,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_9777032,IP_6444963,,male,2,4.0,1
+135,ISIC_0921082,Hospital Italiano de Buenos Aires,CC-BY,75.0,upper extremity,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_2307963,IP_1040510,True,female,3,2.0,3
+143,ISIC_0973304,Hospital Italiano de Buenos Aires,CC-BY,55.0,head/neck,benign,True,,ACK,histopathology,,II,clinical: overview,IL_0909134,IP_5625034,,female,6,3.0,0
+148,ISIC_1000675,Hospital Italiano de Buenos Aires,CC-BY,80.0,upper extremity,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_3632801,IP_6640998,,female,0,2.0,2
+150,ISIC_1014434,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_9143711,IP_6251525,True,female,3,0.0,3
+157,ISIC_1065512,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_9806320,IP_5349935,,female,2,1.0,1
+167,ISIC_1112864,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_4606486,IP_9586825,,male,0,3.0,2
+173,ISIC_1135829,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_4512262,IP_4216830,,female,0,1.0,2
+177,ISIC_1152189,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_1792549,IP_1483579,True,female,2,0.0,1
+200,ISIC_1306256,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,benign,True,,NEV,histopathology,,II,clinical: overview,IL_8656384,IP_2118132,,male,3,1.0,3
+201,ISIC_1309231,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_2659423,IP_1414430,,female,5,2.0,4
+203,ISIC_1317893,Hospital Italiano de Buenos Aires,CC-BY,65.0,lower extremity,malignant,True,,MEL,histopathology,False,I,clinical: overview,IL_7601203,IP_5230560,True,female,0,1.0,2
+204,ISIC_1321984,Hospital Italiano de Buenos Aires,CC-BY,60.0,anterior torso,malignant,True,,MEL,histopathology,False,I,clinical: overview,IL_5354427,IP_0212365,True,male,0,0.0,2
+206,ISIC_1341581,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_0526105,IP_5048300,,male,2,3.0,1
+213,ISIC_1383624,Hospital Italiano de Buenos Aires,CC-BY,30.0,posterior torso,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_2917009,IP_0232163,False,male,3,2.0,3
+218,ISIC_1411587,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,BCC,histopathology,,,clinical: overview,IL_0822230,IP_0383433,,male,2,3.0,1
+225,ISIC_1464726,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,benign,False,,SEK,,True,II,clinical: overview,IL_9624120,IP_8785134,False,male,7,4.0,5
+229,ISIC_1482223,Hospital Italiano de Buenos Aires,CC-BY,60.0,posterior torso,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_0247953,IP_9079253,,male,0,3.0,2
+234,ISIC_1536832,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_6538837,IP_0412162,,male,2,4.0,1
+240,ISIC_1559934,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_5475527,IP_5251892,,female,5,1.0,4
+259,ISIC_1634408,Hospital Italiano de Buenos Aires,CC-BY,80.0,upper extremity,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_1486711,IP_6555777,,female,0,0.0,2
+261,ISIC_1641940,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,BCC,histopathology,False,III,clinical: overview,IL_9366956,IP_3682931,False,male,2,4.0,1
+266,ISIC_1687088,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,benign,False,,ACK,,,II,clinical: overview,IL_2635206,IP_7923120,,male,6,1.0,0
+275,ISIC_1733229,Hospital Italiano de Buenos Aires,CC-BY,60.0,lower extremity,benign,True,,SEK,histopathology,False,II,clinical: overview,IL_9685676,IP_4097598,False,female,7,3.0,5
+277,ISIC_1735952,Hospital Italiano de Buenos Aires,CC-BY,70.0,,benign,False,,NEV,,False,II,clinical: overview,IL_5806562,IP_0031063,True,female,3,0.0,3
+289,ISIC_1816574,Hospital Italiano de Buenos Aires,CC-BY,35.0,upper extremity,benign,True,,NEV,histopathology,True,II,clinical: overview,IL_8606570,IP_6728907,,male,3,2.0,3
+293,ISIC_1831970,Hospital Italiano de Buenos Aires,CC-BY,50.0,anterior torso,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_1878538,IP_4253242,False,female,2,2.0,1
+312,ISIC_1939384,Hospital Italiano de Buenos Aires,CC-BY,65.0,lower extremity,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_1669261,IP_2080217,,male,2,3.0,1
+314,ISIC_1949623,Hospital Italiano de Buenos Aires,CC-BY,60.0,lower extremity,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_9784934,IP_9621492,,female,2,0.0,1
+318,ISIC_1976390,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_3417598,IP_7428337,,female,2,1.0,1
+322,ISIC_1990662,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_2257174,IP_1780405,,male,5,0.0,4
+334,ISIC_2035987,Hospital Italiano de Buenos Aires,CC-BY,55.0,posterior torso,malignant,True,,SCC,histopathology,True,II,clinical: overview,IL_4336943,IP_3739383,True,female,5,2.0,4
+343,ISIC_2072583,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,benign,True,,NEV,histopathology,,II,clinical: overview,IL_4358060,IP_7248754,,male,3,4.0,3
+347,ISIC_2107859,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_3211111,IP_1218261,True,male,0,0.0,2
+349,ISIC_2114677,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_7131880,IP_7808184,True,male,0,0.0,2
+354,ISIC_2136197,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,SCC,histopathology,False,II,clinical: overview,IL_6848602,IP_0221369,False,male,5,0.0,4
+359,ISIC_2214759,Hospital Italiano de Buenos Aires,CC-BY,85.0,anterior torso,benign,True,,SEK,histopathology,False,II,clinical: overview,IL_2920159,IP_3702153,False,male,7,1.0,5
+360,ISIC_2224029,Hospital Italiano de Buenos Aires,CC-BY,80.0,upper extremity,benign,True,,SEK,histopathology,,II,clinical: overview,IL_1309007,IP_6558273,True,male,7,3.0,5
+368,ISIC_2286569,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,III,clinical: overview,IL_8628562,IP_1319015,,male,2,3.0,1
+378,ISIC_2354429,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_2407401,IP_0031063,True,female,2,2.0,1
+385,ISIC_2400793,Hospital Italiano de Buenos Aires,CC-BY,70.0,upper extremity,benign,False,,NEV,,False,II,clinical: overview,IL_0729649,IP_0031063,True,female,3,1.0,3
+391,ISIC_2436138,Hospital Italiano de Buenos Aires,CC-BY,65.0,posterior torso,benign,True,,SEK,histopathology,,II,clinical: overview,IL_7614927,IP_6579706,,male,7,1.0,5
+395,ISIC_2464528,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_6066818,IP_1226729,,female,2,4.0,1
+396,ISIC_2465944,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_9505800,IP_5650689,,female,2,0.0,1
+403,ISIC_2522620,Hospital Italiano de Buenos Aires,CC-BY,65.0,lower extremity,benign,False,,SEK,,,II,clinical: overview,IL_8218104,IP_3342129,,female,7,1.0,5
+406,ISIC_2536109,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_0652737,IP_6093731,,male,2,3.0,1
+410,ISIC_2567615,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_1761906,IP_2139616,,female,0,4.0,2
+416,ISIC_2606092,Hospital Italiano de Buenos Aires,CC-BY,40.0,anterior torso,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_0797235,IP_3028994,True,male,3,3.0,3
+428,ISIC_2685699,Hospital Italiano de Buenos Aires,CC-BY,50.0,anterior torso,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_5638546,IP_1942334,False,female,3,2.0,3
+433,ISIC_2700242,Hospital Italiano de Buenos Aires,CC-BY,55.0,anterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_0873714,IP_1059364,,female,2,1.0,1
+434,ISIC_2704825,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_4901291,IP_8947694,,female,2,4.0,1
+438,ISIC_2729912,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,SCC,histopathology,False,I,clinical: overview,IL_7949381,IP_7872950,False,male,5,3.0,4
+452,ISIC_2845345,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_0941887,IP_5828031,True,male,2,3.0,1
+470,ISIC_3019909,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,benign,True,,NEV,histopathology,,II,clinical: overview,IL_8887018,IP_5527482,,male,3,3.0,3
+479,ISIC_3069438,Hospital Italiano de Buenos Aires,CC-BY,75.0,lower extremity,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_2025836,IP_5398777,,male,2,2.0,1
+481,ISIC_3078834,Hospital Italiano de Buenos Aires,CC-BY,75.0,,malignant,True,,BCC,histopathology,,,clinical: overview,IL_4489985,IP_0290734,,male,2,2.0,1
+485,ISIC_3098914,Hospital Italiano de Buenos Aires,CC-BY,85.0,upper extremity,malignant,True,,BCC,histopathology,,III,clinical: overview,IL_1120407,IP_1173614,True,female,2,0.0,1
+488,ISIC_3108030,Hospital Italiano de Buenos Aires,CC-BY,55.0,lower extremity,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_5507680,IP_7298406,,male,2,0.0,1
+490,ISIC_3114203,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,benign,True,,ACK,histopathology,,II,clinical: overview,IL_7041260,IP_7256360,,male,6,4.0,0
+501,ISIC_3149813,Hospital Italiano de Buenos Aires,CC-BY,55.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_5244040,IP_6819963,,female,2,1.0,1
+503,ISIC_3159253,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_9645108,IP_1483579,True,female,0,4.0,2
+510,ISIC_3222130,Hospital Italiano de Buenos Aires,CC-BY,,anterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_9896383,IP_0095265,,female,2,1.0,1
+512,ISIC_3228579,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,III,clinical: overview,IL_6844641,IP_1319015,,male,2,2.0,1
+513,ISIC_3231047,Hospital Italiano de Buenos Aires,CC-BY,80.0,palms/soles,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_3241236,IP_9326388,,male,0,4.0,2
+514,ISIC_3234368,Hospital Italiano de Buenos Aires,CC-BY,85.0,posterior torso,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_5005356,IP_9093111,True,male,0,1.0,2
+517,ISIC_3240114,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_5384200,IP_2681150,,female,5,4.0,4
+521,ISIC_3247622,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_2686098,IP_8867554,,female,5,1.0,4
+526,ISIC_3289563,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_3865867,IP_1117498,True,male,5,1.0,4
+528,ISIC_3299133,Hospital Italiano de Buenos Aires,CC-BY,70.0,lateral torso,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_0834101,IP_5138682,,male,0,0.0,2
+530,ISIC_3311204,Hospital Italiano de Buenos Aires,CC-BY,60.0,lower extremity,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_6936924,IP_7362744,,male,0,1.0,2
+534,ISIC_3342666,Hospital Italiano de Buenos Aires,CC-BY,65.0,anterior torso,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_8168888,IP_6579706,,male,5,1.0,4
+536,ISIC_3359048,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_7639685,IP_8208342,True,female,0,2.0,2
+549,ISIC_3424187,Hospital Italiano de Buenos Aires,CC-BY,55.0,anterior torso,malignant,True,,SCC,histopathology,False,II,clinical: overview,IL_0337405,IP_1773325,False,female,5,3.0,4
+550,ISIC_3426358,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_3083015,IP_2967644,,female,5,3.0,4
+552,ISIC_3435457,Hospital Italiano de Buenos Aires,CC-BY,50.0,posterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_1605286,IP_6714333,,female,2,0.0,1
+554,ISIC_3439101,Hospital Italiano de Buenos Aires,CC-BY,60.0,lower extremity,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_8001964,IP_8857970,,female,2,0.0,1
+558,ISIC_3471170,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,,SCC,histopathology,,III,clinical: overview,IL_3066011,IP_4641203,,male,5,1.0,4
+563,ISIC_3498622,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_6640027,IP_8388966,,male,5,3.0,4
+566,ISIC_3518714,Hospital Italiano de Buenos Aires,CC-BY,50.0,lower extremity,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_3810076,IP_6406539,True,male,0,3.0,2
+574,ISIC_3560753,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_1454921,IP_2118132,,male,2,3.0,1
+579,ISIC_3585954,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_5507125,IP_2427319,,female,2,3.0,1
+583,ISIC_3610996,Hospital Italiano de Buenos Aires,CC-BY,55.0,palms/soles,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_9726141,IP_1914877,,,2,3.0,1
+587,ISIC_3630590,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_2089622,IP_0412162,,male,2,2.0,1
+592,ISIC_3716776,Hospital Italiano de Buenos Aires,CC-BY,45.0,,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_9889961,IP_6959152,False,female,3,1.0,3
+600,ISIC_3754853,Hospital Italiano de Buenos Aires,CC-BY,55.0,posterior torso,malignant,True,,MEL,histopathology,,III,clinical: overview,IL_3699892,IP_2004044,,male,0,3.0,2
+608,ISIC_3804099,Hospital Italiano de Buenos Aires,CC-BY,55.0,lower extremity,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_0235947,IP_1914877,,,5,3.0,4
+614,ISIC_3867890,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_0370820,IP_5828031,True,male,5,3.0,4
+617,ISIC_3881430,Hospital Italiano de Buenos Aires,CC-BY,60.0,posterior torso,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_5705728,IP_4097598,False,female,3,4.0,3
+626,ISIC_3968056,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,III,clinical: overview,IL_1778616,IP_1319015,,male,2,0.0,1
+628,ISIC_3971184,Hospital Italiano de Buenos Aires,CC-BY,45.0,anterior torso,malignant,True,,MEL,histopathology,True,II,clinical: close-up,IL_4683423,IP_6754451,True,male,0,3.0,2
+630,ISIC_3978885,Hospital Italiano de Buenos Aires,CC-BY,35.0,anterior torso,benign,False,,NEV,,,II,clinical: overview,IL_0395628,IP_9853265,,female,3,2.0,3
+639,ISIC_4035478,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,,SCC,histopathology,False,II,clinical: overview,IL_3094244,IP_3297302,False,female,5,3.0,4
+640,ISIC_4036953,Hospital Italiano de Buenos Aires,CC-BY,70.0,upper extremity,benign,False,,NEV,,False,II,clinical: overview,IL_9035337,IP_0031063,True,female,3,1.0,3
+643,ISIC_4047069,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,benign,False,,ACK,,,II,clinical: overview,IL_3964017,IP_6904980,,female,6,3.0,0
+646,ISIC_4079825,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_2793518,IP_1221322,,male,0,0.0,2
+647,ISIC_4082554,Hospital Italiano de Buenos Aires,CC-BY,80.0,anterior torso,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_9975476,IP_5892304,,male,0,4.0,2
+654,ISIC_4117958,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,BCC,histopathology,,,clinical: overview,IL_9092931,IP_7513395,,female,2,0.0,1
+666,ISIC_4205538,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,malignant,True,,MEL,histopathology,False,I,clinical: overview,IL_2912868,IP_4291496,False,male,0,2.0,2
+671,ISIC_4214029,Hospital Italiano de Buenos Aires,CC-BY,75.0,upper extremity,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_8571682,IP_0545294,,male,0,3.0,2
+673,ISIC_4237289,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_6821221,IP_6251525,True,female,0,0.0,2
+682,ISIC_4310474,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,benign,True,,SEK,histopathology,False,I,clinical: overview,IL_3063049,IP_6610729,True,female,7,2.0,5
+693,ISIC_4415554,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,benign,False,,SEK,,,II,clinical: overview,IL_3557062,IP_8107767,,male,7,0.0,5
+702,ISIC_4489445,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_7399308,IP_7923120,,male,5,4.0,4
+703,ISIC_4489603,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,,BCC,histopathology,,III,clinical: overview,IL_2668525,IP_7513820,,male,2,4.0,1
+708,ISIC_4525930,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,benign,False,,SEK,,,II,clinical: overview,IL_3928264,IP_0778689,,female,7,0.0,5
+711,ISIC_4550448,Hospital Italiano de Buenos Aires,CC-BY,65.0,anterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_3947218,IP_2080217,,male,2,0.0,1
+713,ISIC_4563689,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_7758603,IP_4270560,,female,5,1.0,4
+720,ISIC_4596148,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,benign,False,,ACK,,,II,clinical: overview,IL_0498308,IP_3060715,,male,6,0.0,0
+730,ISIC_4661821,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_9000367,IP_4626612,,male,0,2.0,2
+731,ISIC_4663260,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,benign,False,,NEV,,True,II,clinical: overview,IL_6462293,IP_2411102,,female,3,0.0,3
+740,ISIC_4706882,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_9069382,IP_0147267,,female,2,2.0,1
+746,ISIC_4732712,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_5443888,IP_4336233,,male,5,0.0,4
+749,ISIC_4762072,Hospital Italiano de Buenos Aires,CC-BY,85.0,lower extremity,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_0060683,IP_7442897,,female,0,1.0,2
+750,ISIC_4766156,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_5167755,IP_8710793,,male,0,3.0,2
+759,ISIC_4816001,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,benign,True,,NEV,histopathology,,II,clinical: overview,IL_5520788,IP_6783333,,male,3,3.0,3
+769,ISIC_4875503,Hospital Italiano de Buenos Aires,CC-BY,80.0,lower extremity,malignant,True,,SCC,histopathology,False,II,clinical: overview,IL_5428065,IP_3315006,False,female,5,0.0,4
+770,ISIC_4875964,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,benign,True,,NEV,histopathology,,II,clinical: overview,IL_9453442,IP_5091395,,male,3,1.0,3
+772,ISIC_4879289,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_0176882,IP_3302800,,female,5,4.0,4
+774,ISIC_4888155,Hospital Italiano de Buenos Aires,CC-BY,55.0,head/neck,benign,True,,ACK,histopathology,True,II,clinical: overview,IL_9049450,IP_2208139,False,female,6,4.0,0
+789,ISIC_4970724,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_3177073,IP_7884622,,male,5,2.0,4
+793,ISIC_4999508,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,benign,True,,ACK,histopathology,,II,clinical: overview,IL_8942388,IP_4932731,,male,6,2.0,0
+796,ISIC_5007626,Hospital Italiano de Buenos Aires,CC-BY,35.0,upper extremity,benign,True,,NEV,histopathology,True,II,clinical: overview,IL_5313721,IP_6728907,,male,3,0.0,3
+807,ISIC_5059671,Hospital Italiano de Buenos Aires,CC-BY,85.0,lower extremity,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_4891081,IP_0325006,,female,0,0.0,2
+809,ISIC_5081865,Hospital Italiano de Buenos Aires,CC-BY,50.0,lateral torso,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_0174675,IP_3418123,True,male,0,2.0,2
+811,ISIC_5086718,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_9686443,IP_5924149,,female,2,3.0,1
+816,ISIC_5121137,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_0973744,IP_8208342,True,female,2,1.0,1
+821,ISIC_5141599,Hospital Italiano de Buenos Aires,CC-BY,80.0,upper extremity,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_7625655,IP_9155557,,female,5,4.0,4
+832,ISIC_5220778,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_9229911,IP_8208342,True,female,2,2.0,1
+835,ISIC_5233904,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_6271464,IP_0412162,,male,2,3.0,1
+837,ISIC_5249982,Hospital Italiano de Buenos Aires,CC-BY,45.0,anterior torso,malignant,True,,BCC,histopathology,True,II,clinical: overview,IL_1045215,IP_6754451,True,male,2,1.0,1
+843,ISIC_5279645,Hospital Italiano de Buenos Aires,CC-BY,50.0,posterior torso,benign,False,,NEV,,,III,clinical: overview,IL_5856952,IP_9503214,,female,3,2.0,3
+844,ISIC_5280241,Hospital Italiano de Buenos Aires,CC-BY,55.0,upper extremity,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_3023782,IP_1589808,,male,2,1.0,1
+845,ISIC_5280521,Hospital Italiano de Buenos Aires,CC-BY,55.0,anterior torso,benign,False,,SEK,,,II,clinical: overview,IL_0998127,IP_6089636,,female,7,3.0,5
+852,ISIC_5361878,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_5404208,IP_2434850,,male,5,2.0,4
+856,ISIC_5400713,Hospital Italiano de Buenos Aires,CC-BY,60.0,upper extremity,benign,False,,NEV,,,II,clinical: overview,IL_6030771,IP_9885775,True,female,3,2.0,3
+857,ISIC_5401158,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_4193678,IP_4307149,,female,5,3.0,4
+858,ISIC_5408518,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_5969628,IP_6579706,,male,2,1.0,1
+861,ISIC_5449807,Hospital Italiano de Buenos Aires,CC-BY,75.0,lower extremity,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_6020575,IP_4393692,,male,2,2.0,1
+863,ISIC_5475971,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,III,clinical: overview,IL_2452828,IP_1319015,,male,2,4.0,1
+879,ISIC_5560888,Hospital Italiano de Buenos Aires,CC-BY,85.0,,malignant,True,,BCC,histopathology,,,clinical: overview,IL_5720550,IP_2081101,,male,2,4.0,1
+885,ISIC_5577519,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_5626445,IP_7808184,True,male,2,2.0,1
+896,ISIC_5644176,Hospital Italiano de Buenos Aires,CC-BY,80.0,lower extremity,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_5890741,IP_0281050,,male,2,0.0,1
+898,ISIC_5645939,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_0879434,IP_2118132,,male,2,1.0,1
+906,ISIC_5702387,Hospital Italiano de Buenos Aires,CC-BY,30.0,posterior torso,benign,False,,NEV,,False,II,clinical: overview,IL_1954016,IP_0232163,False,male,3,4.0,3
+914,ISIC_5733934,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,benign,False,,ACK,,False,III,clinical: overview,IL_6263448,IP_1549548,False,male,6,0.0,0
+916,ISIC_5749049,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,benign,True,,ACK,histopathology,,III,clinical: overview,IL_5173845,IP_4744338,,female,6,2.0,0
+919,ISIC_5770532,Hospital Italiano de Buenos Aires,CC-BY,45.0,lower extremity,benign,True,,NEV,histopathology,,II,clinical: overview,IL_1866559,IP_3019489,,female,3,3.0,3
+923,ISIC_5784016,Hospital Italiano de Buenos Aires,CC-BY,70.0,upper extremity,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_2144167,IP_8369422,,female,5,0.0,4
+926,ISIC_5815174,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_1038560,IP_5543648,,female,2,2.0,1
+931,ISIC_5836857,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_8955295,IP_2359644,True,male,0,0.0,2
+934,ISIC_5847539,Hospital Italiano de Buenos Aires,CC-BY,85.0,lower extremity,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_0065869,IP_6792187,,female,5,0.0,4
+935,ISIC_5848879,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_2584095,IP_0093557,True,female,5,2.0,4
+946,ISIC_5911355,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_3412296,IP_8624681,False,male,2,3.0,1
+952,ISIC_5940534,Hospital Italiano de Buenos Aires,CC-BY,75.0,lower extremity,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_0983679,IP_1418688,,female,5,2.0,4
+955,ISIC_5959220,Hospital Italiano de Buenos Aires,CC-BY,55.0,head/neck,benign,True,,SEK,histopathology,,III,clinical: overview,IL_4559146,IP_7960361,,female,7,0.0,5
+956,ISIC_5973072,Hospital Italiano de Buenos Aires,CC-BY,70.0,,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_9299492,IP_0031063,True,female,2,3.0,1
+961,ISIC_5992988,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,benign,False,,NEV,,False,I,clinical: overview,IL_0293819,IP_4891909,False,female,3,4.0,3
+963,ISIC_6015979,Hospital Italiano de Buenos Aires,CC-BY,80.0,anterior torso,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_6014689,IP_3150219,True,male,0,4.0,2
+969,ISIC_6038442,Hospital Italiano de Buenos Aires,CC-BY,50.0,anterior torso,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_8088150,IP_7765996,False,male,3,1.0,3
+971,ISIC_6045898,Hospital Italiano de Buenos Aires,CC-BY,65.0,posterior torso,benign,True,,NEV,histopathology,False,III,clinical: overview,IL_0896205,IP_8404073,False,male,3,2.0,3
+982,ISIC_6127908,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,BCC,histopathology,False,I,clinical: overview,IL_5870994,IP_4473222,True,male,2,1.0,1
+984,ISIC_6129060,Hospital Italiano de Buenos Aires,CC-BY,80.0,lower extremity,benign,True,,SEK,histopathology,False,II,clinical: overview,IL_8889739,IP_6123331,False,female,7,2.0,5
+991,ISIC_6178183,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,III,clinical: overview,IL_7229255,IP_1319015,,male,2,3.0,1
+995,ISIC_6215457,Hospital Italiano de Buenos Aires,CC-BY,65.0,lower extremity,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_0400264,IP_5430722,True,male,0,3.0,2
+1001,ISIC_6241688,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,malignant,True,,MEL,histopathology,False,III,clinical: overview,IL_8605960,IP_3682931,False,male,0,2.0,2
+1015,ISIC_6315203,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,MEL,histopathology,,II,clinical: close-up,IL_1134487,IP_1117498,True,male,0,2.0,2
+1016,ISIC_6340616,Hospital Italiano de Buenos Aires,CC-BY,65.0,lower extremity,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_9408242,IP_8463557,,female,0,4.0,2
+1017,ISIC_6341872,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,benign,False,,ACK,,,II,clinical: overview,IL_2473888,IP_3404622,,male,6,4.0,0
+1021,ISIC_6415252,Hospital Italiano de Buenos Aires,CC-BY,40.0,head/neck,benign,False,,NEV,,False,II,clinical: overview,IL_8598907,IP_3028994,True,male,3,4.0,3
+1027,ISIC_6450459,Hospital Italiano de Buenos Aires,CC-BY,25.0,posterior torso,benign,True,,NEV,histopathology,,II,clinical: overview,IL_6032807,IP_6566825,,female,3,0.0,3
+1035,ISIC_6516485,Hospital Italiano de Buenos Aires,CC-BY,80.0,lower extremity,benign,False,,SEK,,,II,clinical: overview,IL_3077206,IP_1344764,,female,7,4.0,5
+1037,ISIC_6525238,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,,clinical: overview,IL_3266357,IP_2081101,,male,2,4.0,1
+1039,ISIC_6542300,Hospital Italiano de Buenos Aires,CC-BY,60.0,anterior torso,benign,False,,SEK,,,II,clinical: overview,IL_1424221,IP_9885775,True,female,7,2.0,5
+1046,ISIC_6584700,Hospital Italiano de Buenos Aires,CC-BY,75.0,upper extremity,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_0182231,IP_2955877,,female,0,1.0,2
+1048,ISIC_6589022,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_4800880,IP_3530264,,male,2,0.0,1
+1053,ISIC_6614811,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,benign,False,,ACK,,,II,clinical: overview,IL_2291469,IP_8693311,,male,6,2.0,0
+1055,ISIC_6616147,Hospital Italiano de Buenos Aires,CC-BY,60.0,,malignant,True,,BCC,histopathology,,,clinical: overview,IL_6968885,IP_2440667,,male,2,2.0,1
+1059,ISIC_6652468,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_1427673,IP_7923120,,male,2,0.0,1
+1064,ISIC_6689070,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_0316981,IP_3342129,,female,2,3.0,1
+1071,ISIC_6736065,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_4890198,IP_8382257,,female,5,3.0,4
+1075,ISIC_6788393,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_0520999,IP_3150219,True,male,2,1.0,1
+1087,ISIC_6874409,Hospital Italiano de Buenos Aires,CC-BY,75.0,lower extremity,malignant,True,,BCC,histopathology,,II,clinical: close-up,IL_7279125,IP_4513580,,female,2,0.0,1
+1092,ISIC_6889410,Hospital Italiano de Buenos Aires,CC-BY,45.0,head/neck,malignant,True,,BCC,histopathology,False,I,clinical: overview,IL_2351875,IP_4771889,False,male,2,4.0,1
+1100,ISIC_6925301,Hospital Italiano de Buenos Aires,CC-BY,30.0,lateral torso,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_3312003,IP_9935521,False,male,3,3.0,3
+1103,ISIC_6933767,Hospital Italiano de Buenos Aires,CC-BY,85.0,anterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_3011668,IP_1248331,,female,2,0.0,1
+1104,ISIC_6937526,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_7588215,IP_3389004,True,female,3,0.0,3
+1106,ISIC_6961311,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_7224729,IP_6872677,,female,5,4.0,4
+1116,ISIC_7035648,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_2585638,IP_3530264,,male,2,3.0,1
+1117,ISIC_7038061,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,malignant,True,,SCC,histopathology,,II,clinical: close-up,IL_3210798,IP_7735544,,female,5,3.0,4
+1132,ISIC_7128085,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_3070676,IP_6783333,,male,2,4.0,1
+1136,ISIC_7151644,Hospital Italiano de Buenos Aires,CC-BY,60.0,posterior torso,benign,True,,NEV,histopathology,,II,clinical: overview,IL_9353525,IP_4567280,,female,3,3.0,3
+1141,ISIC_7169848,Hospital Italiano de Buenos Aires,CC-BY,80.0,anterior torso,malignant,True,,SCC,histopathology,False,II,clinical: overview,IL_2440183,IP_3315006,False,female,5,4.0,4
+1148,ISIC_7221652,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,,MEL,histopathology,False,I,clinical: overview,IL_6201048,IP_0212365,True,male,0,2.0,2
+1150,ISIC_7231071,Hospital Italiano de Buenos Aires,CC-BY,75.0,upper extremity,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_7782929,IP_0093557,True,female,0,1.0,2
+1155,ISIC_7261723,Hospital Italiano de Buenos Aires,CC-BY,75.0,upper extremity,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_3861159,IP_4790522,,female,0,4.0,2
+1164,ISIC_7338852,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_8887437,IP_2738763,,female,2,4.0,1
+1170,ISIC_7360494,Hospital Italiano de Buenos Aires,CC-BY,75.0,lower extremity,malignant,True,,MEL,histopathology,False,I,clinical: overview,IL_3440737,IP_7559190,True,male,0,2.0,2
+1182,ISIC_7435333,Hospital Italiano de Buenos Aires,CC-BY,60.0,upper extremity,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_1581392,IP_5488862,True,male,0,0.0,2
+1185,ISIC_7461496,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_8738429,IP_0778689,,female,2,3.0,1
+1191,ISIC_7490806,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_3110118,IP_8541253,,male,5,2.0,4
+1193,ISIC_7498025,Hospital Italiano de Buenos Aires,CC-BY,45.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_7247003,IP_0601118,,female,2,0.0,1
+1194,ISIC_7504036,Hospital Italiano de Buenos Aires,CC-BY,85.0,upper extremity,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_5221633,IP_8464178,,male,0,4.0,2
+1199,ISIC_7546980,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,benign,False,,SEK,,False,II,clinical: overview,IL_6342673,IP_0031063,True,female,7,1.0,5
+1204,ISIC_7579869,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,benign,True,,NEV,histopathology,,II,clinical: overview,IL_4865608,IP_3992665,,male,3,0.0,3
+1207,ISIC_7587257,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_0452159,IP_1773608,True,female,2,0.0,1
+1212,ISIC_7611886,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_7982414,IP_7265725,True,male,0,1.0,2
+1236,ISIC_7756020,Hospital Italiano de Buenos Aires,CC-BY,25.0,head/neck,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_4541196,IP_9454026,False,male,3,4.0,3
+1240,ISIC_7796132,Hospital Italiano de Buenos Aires,CC-BY,45.0,head/neck,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_8672238,IP_8945353,False,female,2,0.0,1
+1242,ISIC_7812886,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,benign,True,,ACK,histopathology,False,III,clinical: overview,IL_5699623,IP_3682931,False,male,6,1.0,0
+1268,ISIC_7957576,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_0766796,IP_5966083,,female,2,2.0,1
+1269,ISIC_7964676,Hospital Italiano de Buenos Aires,CC-BY,85.0,lower extremity,malignant,True,,SCC,histopathology,False,II,clinical: overview,IL_1923670,IP_0013793,True,male,5,4.0,4
+1270,ISIC_7964849,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,benign,False,,ACK,,,II,clinical: overview,IL_4406287,IP_1344764,,female,6,0.0,0
+1271,ISIC_7979741,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,benign,False,,SEK,,,II,clinical: overview,IL_2126205,IP_1522045,,male,7,0.0,5
+1281,ISIC_8044078,Hospital Italiano de Buenos Aires,CC-BY,85.0,upper extremity,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_2695277,IP_0013793,True,male,2,1.0,1
+1282,ISIC_8053508,Hospital Italiano de Buenos Aires,CC-BY,85.0,anterior torso,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_4771776,IP_7800510,,female,5,0.0,4
+1294,ISIC_8095537,Hospital Italiano de Buenos Aires,CC-BY,75.0,upper extremity,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_1248740,IP_1418688,,female,5,0.0,4
+1295,ISIC_8097277,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_0455383,IP_5801898,False,female,2,4.0,1
+1298,ISIC_8111280,Hospital Italiano de Buenos Aires,CC-BY,55.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_2606689,IP_5701997,,female,5,4.0,4
+1304,ISIC_8165921,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: close-up,IL_5287196,IP_7252898,,female,2,1.0,1
+1313,ISIC_8229835,Hospital Italiano de Buenos Aires,CC-BY,65.0,posterior torso,malignant,True,,BCC,histopathology,,III,clinical: close-up,IL_9261445,IP_4577038,,male,2,2.0,1
+1330,ISIC_8329844,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_2090686,IP_5091395,,male,2,4.0,1
+1340,ISIC_8403508,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,BCC,histopathology,,,clinical: overview,IL_0533405,IP_7550129,,female,2,1.0,1
+1349,ISIC_8489375,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_3895709,IP_3915964,,male,2,2.0,1
+1350,ISIC_8495716,Hospital Italiano de Buenos Aires,CC-BY,35.0,anterior torso,malignant,True,,BCC,histopathology,,,clinical: overview,IL_8573962,IP_9002218,,female,2,0.0,1
+1354,ISIC_8536717,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_7484000,IP_1366489,,female,5,1.0,4
+1355,ISIC_8539737,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,benign,True,,SEK,histopathology,False,I,clinical: overview,IL_2147560,IP_7559190,True,male,7,2.0,5
+1357,ISIC_8544566,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_8688599,IP_2175925,,male,2,2.0,1
+1359,ISIC_8548189,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,benign,False,,SEK,,,II,clinical: overview,IL_8678803,IP_2738763,,female,7,4.0,5
+1365,ISIC_8613600,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_4970090,IP_0031063,True,female,2,4.0,1
+1374,ISIC_8668169,Hospital Italiano de Buenos Aires,CC-BY,50.0,posterior torso,benign,False,,NEV,,,III,clinical: overview,IL_4609375,IP_9503214,,female,3,4.0,3
+1382,ISIC_8707120,Hospital Italiano de Buenos Aires,CC-BY,60.0,anterior torso,benign,True,,NEV,histopathology,,II,clinical: overview,IL_2529443,IP_6328281,,female,3,1.0,3
+1386,ISIC_8738680,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_3807827,IP_1561363,True,female,0,2.0,2
+1390,ISIC_8767311,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_0060490,IP_0031063,True,female,0,3.0,2
+1393,ISIC_8775112,Hospital Italiano de Buenos Aires,CC-BY,30.0,lower extremity,benign,True,,NEV,histopathology,True,II,clinical: overview,IL_0256906,IP_0500329,,female,3,3.0,3

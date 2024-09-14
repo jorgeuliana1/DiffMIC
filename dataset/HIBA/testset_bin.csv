@@ -1,0 +1,251 @@
+isic_id,attribution,copyright_license,age_approx,anatom_site_general,benign_malignant,concomitant_biopsy,dermoscopic_type,diagnosis,diagnosis_confirm_type,family_hx_mm,fitzpatrick_skin_type,image_type,lesion_id,patient_id,personal_hx_mm,sex,diagnosis_discretized
+ISIC_8473293,Hospital Italiano de Buenos Aires,CC-BY,75.0,,malignant,True,contact polarized,MEL,histopathology,,,dermoscopic,IL_3064026,IP_9648606,,female,1
+ISIC_8479513,Hospital Italiano de Buenos Aires,CC-BY,35.0,upper extremity,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_0754213,IP_8450638,False,female,0
+ISIC_8489375,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_3895709,IP_3915964,,male,1
+ISIC_8495716,Hospital Italiano de Buenos Aires,CC-BY,35.0,anterior torso,malignant,True,,BCC,histopathology,,,clinical: overview,IL_8573962,IP_9002218,,female,1
+ISIC_8502375,Hospital Italiano de Buenos Aires,CC-BY,55.0,head/neck,benign,True,contact polarized,ACK,histopathology,,II,dermoscopic,IL_9278370,IP_8277789,,male,0
+ISIC_8519085,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_7436943,IP_7884622,,male,1
+ISIC_8536717,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_7484000,IP_1366489,,female,1
+ISIC_8539737,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,benign,True,,SEK,histopathology,False,I,clinical: overview,IL_2147560,IP_7559190,True,male,0
+ISIC_8540289,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_0219895,IP_5091395,,male,1
+ISIC_8544566,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_8688599,IP_2175925,,male,1
+ISIC_8544975,Hospital Italiano de Buenos Aires,CC-BY,35.0,posterior torso,benign,True,contact polarized,NEV,histopathology,False,II,dermoscopic,IL_4023041,IP_3852191,False,female,0
+ISIC_8548189,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,benign,False,,SEK,,,II,clinical: overview,IL_8678803,IP_2738763,,female,0
+ISIC_8554946,Hospital Italiano de Buenos Aires,CC-BY,30.0,lower extremity,benign,False,contact polarized,NEV,,False,III,dermoscopic,IL_3790742,IP_2504588,False,female,0
+ISIC_8559763,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,,dermoscopic,IL_0533405,IP_7550129,,female,1
+ISIC_8565066,Hospital Italiano de Buenos Aires,CC-BY,40.0,lower extremity,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_0214462,IP_7035571,False,male,0
+ISIC_8577193,Hospital Italiano de Buenos Aires,CC-BY,60.0,posterior torso,benign,True,contact polarized,NEV,histopathology,False,II,dermoscopic,IL_5705728,IP_4097598,False,female,0
+ISIC_8610200,Hospital Italiano de Buenos Aires,CC-BY,20.0,lower extremity,benign,False,contact polarized,NEV,,False,,dermoscopic,IL_4713558,IP_2640696,False,male,0
+ISIC_8613600,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_4970090,IP_0031063,True,female,1
+ISIC_8614007,Hospital Italiano de Buenos Aires,CC-BY,35.0,anterior torso,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_5713873,IP_8450638,False,female,0
+ISIC_8614156,Hospital Italiano de Buenos Aires,CC-BY,50.0,posterior torso,benign,True,contact polarized,NEV,histopathology,,II,dermoscopic,IL_9185684,IP_2385814,,female,0
+ISIC_8614870,Hospital Italiano de Buenos Aires,CC-BY,25.0,lower extremity,benign,True,contact polarized,NEV,histopathology,False,II,dermoscopic,IL_9925958,IP_9966565,False,female,0
+ISIC_8617778,Hospital Italiano de Buenos Aires,CC-BY,30.0,,benign,False,contact polarized,NEV,,False,III,dermoscopic,IL_0600074,IP_2504588,False,female,0
+ISIC_8617795,Hospital Italiano de Buenos Aires,CC-BY,25.0,head/neck,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_5361546,IP_9966565,False,female,0
+ISIC_8649181,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,benign,False,contact polarized,ACK,,,II,dermoscopic,IL_3867356,IP_2538639,,male,0
+ISIC_8653165,Hospital Italiano de Buenos Aires,CC-BY,35.0,anterior torso,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_3891700,IP_9328831,False,female,0
+ISIC_8668169,Hospital Italiano de Buenos Aires,CC-BY,50.0,posterior torso,benign,False,,NEV,,,III,clinical: overview,IL_4609375,IP_9503214,,female,0
+ISIC_8671596,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,malignant,True,contact polarized,MEL,histopathology,,II,dermoscopic,IL_6768931,IP_2559304,True,male,1
+ISIC_8673390,Hospital Italiano de Buenos Aires,CC-BY,65.0,lower extremity,benign,True,contact polarized,NEV,histopathology,False,II,dermoscopic,IL_0032035,IP_0207220,False,female,0
+ISIC_8678583,Hospital Italiano de Buenos Aires,CC-BY,80.0,anterior torso,malignant,True,contact polarized,MEL,histopathology,,II,dermoscopic,IL_8085303,IP_8549992,True,male,1
+ISIC_8687441,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,contact polarized,MEL,histopathology,,I,dermoscopic,IL_6634733,IP_5352106,True,female,1
+ISIC_8693729,Hospital Italiano de Buenos Aires,CC-BY,25.0,upper extremity,benign,False,contact polarized,NEV,,,I,dermoscopic,IL_6429649,IP_8326549,,female,0
+ISIC_8694134,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,benign,True,contact polarized,NEV,histopathology,,II,dermoscopic,IL_9727429,IP_6463258,,female,0
+ISIC_8706734,Hospital Italiano de Buenos Aires,CC-BY,35.0,anterior torso,benign,True,contact polarized,NEV,histopathology,False,II,dermoscopic,IL_3257339,IP_9531637,False,male,0
+ISIC_8707120,Hospital Italiano de Buenos Aires,CC-BY,60.0,anterior torso,benign,True,,NEV,histopathology,,II,clinical: overview,IL_2529443,IP_6328281,,female,0
+ISIC_8728477,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_0520999,IP_3150219,True,male,1
+ISIC_8735220,Hospital Italiano de Buenos Aires,CC-BY,30.0,oral/genital,benign,False,contact polarized,NEV,,False,III,dermoscopic,IL_2837651,IP_2504588,False,female,0
+ISIC_8738680,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_3807827,IP_1561363,True,female,1
+ISIC_8749951,Hospital Italiano de Buenos Aires,CC-BY,60.0,lower extremity,benign,False,contact polarized,NEV,,False,III,dermoscopic,IL_5176081,IP_4349293,False,male,0
+ISIC_8750784,Hospital Italiano de Buenos Aires,CC-BY,60.0,palms/soles,malignant,True,contact polarized,MEL,histopathology,,II,dermoscopic,IL_6585280,IP_7966589,True,female,1
+ISIC_8760682,Hospital Italiano de Buenos Aires,CC-BY,40.0,head/neck,benign,True,contact polarized,NEV,histopathology,False,III,dermoscopic,IL_0812366,IP_0311962,True,male,0
+ISIC_8767311,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_0060490,IP_0031063,True,female,1
+ISIC_8772836,Hospital Italiano de Buenos Aires,CC-BY,80.0,palms/soles,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_7570397,IP_0214625,False,male,0
+ISIC_8774580,Hospital Italiano de Buenos Aires,CC-BY,20.0,posterior torso,benign,False,contact polarized,NEV,,True,II,dermoscopic,IL_3761230,IP_9876233,,male,0
+ISIC_8775112,Hospital Italiano de Buenos Aires,CC-BY,30.0,lower extremity,benign,True,,NEV,histopathology,True,II,clinical: overview,IL_0256906,IP_0500329,,female,0
+ISIC_8781042,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,benign,True,,NEV,histopathology,False,III,clinical: overview,IL_1160690,IP_3682931,False,male,0
+ISIC_8786983,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,contact polarized,MEL,histopathology,False,II,dermoscopic,IL_6841868,IP_5804995,True,male,1
+ISIC_8788296,Hospital Italiano de Buenos Aires,CC-BY,85.0,lower extremity,malignant,True,contact polarized,BCC,histopathology,,III,dermoscopic,IL_7230509,IP_4836760,,male,1
+ISIC_8792684,Hospital Italiano de Buenos Aires,CC-BY,35.0,anterior torso,malignant,True,contact polarized,MEL,histopathology,False,II,dermoscopic,IL_3049104,IP_9277025,True,female,1
+ISIC_8793798,Hospital Italiano de Buenos Aires,CC-BY,60.0,,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_3601366,IP_0240453,True,female,1
+ISIC_8798068,Hospital Italiano de Buenos Aires,CC-BY,30.0,anterior torso,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_0966829,IP_8961406,False,female,0
+ISIC_8799134,Hospital Italiano de Buenos Aires,CC-BY,60.0,upper extremity,benign,True,contact polarized,NEV,histopathology,False,II,dermoscopic,IL_7155605,IP_4869081,True,female,0
+ISIC_8801293,Hospital Italiano de Buenos Aires,CC-BY,40.0,anterior torso,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_8636254,IP_7035571,False,male,0
+ISIC_8802195,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,contact polarized,BCC,histopathology,False,I,dermoscopic,IL_6361168,IP_4473222,True,male,1
+ISIC_8803373,Hospital Italiano de Buenos Aires,CC-BY,65.0,,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_4874075,IP_3388406,False,male,1
+ISIC_8810984,Hospital Italiano de Buenos Aires,CC-BY,50.0,posterior torso,benign,True,contact polarized,NEV,histopathology,,III,dermoscopic,IL_2628887,IP_9189981,,female,0
+ISIC_8822408,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,benign,False,contact polarized,ACK,,,II,dermoscopic,IL_0521079,IP_2650374,True,male,0
+ISIC_8829983,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,SCC,histopathology,,II,dermoscopic,IL_5142318,IP_1384522,,female,1
+ISIC_8837942,Hospital Italiano de Buenos Aires,CC-BY,20.0,lower extremity,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_1035125,IP_5291194,False,female,0
+ISIC_8837985,Hospital Italiano de Buenos Aires,CC-BY,35.0,upper extremity,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_4322116,IP_8450638,False,female,0
+ISIC_8841175,Hospital Italiano de Buenos Aires,CC-BY,85.0,upper extremity,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_5682932,IP_5543648,,female,1
+ISIC_8842827,Hospital Italiano de Buenos Aires,CC-BY,40.0,,benign,False,contact polarized,NEV,,False,,dermoscopic,IL_6705568,IP_1404370,False,male,0
+ISIC_8843280,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,benign,False,contact polarized,NEV,,False,III,dermoscopic,IL_4211784,IP_4968898,False,male,0
+ISIC_8850095,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_5217061,IP_7265725,True,male,1
+ISIC_8851514,Hospital Italiano de Buenos Aires,CC-BY,85.0,palms/soles,malignant,True,contact polarized,MEL,histopathology,,II,dermoscopic,IL_2423851,IP_8216345,True,male,1
+ISIC_8852229,Hospital Italiano de Buenos Aires,CC-BY,30.0,posterior torso,benign,True,contact polarized,NEV,histopathology,False,II,dermoscopic,IL_2917009,IP_0232163,False,male,0
+ISIC_8877777,Hospital Italiano de Buenos Aires,CC-BY,60.0,,benign,False,contact polarized,NEV,,,,dermoscopic,IL_2019555,IP_4064247,True,male,0
+ISIC_8880006,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_2090686,IP_5091395,,male,1
+ISIC_8883101,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,benign,True,contact polarized,NEV,histopathology,,II,dermoscopic,IL_8228479,IP_4451052,,female,0
+ISIC_8902296,Hospital Italiano de Buenos Aires,CC-BY,40.0,lateral torso,malignant,True,contact polarized,MEL,histopathology,False,III,dermoscopic,IL_4520698,IP_0311962,True,male,1
+ISIC_8902611,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,malignant,True,contact polarized,SCC,histopathology,,II,dermoscopic,IL_2946051,IP_6937340,,male,1
+ISIC_8904408,Hospital Italiano de Buenos Aires,CC-BY,55.0,anterior torso,benign,True,,NEV,histopathology,,,clinical: overview,IL_4885444,IP_9947705,False,female,0
+ISIC_8906116,Hospital Italiano de Buenos Aires,CC-BY,60.0,lower extremity,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_9784934,IP_9621492,,female,1
+ISIC_8917750,Hospital Italiano de Buenos Aires,CC-BY,75.0,lower extremity,malignant,True,contact polarized,SCC,histopathology,,II,dermoscopic,IL_4939505,IP_9710310,,male,1
+ISIC_8925463,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_6866730,IP_6347933,,male,1
+ISIC_8927080,Hospital Italiano de Buenos Aires,CC-BY,85.0,upper extremity,malignant,True,contact polarized,BCC,histopathology,,I,dermoscopic,IL_1977299,IP_6102993,,female,1
+ISIC_8930922,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_7436943,IP_7884622,,male,1
+ISIC_8939503,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_3039529,IP_6872677,,female,1
+ISIC_8941944,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,benign,True,contact polarized,ACK,histopathology,,II,dermoscopic,IL_8942388,IP_4932731,,male,0
+ISIC_8943077,Hospital Italiano de Buenos Aires,CC-BY,30.0,,benign,False,contact polarized,NEV,,False,III,dermoscopic,IL_0106119,IP_2504588,False,female,0
+ISIC_8948371,Hospital Italiano de Buenos Aires,CC-BY,80.0,upper extremity,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_9330933,IP_6558273,True,male,1
+ISIC_8954688,Hospital Italiano de Buenos Aires,CC-BY,60.0,palms/soles,benign,True,contact polarized,NEV,histopathology,False,II,dermoscopic,IL_4892242,IP_8546360,True,female,0
+ISIC_8954845,Hospital Italiano de Buenos Aires,CC-BY,35.0,,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_8372358,IP_8474771,False,female,0
+ISIC_8966458,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_5041050,IP_0551634,,female,1
+ISIC_8969274,Hospital Italiano de Buenos Aires,CC-BY,65.0,posterior torso,malignant,True,contact polarized,MEL,histopathology,False,I,dermoscopic,IL_1524376,IP_5924646,True,female,1
+ISIC_8986575,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,III,dermoscopic,IL_6022331,IP_1319015,,male,1
+ISIC_8987984,Hospital Italiano de Buenos Aires,CC-BY,50.0,lower extremity,malignant,True,contact polarized,MEL,histopathology,,II,dermoscopic,IL_3798662,IP_0682714,,female,1
+ISIC_8989457,Hospital Italiano de Buenos Aires,CC-BY,35.0,,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_5660874,IP_8474771,False,female,0
+ISIC_8995601,Hospital Italiano de Buenos Aires,CC-BY,30.0,upper extremity,benign,True,contact polarized,NEV,histopathology,,III,dermoscopic,IL_7047330,IP_8411585,,male,0
+ISIC_8998096,Hospital Italiano de Buenos Aires,CC-BY,35.0,palms/soles,benign,False,contact polarized,NEV,,,I,dermoscopic,IL_2973966,IP_2738413,,female,0
+ISIC_9003833,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,contact polarized,BCC,histopathology,False,II,dermoscopic,IL_5868402,IP_1684513,False,male,1
+ISIC_9010344,Hospital Italiano de Buenos Aires,CC-BY,80.0,upper extremity,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_9330933,IP_6558273,True,male,1
+ISIC_9021203,Hospital Italiano de Buenos Aires,CC-BY,65.0,upper extremity,malignant,True,contact polarized,SCC,histopathology,False,II,dermoscopic,IL_7391525,IP_0076707,True,male,1
+ISIC_9026520,Hospital Italiano de Buenos Aires,CC-BY,50.0,head/neck,benign,True,contact polarized,SEK,histopathology,,III,dermoscopic,IL_0787677,IP_7034777,,male,0
+ISIC_9043183,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_4681551,IP_1100982,,female,1
+ISIC_9058406,Hospital Italiano de Buenos Aires,CC-BY,35.0,posterior torso,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_0847224,IP_8450638,False,female,0
+ISIC_9060197,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,III,clinical: overview,IL_1035603,IP_3373935,,female,1
+ISIC_9071060,Hospital Italiano de Buenos Aires,CC-BY,40.0,lower extremity,benign,True,contact polarized,NEV,histopathology,True,II,dermoscopic,IL_7750730,IP_6483049,,female,0
+ISIC_9074861,Hospital Italiano de Buenos Aires,CC-BY,50.0,head/neck,malignant,True,contact polarized,BCC,histopathology,False,II,dermoscopic,IL_3176026,IP_4079884,False,female,1
+ISIC_9078177,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_3383993,IP_3342129,,female,1
+ISIC_9082062,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,benign,True,,NEV,histopathology,,II,clinical: overview,IL_4524069,IP_6558273,True,male,0
+ISIC_9083409,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_0202677,IP_7035571,False,male,0
+ISIC_9089005,Hospital Italiano de Buenos Aires,CC-BY,35.0,lower extremity,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_7629973,IP_9328831,False,female,0
+ISIC_9097641,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_8214313,IP_3580447,,male,1
+ISIC_9098311,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_6841868,IP_5804995,True,male,1
+ISIC_9104374,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_0879434,IP_2118132,,male,1
+ISIC_9105532,Hospital Italiano de Buenos Aires,CC-BY,30.0,lower extremity,benign,False,contact polarized,NEV,,False,III,dermoscopic,IL_0374505,IP_2504588,False,female,0
+ISIC_9107240,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_7302914,IP_9086452,,male,1
+ISIC_9110427,Hospital Italiano de Buenos Aires,CC-BY,55.0,upper extremity,benign,False,contact polarized,NEV,,False,IV,dermoscopic,IL_9572790,IP_7243858,False,female,0
+ISIC_9116328,Hospital Italiano de Buenos Aires,CC-BY,45.0,anterior torso,benign,True,contact polarized,SEK,histopathology,,III,dermoscopic,IL_8581865,IP_7614546,,female,0
+ISIC_9120796,Hospital Italiano de Buenos Aires,CC-BY,55.0,posterior torso,malignant,True,contact polarized,BCC,histopathology,,III,dermoscopic,IL_1699781,IP_9696499,,male,1
+ISIC_9129115,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,benign,True,,ACK,histopathology,,II,clinical: overview,IL_2485486,IP_8947694,,female,0
+ISIC_9134293,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_3584743,IP_7035571,False,male,0
+ISIC_9138658,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,contact polarized,SCC,histopathology,,II,dermoscopic,IL_0370820,IP_5828031,True,male,1
+ISIC_9144329,Hospital Italiano de Buenos Aires,CC-BY,80.0,lower extremity,malignant,True,contact polarized,MEL,histopathology,,III,dermoscopic,IL_8556564,IP_7144815,,female,1
+ISIC_9149374,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_6610222,IP_0214625,False,male,0
+ISIC_9162639,Hospital Italiano de Buenos Aires,CC-BY,20.0,,benign,False,contact polarized,NEV,,False,,dermoscopic,IL_6666746,IP_2640696,False,male,0
+ISIC_9163137,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,SCC,histopathology,,II,dermoscopic,IL_3679921,IP_3851887,,male,1
+ISIC_9178395,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,contact polarized,MEL,histopathology,False,I,dermoscopic,IL_0955363,IP_8292097,True,male,1
+ISIC_9187217,Hospital Italiano de Buenos Aires,CC-BY,55.0,,benign,True,contact polarized,NEV,histopathology,False,II,dermoscopic,IL_4146389,IP_3225258,False,male,0
+ISIC_9187524,Hospital Italiano de Buenos Aires,CC-BY,60.0,lower extremity,malignant,True,contact polarized,MEL,histopathology,False,,dermoscopic,IL_5132774,IP_7304770,True,female,1
+ISIC_9192498,Hospital Italiano de Buenos Aires,CC-BY,55.0,lower extremity,benign,False,contact polarized,NEV,,False,IV,dermoscopic,IL_3537150,IP_7243858,False,female,0
+ISIC_9195841,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_2551859,IP_4805821,,male,1
+ISIC_9200533,Hospital Italiano de Buenos Aires,CC-BY,65.0,anterior torso,malignant,True,contact polarized,SCC,histopathology,,II,dermoscopic,IL_8168888,IP_6579706,,male,1
+ISIC_9211210,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,malignant,True,contact polarized,SCC,histopathology,,II,dermoscopic,IL_4890198,IP_8382257,,female,1
+ISIC_9229628,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,contact polarized,SCC,histopathology,,II,dermoscopic,IL_5384200,IP_2681150,,female,1
+ISIC_9235932,Hospital Italiano de Buenos Aires,CC-BY,40.0,,benign,False,contact polarized,NEV,,False,,dermoscopic,IL_1048304,IP_1404370,False,male,0
+ISIC_9239505,Hospital Italiano de Buenos Aires,CC-BY,65.0,upper extremity,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_1751294,IP_7705323,False,female,0
+ISIC_9248617,Hospital Italiano de Buenos Aires,CC-BY,80.0,upper extremity,benign,True,contact polarized,SEK,histopathology,,II,dermoscopic,IL_1309007,IP_6558273,True,male,0
+ISIC_9250149,Hospital Italiano de Buenos Aires,CC-BY,35.0,anterior torso,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_8063701,IP_9328831,False,female,0
+ISIC_9257589,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_9195889,IP_2681150,,female,1
+ISIC_9275875,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,I,dermoscopic,IL_7452668,IP_7736597,,male,1
+ISIC_9276265,Hospital Italiano de Buenos Aires,CC-BY,35.0,,benign,True,contact polarized,NEV,histopathology,False,,dermoscopic,IL_0421499,IP_0031038,False,male,0
+ISIC_9280667,Hospital Italiano de Buenos Aires,CC-BY,30.0,anterior torso,benign,True,contact polarized,NEV,histopathology,,III,dermoscopic,IL_4427884,IP_2333985,,female,0
+ISIC_9289401,Hospital Italiano de Buenos Aires,CC-BY,50.0,posterior torso,benign,False,contact polarized,NEV,,False,I,dermoscopic,IL_4640383,IP_2728527,True,female,0
+ISIC_9292767,Hospital Italiano de Buenos Aires,CC-BY,40.0,lower extremity,benign,False,contact polarized,NEV,,False,,dermoscopic,IL_0066556,IP_1404370,False,male,0
+ISIC_9309046,Hospital Italiano de Buenos Aires,CC-BY,20.0,anterior torso,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_4020580,IP_5291194,False,female,0
+ISIC_9309212,Hospital Italiano de Buenos Aires,CC-BY,65.0,,malignant,True,contact polarized,BCC,histopathology,,III,dermoscopic,IL_3094443,IP_9046195,,male,1
+ISIC_9311797,Hospital Italiano de Buenos Aires,CC-BY,65.0,upper extremity,malignant,True,,SCC,histopathology,False,II,clinical: overview,IL_6036150,IP_5430722,True,male,1
+ISIC_9314356,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,contact polarized,BCC,histopathology,False,I,dermoscopic,IL_5870994,IP_4473222,True,male,1
+ISIC_9314666,Hospital Italiano de Buenos Aires,CC-BY,55.0,head/neck,benign,True,contact polarized,ACK,histopathology,,II,dermoscopic,IL_1313631,IP_7048742,,female,0
+ISIC_9323828,Hospital Italiano de Buenos Aires,CC-BY,55.0,head/neck,benign,True,contact polarized,ACK,histopathology,,II,dermoscopic,IL_0909134,IP_5625034,,female,0
+ISIC_9333062,Hospital Italiano de Buenos Aires,CC-BY,35.0,lower extremity,benign,True,contact polarized,NEV,histopathology,True,II,dermoscopic,IL_8899158,IP_6809738,False,female,0
+ISIC_9337100,Hospital Italiano de Buenos Aires,CC-BY,60.0,posterior torso,malignant,True,contact polarized,MEL,histopathology,,II,dermoscopic,IL_3871197,IP_0905638,True,female,1
+ISIC_9353417,Hospital Italiano de Buenos Aires,CC-BY,70.0,posterior torso,benign,False,,NEV,,True,II,clinical: overview,IL_9809892,IP_0276872,,male,0
+ISIC_9353595,Hospital Italiano de Buenos Aires,CC-BY,70.0,,malignant,True,contact polarized,BCC,histopathology,False,II,dermoscopic,IL_9299492,IP_0031063,True,female,1
+ISIC_9356985,Hospital Italiano de Buenos Aires,CC-BY,20.0,upper extremity,benign,False,contact polarized,NEV,,,II,dermoscopic,IL_0925069,IP_6762758,,female,0
+ISIC_9378991,Hospital Italiano de Buenos Aires,CC-BY,55.0,upper extremity,benign,False,,NEV,,,III,clinical: overview,IL_1663524,IP_6003393,,female,0
+ISIC_9379115,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_4437201,IP_2754431,,female,1
+ISIC_9389788,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,benign,True,,ACK,histopathology,,II,clinical: overview,IL_1806732,IP_5349935,,female,0
+ISIC_9393700,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_4838500,IP_7442897,,female,1
+ISIC_9396173,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,MEL,histopathology,,II,clinical: overview,IL_3397118,IP_9731995,,female,1
+ISIC_9396732,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,benign,False,,NEV,,,II,clinical: overview,IL_6467350,IP_7428337,,female,0
+ISIC_9397749,Hospital Italiano de Buenos Aires,CC-BY,45.0,posterior torso,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_4678969,IP_7263570,True,male,0
+ISIC_9401469,Hospital Italiano de Buenos Aires,CC-BY,80.0,posterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_3949893,IP_0964498,,male,1
+ISIC_9416204,Hospital Italiano de Buenos Aires,CC-BY,65.0,lower extremity,benign,True,contact polarized,NEV,histopathology,True,II,dermoscopic,IL_9241217,IP_8641208,False,female,0
+ISIC_9417047,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_4267487,IP_6347933,,male,1
+ISIC_9417610,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_4914444,IP_5750465,,female,1
+ISIC_9417725,Hospital Italiano de Buenos Aires,CC-BY,55.0,anterior torso,benign,False,contact polarized,SEK,,,II,dermoscopic,IL_0998127,IP_6089636,,female,0
+ISIC_9418190,Hospital Italiano de Buenos Aires,CC-BY,60.0,,benign,False,contact polarized,NEV,,,,dermoscopic,IL_3920732,IP_4064247,True,male,0
+ISIC_9420341,Hospital Italiano de Buenos Aires,CC-BY,55.0,lower extremity,benign,True,contact polarized,NEV,histopathology,,,dermoscopic,IL_3668756,IP_2919597,,female,0
+ISIC_9444427,Hospital Italiano de Buenos Aires,CC-BY,60.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,III,dermoscopic,IL_2668525,IP_7513820,,male,1
+ISIC_9445352,Hospital Italiano de Buenos Aires,CC-BY,55.0,posterior torso,benign,True,contact polarized,NEV,histopathology,,II,dermoscopic,IL_2315848,IP_3426045,False,female,0
+ISIC_9446067,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_4995475,IP_5549808,,female,1
+ISIC_9464094,Hospital Italiano de Buenos Aires,CC-BY,55.0,head/neck,malignant,True,contact polarized,SCC,histopathology,,II,dermoscopic,IL_2606689,IP_5701997,,female,1
+ISIC_9476229,Hospital Italiano de Buenos Aires,CC-BY,85.0,anterior torso,malignant,True,contact polarized,SCC,histopathology,,II,dermoscopic,IL_4771776,IP_7800510,,female,1
+ISIC_9481737,Hospital Italiano de Buenos Aires,CC-BY,30.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_7571871,IP_1724147,,male,1
+ISIC_9486550,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,malignant,True,contact polarized,MEL,histopathology,,II,dermoscopic,IL_4512262,IP_4216830,,female,1
+ISIC_9495622,Hospital Italiano de Buenos Aires,CC-BY,80.0,palms/soles,malignant,True,contact polarized,MEL,histopathology,,II,dermoscopic,IL_3459478,IP_1619354,,female,1
+ISIC_9497941,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,benign,True,,NEV,histopathology,False,III,clinical: overview,IL_6794721,IP_3682931,False,male,0
+ISIC_9500805,Hospital Italiano de Buenos Aires,CC-BY,40.0,anterior torso,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_2068103,IP_7035571,False,male,0
+ISIC_9513630,Hospital Italiano de Buenos Aires,CC-BY,45.0,posterior torso,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_3801788,IP_2413128,False,male,0
+ISIC_9523184,Hospital Italiano de Buenos Aires,CC-BY,75.0,anterior torso,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_4038060,IP_5485052,,male,1
+ISIC_9532969,Hospital Italiano de Buenos Aires,CC-BY,35.0,lateral torso,benign,True,contact polarized,NEV,histopathology,False,II,dermoscopic,IL_8532385,IP_9531637,False,male,0
+ISIC_9542893,Hospital Italiano de Buenos Aires,CC-BY,35.0,anterior torso,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_8283457,IP_9328831,False,female,0
+ISIC_9561124,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_3372341,IP_8165031,,male,1
+ISIC_9569426,Hospital Italiano de Buenos Aires,CC-BY,40.0,head/neck,malignant,True,contact polarized,MEL,histopathology,False,III,dermoscopic,IL_8841301,IP_0311962,True,male,1
+ISIC_9573206,Hospital Italiano de Buenos Aires,CC-BY,75.0,posterior torso,benign,True,contact polarized,NEV,histopathology,,II,dermoscopic,IL_7552896,IP_9355646,True,male,0
+ISIC_9576566,Hospital Italiano de Buenos Aires,CC-BY,40.0,anterior torso,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_5402496,IP_7035571,False,male,0
+ISIC_9579068,Hospital Italiano de Buenos Aires,CC-BY,85.0,lower extremity,malignant,True,contact polarized,SCC,histopathology,,I,dermoscopic,IL_8916823,IP_8408163,,male,1
+ISIC_9585033,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,MEL,histopathology,,II,dermoscopic,IL_1155011,IP_1120258,,female,1
+ISIC_9590599,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_6087806,IP_7035571,False,male,0
+ISIC_9597037,Hospital Italiano de Buenos Aires,CC-BY,35.0,lower extremity,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_8406844,IP_6588465,True,female,1
+ISIC_9600064,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,MEL,histopathology,False,II,clinical: overview,IL_8955295,IP_2359644,True,male,1
+ISIC_9600955,Hospital Italiano de Buenos Aires,CC-BY,50.0,anterior torso,benign,False,contact polarized,NEV,,,II,dermoscopic,IL_8866439,IP_6851796,,male,0
+ISIC_9605390,Hospital Italiano de Buenos Aires,CC-BY,75.0,upper extremity,malignant,True,contact polarized,SCC,histopathology,False,,dermoscopic,IL_7690459,IP_4419089,True,female,1
+ISIC_9611196,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,SCC,histopathology,,II,dermoscopic,IL_2659423,IP_1414430,,female,1
+ISIC_9611628,Hospital Italiano de Buenos Aires,CC-BY,60.0,posterior torso,benign,True,,NEV,histopathology,,II,clinical: overview,IL_9391482,IP_5650689,,female,0
+ISIC_9626660,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,contact polarized,BCC,histopathology,False,II,dermoscopic,IL_0391815,IP_0214625,False,male,1
+ISIC_9641773,Hospital Italiano de Buenos Aires,CC-BY,20.0,posterior torso,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_5407326,IP_5291194,False,female,0
+ISIC_9645798,Hospital Italiano de Buenos Aires,CC-BY,80.0,lower extremity,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_4052831,IP_9929036,,female,1
+ISIC_9651464,Hospital Italiano de Buenos Aires,CC-BY,75.0,upper extremity,benign,False,,NEV,,True,II,clinical: overview,IL_3878395,IP_2411102,,female,0
+ISIC_9660302,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,,BCC,histopathology,,III,clinical: overview,IL_6022331,IP_1319015,,male,1
+ISIC_9663992,Hospital Italiano de Buenos Aires,CC-BY,75.0,lower extremity,benign,True,contact polarized,NEV,histopathology,False,I,dermoscopic,IL_2266035,IP_5213199,False,female,0
+ISIC_9669158,Hospital Italiano de Buenos Aires,CC-BY,45.0,upper extremity,malignant,True,contact polarized,MEL,histopathology,False,I,dermoscopic,IL_9313691,IP_0679532,True,female,1
+ISIC_9672493,Hospital Italiano de Buenos Aires,CC-BY,55.0,lower extremity,benign,False,contact polarized,NEV,,False,IV,dermoscopic,IL_7100298,IP_7243858,False,female,0
+ISIC_9677008,Hospital Italiano de Buenos Aires,CC-BY,30.0,posterior torso,malignant,True,contact polarized,MEL,histopathology,,II,dermoscopic,IL_3556705,IP_5493434,True,female,1
+ISIC_9680465,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_7912899,IP_7035571,False,male,0
+ISIC_9681659,Hospital Italiano de Buenos Aires,CC-BY,55.0,lower extremity,benign,False,contact polarized,NEV,,False,IV,dermoscopic,IL_4862343,IP_7243858,False,female,0
+ISIC_9683541,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,SCC,histopathology,,II,clinical: overview,IL_2429626,IP_1729411,,male,1
+ISIC_9698115,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,malignant,True,contact polarized,MEL,histopathology,False,II,dermoscopic,IL_3584418,IP_6720662,True,male,1
+ISIC_9700037,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_8660999,IP_2899400,,male,1
+ISIC_9701230,Hospital Italiano de Buenos Aires,CC-BY,45.0,lower extremity,benign,True,,NEV,histopathology,,II,clinical: overview,IL_3035673,IP_8779056,,female,0
+ISIC_9704179,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,benign,False,contact polarized,SEK,,True,II,dermoscopic,IL_9624120,IP_8785134,False,male,0
+ISIC_9704734,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,benign,False,contact polarized,NEV,,False,III,dermoscopic,IL_3262935,IP_4968898,False,male,0
+ISIC_9706840,Hospital Italiano de Buenos Aires,CC-BY,70.0,upper extremity,malignant,True,contact polarized,SCC,histopathology,,II,dermoscopic,IL_2144167,IP_8369422,,female,1
+ISIC_9712239,Hospital Italiano de Buenos Aires,CC-BY,35.0,posterior torso,benign,False,contact polarized,NEV,,,I,dermoscopic,IL_3183000,IP_2738413,,female,0
+ISIC_9721167,Hospital Italiano de Buenos Aires,CC-BY,45.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_7247003,IP_0601118,,female,1
+ISIC_9729122,Hospital Italiano de Buenos Aires,CC-BY,50.0,head/neck,benign,False,contact polarized,NEV,,,II,dermoscopic,IL_2205959,IP_9642873,,female,0
+ISIC_9743746,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_4800880,IP_3530264,,male,1
+ISIC_9759583,Hospital Italiano de Buenos Aires,CC-BY,55.0,upper extremity,malignant,True,contact polarized,SCC,histopathology,,II,dermoscopic,IL_5447502,IP_0041636,,female,1
+ISIC_9765735,Hospital Italiano de Buenos Aires,CC-BY,80.0,lower extremity,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_0462608,IP_6558273,True,male,1
+ISIC_9766934,Hospital Italiano de Buenos Aires,CC-BY,85.0,,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_1728025,IP_9107521,,male,1
+ISIC_9777827,Hospital Italiano de Buenos Aires,CC-BY,70.0,lower extremity,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_3171739,IP_5685461,,male,1
+ISIC_9782748,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,III,dermoscopic,IL_0785616,IP_4097497,,male,1
+ISIC_9790120,Hospital Italiano de Buenos Aires,CC-BY,30.0,lateral torso,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_1241859,IP_8961406,False,female,0
+ISIC_9795586,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,benign,True,,SEK,histopathology,False,II,clinical: overview,IL_7629840,IP_0991357,True,male,0
+ISIC_9801717,Hospital Italiano de Buenos Aires,CC-BY,50.0,posterior torso,benign,True,contact polarized,NEV,histopathology,False,I,dermoscopic,IL_9028192,IP_9507746,False,female,0
+ISIC_9804428,Hospital Italiano de Buenos Aires,CC-BY,55.0,head/neck,malignant,True,contact polarized,BCC,histopathology,False,I,dermoscopic,IL_2378537,IP_5719687,True,female,1
+ISIC_9811964,Hospital Italiano de Buenos Aires,CC-BY,35.0,posterior torso,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_2955769,IP_9328831,False,female,0
+ISIC_9841598,Hospital Italiano de Buenos Aires,CC-BY,85.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,III,dermoscopic,IL_1778616,IP_1319015,,male,1
+ISIC_9870670,Hospital Italiano de Buenos Aires,CC-BY,75.0,lower extremity,malignant,True,contact polarized,BCC,histopathology,False,I,dermoscopic,IL_4437816,IP_5213199,False,female,1
+ISIC_9874172,Hospital Italiano de Buenos Aires,CC-BY,55.0,lower extremity,benign,True,contact polarized,NEV,histopathology,False,II,dermoscopic,IL_5978849,IP_7358226,False,female,0
+ISIC_9876533,Hospital Italiano de Buenos Aires,CC-BY,50.0,lower extremity,malignant,True,contact polarized,MEL,histopathology,False,I,dermoscopic,IL_7972414,IP_9495313,True,male,1
+ISIC_9882427,Hospital Italiano de Buenos Aires,CC-BY,80.0,anterior torso,benign,True,,NEV,histopathology,,II,clinical: overview,IL_9265651,IP_6558273,True,male,0
+ISIC_9892170,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,benign,False,contact polarized,ACK,,,II,dermoscopic,IL_7858907,IP_2538639,,male,0
+ISIC_9896159,Hospital Italiano de Buenos Aires,CC-BY,30.0,lower extremity,benign,False,contact polarized,NEV,,False,III,dermoscopic,IL_0195253,IP_2504588,False,female,0
+ISIC_9905557,Hospital Italiano de Buenos Aires,CC-BY,55.0,lower extremity,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_6061997,IP_1773325,False,female,0
+ISIC_9907020,Hospital Italiano de Buenos Aires,CC-BY,65.0,lower extremity,malignant,True,contact polarized,MEL,histopathology,False,III,dermoscopic,IL_7051641,IP_1785797,True,female,1
+ISIC_9907628,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_3417598,IP_7428337,,female,1
+ISIC_9908866,Hospital Italiano de Buenos Aires,CC-BY,45.0,upper extremity,malignant,True,contact polarized,MEL,histopathology,False,,dermoscopic,IL_5889946,IP_3759020,True,female,1
+ISIC_9910672,Hospital Italiano de Buenos Aires,CC-BY,75.0,head/neck,malignant,True,,BCC,histopathology,,II,clinical: overview,IL_9222824,IP_0147267,,female,1
+ISIC_9922955,Hospital Italiano de Buenos Aires,CC-BY,70.0,anterior torso,malignant,True,,BCC,histopathology,False,II,clinical: overview,IL_1694184,IP_5801898,False,female,1
+ISIC_9925949,Hospital Italiano de Buenos Aires,CC-BY,20.0,posterior torso,benign,True,,NEV,histopathology,False,II,clinical: overview,IL_1775432,IP_7203368,False,female,0
+ISIC_9930788,Hospital Italiano de Buenos Aires,CC-BY,50.0,lower extremity,malignant,True,contact polarized,BCC,histopathology,False,II,dermoscopic,IL_9569130,IP_2576931,False,female,1
+ISIC_9937715,Hospital Italiano de Buenos Aires,CC-BY,40.0,posterior torso,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_7385485,IP_7035571,False,male,0
+ISIC_9939005,Hospital Italiano de Buenos Aires,CC-BY,20.0,anterior torso,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_1418943,IP_8123122,False,female,0
+ISIC_9941411,Hospital Italiano de Buenos Aires,CC-BY,45.0,posterior torso,malignant,True,contact polarized,MEL,histopathology,,II,dermoscopic,IL_3110397,IP_9891821,True,male,1
+ISIC_9944002,Hospital Italiano de Buenos Aires,CC-BY,40.0,anterior torso,benign,False,contact polarized,NEV,,True,III,dermoscopic,IL_2520087,IP_7035571,False,male,0
+ISIC_9947461,Hospital Italiano de Buenos Aires,CC-BY,80.0,head/neck,malignant,True,,BCC,histopathology,False,I,clinical: overview,IL_6361168,IP_4473222,True,male,1
+ISIC_9951833,Hospital Italiano de Buenos Aires,CC-BY,40.0,upper extremity,benign,False,contact polarized,NEV,,False,,dermoscopic,IL_4818356,IP_1404370,False,male,0
+ISIC_9951988,Hospital Italiano de Buenos Aires,CC-BY,35.0,posterior torso,malignant,True,contact polarized,MEL,histopathology,False,II,dermoscopic,IL_3901065,IP_5985919,True,male,1
+ISIC_9955470,Hospital Italiano de Buenos Aires,CC-BY,25.0,lower extremity,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_7534613,IP_8760962,True,female,0
+ISIC_9968790,Hospital Italiano de Buenos Aires,CC-BY,80.0,upper extremity,benign,True,,NEV,histopathology,,III,clinical: overview,IL_7370033,IP_7670614,,female,0
+ISIC_9977122,Hospital Italiano de Buenos Aires,CC-BY,80.0,lower extremity,benign,True,contact polarized,SEK,histopathology,False,II,dermoscopic,IL_8889739,IP_6123331,False,female,0
+ISIC_9983708,Hospital Italiano de Buenos Aires,CC-BY,55.0,posterior torso,benign,False,contact polarized,NEV,,False,IV,dermoscopic,IL_3662756,IP_7243858,False,female,0
+ISIC_9988844,Hospital Italiano de Buenos Aires,CC-BY,50.0,anterior torso,benign,False,contact polarized,NEV,,False,II,dermoscopic,IL_5724975,IP_3875370,True,female,0
+ISIC_9989778,Hospital Italiano de Buenos Aires,CC-BY,40.0,,benign,False,contact polarized,NEV,,False,,dermoscopic,IL_8944708,IP_1404370,False,male,0
+ISIC_9997367,Hospital Italiano de Buenos Aires,CC-BY,70.0,head/neck,benign,False,,ACK,,,II,clinical: overview,IL_1956821,IP_2692251,,female,0
+ISIC_9998679,Hospital Italiano de Buenos Aires,CC-BY,65.0,head/neck,malignant,True,contact polarized,BCC,histopathology,,II,dermoscopic,IL_3341905,IP_5842685,,female,1
+ISIC_9999251,Hospital Italiano de Buenos Aires,CC-BY,65.0,lower extremity,benign,True,contact polarized,ACK,histopathology,False,II,dermoscopic,IL_1343671,IP_3975331,True,female,0
